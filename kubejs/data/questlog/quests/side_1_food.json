@@ -1,0 +1,48 @@
+{
+  "triggers": [
+    {
+      "type": "questlog:stat",
+      "total": 72000,
+      "stat": "minecraft:play_time"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "total": 5,
+      "entity": "minecraft:chicken",
+      "display": {
+        "name": "Chicken",
+        "icon": {
+          "item": "butchery:chicken_carcass"
+        }
+      }
+    },
+    {
+      "type": "questlog:entity_kill",
+      "total": 5,
+      "entity": "minecraft:cow",
+      "display": {
+        "name": "Beef",
+        "icon": {
+          "item": "butchery:cow_carcass"
+        }
+      }
+    }
+  ],
+  "rewards": [],
+  "display": {
+    "title": "Stock the drawers",
+    "description": "You won’t last long without food supplies.",
+    "icon": {
+      "item": "butchery:chicken_carcass"
+    },
+    "notification": {
+      "popup": true
+    },
+    "sound": {
+      "triggered": "minecraft:entity.experience_orb.pickup",
+      "completed": "minecraft:block.enchantment_table.use"
+    }
+  }
+}

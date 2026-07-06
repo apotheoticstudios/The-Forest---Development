@@ -1,0 +1,46 @@
+
+[spawn_settings]
+	#Enable spawning players in villages on first join
+	spawn_in_village_enabled = false
+	#Structure tag to locate for spawn (e.g., #minecraft:village)
+	locateVillageTag = "#minecraft:village"
+	#Use default village tag as backup if custom tag fails
+	keepDefaultVillageTagBackup = false
+	#Start the game in phase 1
+	start_in_phase_1 = false
+	#Singleplayer difficulty multiplier (Min: 0.0, Max: 10.0, Default: 0.80)
+	#Range: 0.0 ~ 10.0
+	default_singleplayer_multiplier = 0.8
+	#Multiplayer difficulty scale factor (Min: 0.0, Max: 1.0, Default: 0.25)
+	#Range: 0.0 ~ 1.0
+	default_multiplayer_scale = 0.25
+
+[protection_settings]
+	#Comma-separated list of mod IDs whose blocks should be protected (e.g., 'create,botania,thermal')
+	protected_mod_ids = "create"
+
+[gameplay_settings]
+	#Enable photosensitive safety mode by default
+	photosensitive_mode_enabled = false
+	#Enable upside down cross spawning
+	upside_down_cross_spawn_enabled = false
+	#Allow block destruction/grief (if false, blocks won't be destroyed)
+	allow_grief = false
+
+[exorcism_settings]
+	#Comma-separated list of entity IDs that can be exorcized using MassPossessedBanish
+	#These are regular entities (not possessed variants)
+	#Format: modid:entity_name,modid:entity_name
+	#Example: 'from_the_caves:watcher,from_the_caves:lurker'
+	exorcizable_entities = ""
+	#List of possessed mob exorcism mappings for PossessedMobExorcism
+	#Format: possessed_mob->original_mob,possessed_mob->original_mob
+	#Example: 'from_the_caves:possessed_villager->minecraft:villager,from_the_caves:possessed_pig->minecraft:pig'
+	#The possessed mob will be converted back to its original form when exorcized
+	exorcizable_possessed_mobs = ""
+	#Custom possession pairs for Phase2Possession
+	#Format: original_mob->possessed_mob,original_mob->possessed_mob
+	#Example: 'minecraft:villager->from_the_caves:possessed_villager,minecraft:pig->from_the_caves:possessed_pig'
+	#Original mobs will be converted to their possessed variants
+	custom_possession_pairs = ""
+

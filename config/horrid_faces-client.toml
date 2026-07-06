@@ -1,0 +1,17 @@
+
+[texture_selection]
+
+	#Enabled textures (client-only). Keys are full ResourceLocations.
+	[texture_selection.enabledTextures]
+		"horrid_faces:textures/entity/jumpscare/face5.png" = true
+		"horrid_faces:textures/entity/jumpscare/face4.png" = true
+		"horrid_faces:textures/entity/jumpscare/face6.png" = true
+		"horrid_faces:textures/entity/jumpscare/face9.png" = false
+		"horrid_faces:textures/entity/jumpscare/face7.png" = false
+		"horrid_faces:textures/entity/jumpscare/face8.png" = false
+		"horrid_faces:textures/entity/jumpscare/face2.png" = true
+		"horrid_faces:textures/entity/jumpscare/face3.png" = true
+		"horrid_faces:textures/entity/jumpscare/face10.png" = true
+		"horrid_faces:textures/entity/jumpscare/face1.png" = true
+		"horrid_faces:textures/entity/jumpscare/face11.png" = true
+

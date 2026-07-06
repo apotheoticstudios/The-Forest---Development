@@ -1,0 +1,15 @@
+
+["Server Configs for Voice Chat Recording Mod"]
+	#Amplitude threshold to detect speech. Change this if you feel like Revervox notices you even when you're not speaking
+	"Silence Threshold" = 700
+	#How many threads are used to read the saved audios from a player that joins the server. Lower this if a player joining the server lags, and raise it if it doesn't but audio reading is too slow.
+	"Audio Reading Thread Count" = 4
+	#How many threads to use when saving audios
+	"Saving Thread Count" = 4
+	#Amount of ticks to wait after an audio is saved to write it to disk
+	"Audio Saving Cooldown" = 6000
+	#How long, in milliseconds, an audio loaded from disk stays in cache. Higher means more memory usage, but faster when loading the same audio repeatedly
+	"Cache Removal Time" = 300000
+	#How long, in seconds, the cache will wait between checking cached audios to remove old ones.
+	"Cache Check Interval" = 60
+

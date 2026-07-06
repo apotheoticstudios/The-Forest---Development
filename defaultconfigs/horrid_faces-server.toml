@@ -1,0 +1,24 @@
+
+#Horrid Faces Jumpscare Settings
+[jumpscare_timing]
+	#Base interval between jumpscares in minutes
+	#Range: 1 ~ 60
+	defaultIntervalMinutes = 40
+	#Interval between jumpscares during full moon in minutes
+	#Range: 1 ~ 20
+	fullMoonIntervalMinutes = 15
+	#Random variation applied to intervals in seconds (+/-)
+	#Range: 0 ~ 60
+	variationSeconds = 30
+	#Time in ticks of the paralysis effect
+	#Range: 0 ~ 12000
+	effectTimeTicks = 0
+	#Whether the interval should increase by 10% each day
+	increaseIntervalWithDays = false
+	#Whether paralysis effect should be applied to the player
+	applyParalysis = false
+	#Whether Harvest Moon Event should be occur
+	HarvestMoonEvent = false
+	#Whether ambient sounds should play
+	playSounds = true
+

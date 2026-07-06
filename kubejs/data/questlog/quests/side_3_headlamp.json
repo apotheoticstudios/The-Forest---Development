@@ -1,0 +1,50 @@
+{
+  "triggers": [
+    {
+      "type": "questlog:stat",
+      "total": 60000,
+      "stat": "minecraft:play_time"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "total": 1,
+      "item": "minecraft:redstone",
+      "display": {
+        "name": "Headlamp",
+        "icon": {
+          "item": "flashlight:headlamp_helmet"
+        }
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "farmersdelight:barbecue_stick",
+      "count": 2,
+      "display": {
+        "name": "Barbecue on a stick",
+        "icon": {
+          "item": "farmersdelight:barbecue_on_a_stick"
+        },
+        "sound": {
+          "claimed": "minecraft:entity.experience_orb.pickup"
+        }
+      }
+    }
+  ],
+  "display": {
+    "title": "Free your hands",
+    "description": "Craft a practical Headlamp by combining a redstone block, two batteries, and a leather cap.",
+      "item": "flashlight:headlamp_helmet"
+    },
+    "notification": {
+      "popup": true
+    },
+    "sound": {
+      "triggered": "minecraft:block.enchantment_table.use",
+      "completed": "minecraft:entity.experience_orb.pickup"
+    }
+  }

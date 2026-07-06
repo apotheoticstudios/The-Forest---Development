@@ -1,0 +1,43 @@
+
+[General]
+	"Can Poltergeists Spawn?" = true
+	"Can Poltergeists Attack?" = false
+	"Can Invisible Shadow Spawn?" = true
+	"Can Poltergeists Apply Darkness?" = true
+	"Can White Eyes Spawn?" = true
+	"Can Shadowmans Spawn?" = true
+	"Can Insomnia Event Happen?" = true
+	"Can Poltergeists Play Eerie Noises?" = true
+	"Can White Eyes Entity Apply Darkness Effect?" = true
+	"Can Ghostly Smoke Entity Spawn?" = true
+	"Can Shadowish Smoke Entity Spawn?" = true
+	"Can Shadowman Appear Next To You For A Split Second?" = true
+	"Can Lightman Spawn?" = true
+	"Can Poltergeists Grab Mobs And Players?" = true
+	"Can White Eyed Variant Of Shadowman Spawn?" = true
+	"Can Shadowman Attack?" = true
+	"Can Shadow Villagers Spawn?" = true
+	#Higher value = higher chance of insomnia event to happen when player goes to bed (Default = 30%)
+	"Insomnia Event Chance" = 0.3
+	"Can Insomnia Event Play Eerie Noises?" = true
+
+[Timers]
+	#How long it takes poltergeist to despawn? (In ticks)
+	"Poltergeist Despawn Timer" = 2500.0
+	#How long it takes shadowman to despawn? (In ticks)
+	"Shadowman Despawn Timer" = 2000.0
+	#How long it takes white eyes entity to despawn? (In ticks)
+	"White Eyes Despawn Timer" = 1700.0
+	#How long it takes invisible shadow to despawn? (In ticks)
+	"Invisible Shadow Despawn Timer" = 2000.0
+	#How long it takes ghostly smoke entity to despawn? (In ticks)
+	"Ghostly Smoke Despawn Timer" = 1500.0
+	#How long it takes shadowish smoke entity to despawn? (In ticks)
+	"Shadowish Smoke Despawn Timer" = 1500.0
+	#How long it takes lightman to despawn? (In ticks)
+	"Lightman Despawn Timer" = 1600.0
+	#How long it takes shadowman to despawn while chasing? (In ticks)
+	"Shadowman Chase Despawn Timer" = 500.0
+	#How long it takes shadow villager to despawn? (In ticks)
+	"Shadow Villager Despawn Timer" = 2000.0
+

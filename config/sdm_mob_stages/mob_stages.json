@@ -1,0 +1,8 @@
+{
+  "mobs": [
+    { "mob": "minecraft:zombie",   "stage": "day2_hostiles" },
+    { "mob": "minecraft:skeleton", "stage": "day2_hostiles" },
+    { "mob": "minecraft:spider",   "stage": "day2_hostiles" },
+    { "mob": "minecraft:creeper",  "stage": "day2_hostiles" }
+  ]
+}

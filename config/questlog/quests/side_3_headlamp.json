@@ -1,0 +1,35 @@
+{
+  "requirements": [
+    {
+      "type": "questlog:stat",
+      "stat": "minecraft:play_time",
+      "required_amount": 60000
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:redstone",
+      "required_amount": 1,
+      "name": "Headlamp"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "farmersdelight:barbecue_stick",
+      "count": 2,
+      "display": {
+        "name": "Barbecue on a stick",
+        "icon": {
+          "item": "farmersdelight:barbecue_on_a_stick"
+        },
+        "sound": {
+          "claimed": "minecraft:entity.experience_orb.pickup"
+        }
+      }
+    }
+  ],
+  "title": "Free your hands",
+  "description": "Craft a practical Headlamp by combining a redstone block, two batteries, and a leather cap."
+}

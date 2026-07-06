@@ -1,0 +1,287 @@
+
+["Generation&World"]
+	#Whether the Cult Temple will be place at 0,0 or not
+	PlaceCultTemple = true
+	#Whether Players will teleport to the Deep Void when jumping in the Void or not
+	PlayersTeleportInVoid = false
+	#Whether Players will teleport to the Deep Void when falling in the Void in the End or not (If PlayersTeleportInVoid is false, this will automatically be false)
+	PlayersTeleportInEnd = true
+	#At which depth does the Player teleport to the dimension (Default -70)
+	TeleportHeight = -70.0
+	#If the Deep Void should have fog or not
+	DeepVoidFog = true
+	#If blocks under specific biomes should generate plants on top of them to make the cave biome (this depends on random tick speed). If the server lags a lot, set this to true
+	StopActiveBlockGeneration = false
+	#If the old structure with the hole to the void should generate in the overworld instead of the new version
+	OldHoleStructure = false
+	#At which Y level should the structure in the Overworld generate (this needs to be at the deepest layer where bedrock generates)
+	HoleStructureY = -64.0
+	#If crumbling bedrock should generate in the overworld
+	CrumblingBedrockGenerate = true
+	GenerateCabin = true
+
+[Spawns]
+	#Whether Abductors will spawn in the Overworld or not
+	SpawnAbductors = true
+	#If corpses should fall from the sky in the Deep Void
+	SpawnFallingCorpse = true
+	#If falling corpses should place a corpse on impact
+	PlaceCorpseOnImpact = false
+	#If the Stalker should spawn or not
+	StalkerSpawns = true
+	#If Stalking Stalkers should spawn or not
+	StalkingStalkerSpawns = true
+	#The time it takes for the Stalker to spawn in ticks (Default = 1,200 ticks)
+	StalkerSpawnTimer = 1200.0
+	StalkerDespawnTimer = 6000.0
+	#How long before a Voidborn spawns when in total darkness (in ticks)
+	VoidbornSpawnTimer = 600.0
+	#If a respawn entity should be summoned when a boss dies
+	SummonBossRespawn = true
+	#By how much the Stalker Timer is reduced when the player is in light
+	LightReduceStalkerTimer = 4.0
+	#The light level (and under) at which the Stalker can spawn if the Player is in that light level range for long enough
+	StalkerLightLevel = 1.0
+
+[Misc]
+	#Whether the ''Seek Light'' warning should appear when the Stalker is close or not (Happens only one time)
+	SeekLightWarning = true
+	#Whether light sources should be destroyed in the Deep Void or not (disable Light entities)
+	DestroyLightSources = true
+	#How long the Void Blessing effect should last when entering the Deep Void (In ticks)
+	VoidBlessingTimer = 600.0
+	#Should players teleport to the Deep Void when falling in the void in any dimension
+	AllowOtherWorldTp = true
+	#Should Soul light sources not get destroyed
+	AllowSoulLight = false
+	#If players should hallucinate below y=1 or not
+	PlayerHallucinates = true
+	#Should the Stalker be able to break certain blocks
+	StalkerBreaksBlocks = true
+	#If Darkness should attack the Player below y=0 while still keeping Hallucinate
+	Darkness = true
+	#Should players be teleported to the top of the dimension when falling in the void in the Deep Void
+	DeepVoidTp = true
+	#Should players be able to mine Primordial Stone with the Shatterbone Pickaxe
+	AllowMiningPrimordialStone = false
+	#If the Wanderer should pathfind to x=0 z=0 (set to false if performance is low)
+	WandererCenterPathing = true
+	#If the Curse Of The Cult should block mining and placing blocks
+	CurseDisallowMiningPlacing = true
+	#If sleeping should be prevented when a Masked Hunter is nearby
+	PreventSleeping = true
+	#If bosses should apply Broken Armor when attacking
+	BossesBreakArmor = true
+	#Damage should deal (damage + percentage of damage beyond the cap) when reached
+	BossDamageCap = 10.0
+	#The percentage of the damage that exceeded the cap that should be dealt
+	DamageCapPercentage = 0.6
+	#If bosses should have damage caps
+	DoDamageCap = false
+	#How much armor should the broken armor effect remove (percentage removed)
+	BrokenArmorAmplifier = 0.65
+	GiveWikiBook = false
+	#If the bosses' health should scale based on the number of players
+	DoBossHpScaling = true
+	#How many hits it takes before the Voidborn disappears (damage is irrelevant)
+	VoidbornHealth = 10.0
+	#How long before the Voidborn can get hit again (in ticks)
+	VoidbornHitCooldown = 60.0
+	#If bosses should go back to idling when there are no players nearby
+	BossIdles = true
+
+["Gameplay Changes"]
+	#When a player dies, they get sent to the Deep Void
+	Hell = false
+	#The player spawns in the Deep Void
+	EndlessAbyss = false
+	#Like Hell, but when the player dies in the Deep Void, they stay in the Deep Void
+	Purgatory = false
+	#If torches should be given to players that respawn in the Deep Void (through Hell or Purgatory)
+	GiveTorches = true
+	#Bosses can no longer kill you, instead they will bring you down to 1 health and then idle (Does not apply to the Weaver Of Souls)
+	BossesDoNotKill = false
+	#Allows the Stalker to spawn in the Overworld
+	Stalked = false
+
+["Apostle Of Catastrophe"]
+	#Damage
+	ApostleTeleportMelee = 8.0
+	#Damage of each knife (velocity increases that number)
+	ApostleThreeKnives = 4.0
+	#Damage
+	ApostleSlash = 14.0
+	#Damage of each knife (velocity increases that number)
+	ApostleJumpShoot = 7.0
+	#Damage each tick
+	ApostleSpin = 5.0
+	#Damage repeated three times (ignores armor)
+	ApostleGrab = 7.0
+	#Damage
+	ApostleMissGrabMelee = 10.0
+	#When under Max Health/Config Number, second phase is active
+	ApostleSecondPhase = 1.8
+	#Damage in an AOE on successful parry (only damages the attacker)
+	ApostleParry = 10.0
+
+["Misanthropic Hivemind"]
+	#Damage each tick
+	ThrowerBoneSaw = 6.0
+	#Damage each tick
+	ThrowerSpin = 8.0
+	#Damage
+	SmasherSlash = 10.0
+	#Damage
+	SmasherOverhead = 14.0
+	#Cooldown before another can spawn (in ticks)
+	ThrowerCooldown = 200.0
+	#Cooldown before another can spawn (in ticks)
+	SmasherCooldown = 200.0
+	#Cooldown before another can spawn (in ticks)
+	HivemindTentaclesCooldown = 100.0
+	#Amount healed (per summon in the area)
+	HivemindHeal = 30.0
+
+["Primordial Bone Crawler"]
+	#Damage
+	PrimordialCrawlerSlam = 16.0
+	#Damage per spit (velocity increases that number)
+	PrimordialCrawlerSpit = 6.0
+	#Damage
+	PrimordialCrawlerDigPlayerClose = 17.0
+	#Damage (on contact)
+	PrimordialCrawlerDash = 18.0
+	#Damage in an AOE
+	PrimordialCrawlerGooBlock = 10.0
+
+[Weapons]
+	#Initial damage & damage dealt by the daggers
+	ForbiddenTome = 6.0
+	#Damage dealt in an AOE
+	CruelStiletto = 5.0
+	#Damage dealt by the small arrows
+	ShadestormShadeArrow = 2.0
+	#Damage dealt by the big arrow in an AOE (+ original damage)
+	ShadestormBigArrow = 5.0
+	#The amount healed when using the dark slash (per entity in the AOE)
+	SoulReaperLifesteal = 0.8
+	#Damage dealt in an AOE each tick
+	VoodooDoll = 2.0
+	#Damage dealt in an AOE
+	TheHarvest = 5.0
+	#Damage dealt in an AOE each tick (ignores armor)
+	TheHarvestSlash = 8.0
+	#Damage (velocity increases that number)
+	HeresyBloodShot = 4.0
+	#Damage (velocity increases that number)
+	HeresyGoldenBloodShot = 2.5
+	#Damage (velocity increases that number)
+	HeresyBloodShotShotgun = 25.0
+	#Damage (velocity increases that number)
+	HeresyGoldenBloodShotShotgun = 20.0
+	#Damage (velocity increases that number)
+	ApostasySoulFusedShot = 3.0
+	#Damage (velocity increases that number)
+	KnifeGlove = 4.5
+	#Damage per projectile
+	IchorSwordSpit = 5.0
+	#Damage per projectile
+	ArrowOfSpite = 4.0
+	#Damage per projectile
+	ArrowOfIchorPellets = 2.5
+	#Damage (velocity increases that number)
+	Misanthropy = 3.0
+	NervesOfSteelCrit = 28.0
+	#Damage upon teleporting to the target
+	FleshParasiteTp = 15.0
+	#If the flesh parasite should work on mobs other than players (for servers: may cause extreme lag if used repeatedly)
+	FleshParasiteEnableEntity = true
+	#Extra damage when on low health
+	RottenTongueDamage = 5.0
+	BloodBowSpike = 2.0
+	OnyxNaginataReachAddition = 2.0
+	Needlefish = 4.0
+	#Ignores armor
+	TombstoneDoom = 16.0
+	KnifeBandolierFullChargeHit = 6.0
+	#How long it takes before the knife bandolier is fully charged (in ticks)
+	KnifeBandolierTimeBeforeCharge = 90.0
+	#Damage per knife
+	KnifeBandolierKnife = 4.0
+	#Damage in an AOE each tick
+	KnifeBandolierAoe = 6.0
+	NecronomiconRange = 16.0
+	#Damage upon successfully catching an entity
+	TheCatcherInitialDamage = 2.0
+	#Damage added to the weapon's base damage upon catching an entity
+	TheCatcherExtraDamage = 4.0
+	#For how long can the player fly (in ticks)
+	FlyWingsDuration = 100.0
+	PenitentCrossReachAddition = 1.0
+	#Damage (velocity increases that number)
+	EldritchMaw = 2.0
+	#Damage dealt when the effect expires. The damage is equal to the level of the effect * value (ignores armor)
+	AbyssalMarkBurst = 2.25
+	#Distance is multiplied by this value. The result multiplies the initial damage
+	Sharpshooter = 0.085
+	#The damage dealt to the player upon shooting themselves (ignores armor)
+	PerilSelfDamage = 18.0
+	#Adrenaline is multiplied by that value, which is then used to multiply the projectile's damage
+	PerilDamageMultiplier = 4.0
+	#Damage (velocity increases that number)
+	Peril = 2.8
+	#The attack damage bonus
+	BloodstoneArmorBonus = 2.0
+	#Void bow damage (ignores armor and i-frames)
+	VoidBow = 8.0
+	ScythesReach = 1.0
+	#The attack damage bonus
+	PlagueArmorBonus = 2.0
+	BlackHoleDamage = 4.0
+	#The arrow storing limit of Black Hole when enchanted with Dimensional Burst
+	BlackHoleStoreLimit = 60.0
+
+["Hive's Watcher"]
+	#Damage each tick
+	HiveWatcherWhileMoving = 10.0
+	#Damage per projectile
+	HiveWatcherSpit = 12.0
+	#Percentage change of spawning bone spikes
+	HiveWatcherSpikeSpawn = 0.3
+	#Percentage change of spawning fangs
+	HiveWatcherFangsSpawn = 0.3
+	#How long the bone spike attack lasts (in ticks)
+	HiveWatcherSpikeDuration = 80.0
+	#The frequency at which the bone spikes spawn (in ticks)
+	HiveWatcherSpikeFrequency = 5.0
+	#When under Max Health/Config Number, second phase is active
+	HiveWatcherSecondPhase = 1.7
+	#Damage when the player is near the spike
+	HiveWatcherSpike = 10.0
+	#Size of the damaging zone around the boss while it's moving
+	HiveWatcherAttackRadius = 7.0
+
+["Flesh Worm"]
+	#Damage in an AOE
+	FleshWormAttack = 24.0
+	#Percentage for the Thumper to summon a flesh worm every 20 seconds
+	FleshWormSpawnChance = 0.4
+	#Damage per projectile
+	FleshWormSpit = 5.0
+
+["Masked Hunter"]
+	#The cooldown before a Masked Hunter can spawn naturally (In ticks, 24,000 ticks is one day)
+	MaskedHunterCooldown = 72000.0
+	#If Bone Cages should be placed by Masked Hunters
+	SpawnBoneCages = true
+	#Whether Masked Hunters will spawn in the Overworld or not
+	SpawnMaskedHunters = true
+	#From how far away the hunter's screams can be heard (in chunks)
+	MaskedHunterScreamDistance = 16.0
+	#How long before the hunter screams (in ticks, 24,000 ticks is one day)
+	MaskedHunterScreamCooldown = 72000.0
+	#The chance of the masked hunter screaming (percentage divided by 100)
+	MaskedHunterScreamChance = 0.7
+	#The radius around the player in which the masked hunter cannot spawn (in blocks * 2)
+	MaskedHunterSpawnRadius = 200.0
+

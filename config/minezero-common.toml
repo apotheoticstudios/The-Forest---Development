@@ -1,0 +1,6 @@
+
+#General settings
+[general]
+	#Death Chime Options: CLASSIC, ALTERNATE
+	deathChime = "CLASSIC"
+

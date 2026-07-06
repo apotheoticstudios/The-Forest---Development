@@ -1,0 +1,23 @@
+
+["blood spray settings"]
+	#How long in ticks (20 ticks = 1 second) until a blood spatter despawns.
+	#Range: 0 ~ 100000
+	despawn_time = 2000
+	#The maximum amount of blood spatters that can exist in the world at once.
+	#Range: 0 ~ 10000
+	max_spatters = 350
+	#How loud the blood spatters are.
+	#Range: 0.0 ~ 1.0
+	blood_spatter_volume = 1.0
+	#Define what mobs 'bleed' solid bits. This is mainly skeletons. Instead of bleeding they will just shoot out colored bits,and instead of getting bloodier when damaged, they will lose pixels.
+	solid_entities = ["minecraft:skeleton", "minecraft:skeleton_horse", "minecraft:wither_skeleton", "minecraft:wither", "minecraft:shulker"]
+	#Some mobs don't play nice with this mod, and may cause crashes. Define which mobs you want to blacklist here (enter 'player' for all players).
+	blacklist_entities = ["alexsmobs:cachalot_whale"]
+	#Define what damage sources will be blacklisted from producing blood sprays or explosions.
+	blacklist_damage_sources = ["onFire", "inFire", "starve", "drown", "hotFloor", "dragonBreath", "dryOut", "freeze", "lava"]
+	#Do entities bleed when damaged below 50% health. The more they are damaged, the more often they bleed.
+	bleed_when_damaged = false
+	#How far blood will spray from an entity. Higher values mean blood sprays farther away.
+	#Range: 0.0 ~ 1.0
+	blood_spray_distance = 0.029
+

@@ -1,0 +1,102 @@
+
+[Spawns]
+	#chance for masked stalking to spawn every tick
+	"masked stalking spawnrate modifier" = 8000.0
+	#chance for masked behind to spawn every tick
+	"masked behind spawnrate modifier" = 6000.0
+	#chance for masked running to spawn every tick
+	"masked running spawnrate modifier" = 7000.0
+	#chance for footsteps to spawn every tick
+	"footsteps spawnrate modifier" = 9000.0
+	#chance of 1 in number for masked chase to spawn from each golem entity killed
+	"masked chase spawn chance" = 2.5
+	#true or false if masked behind should spawn
+	"masked behind spawning" = true
+	#true or false if footsteps should spawn
+	"footsteps spawning" = true
+	#true or false if masked running should spawn
+	"masked running spawning" = true
+	#true or false if masked stalking should spawn
+	"masked stalking spawning" = true
+	#true or false if masked chase should spawn
+	"masked chase spawning" = true
+	#true or false if masked turn around should spawn
+	"masked turn around spawning" = true
+	#chance for masked turn around to spawn every tick
+	"masked turn around spawnrate modifier" = 6000.0
+	"minimum behind spawning cooldown" = 60000.0
+	"maximum behind spawning cooldown" = 90000.0
+	"minimum running spawning cooldown" = 60000.0
+	"maximum running spawning cooldown" = 100000.0
+	"minimum stalking spawning cooldown" = 90000.0
+	"maximum stalking spawning cooldown" = 150000.0
+	"minimum turn around spawning cooldown" = 100000.0
+	"maximum turn around spawning cooldown" = 160000.0
+	"minimum intruder spawning cooldown" = 90000.0
+	"maximum intruder spawning cooldown" = 110000.0
+	#chance for masked shadow to spawn every tick``
+	"masked shadow spawnrate modifier" = 8000.0
+	"masked shadow spawning" = true
+
+[Sounds]
+	#chance for twig snap sfx to play every tick
+	"twigsnap sfx playrate modifier" = 18000.0
+	#true or false if twig snap sfx should play
+	"twig snap sfx playing" = true
+	#chance for leaves rustling sfx to play every tick
+	"leaves rustling sfx playrate modifier" = 24000.0
+	#true or false if leaves rustling sfx should play
+	"leaves rustling sfx playing" = true
+	#chance for wood knocking sfx to play every tick
+	"wood knocking sfx playrate modifier" = 30000.0
+	#true or false if wood knocking sfx should play
+	"wood knocking sfx playing" = true
+	#chance for bone cracking sfx to play every tick
+	"bone cracking sfx playrate modifier" = 36000.0
+	#true or false if bone cracking sfx should play
+	"bone cracking sfx playing" = true
+	#chance for breath sfx to play every tick
+	"breath sfx playrate modifier" = 60000.0
+	#true or false if breath sfx should play
+	"breath sfx playing" = true
+	#chance for long breath sfx to play every tick
+	"long breath sfx playrate modifier" = 72000.0
+	#true or false if long breath sfx should play
+	"long breath sfx playing" = true
+	#chance for tree falling sfx to play every tick
+	"tree falling sfx playrate modifier" = 126000.0
+	#true or false if tree falling sfx should play
+	"tree falling sfx playing" = true
+
+[Events]
+	#true or false if eye effect event should happen
+	"paranoia event happening" = true
+	#chance for paranoia event to happen every tick
+	"paranoia eventrate modifier" = 36000.0
+	#true or false if masked sleeping event should happen
+	"masked sleeping event happening" = true
+	#chance of 1 in number for masked sleeping event to happen
+	"masked sleeping eventrate modifier" = 8.0
+	#true or false if torch removal event should happen
+	"torch removal event happening" = true
+	#chance for torch removal event to happen every tick
+	"torch removal eventrate modifier" = 32000.0
+	#true or false if masked intruder event should happen
+	"masked intruder event happening" = true
+	#chance of 1 in number for masked intruder event to happen
+	"masked intruder eventrate modifier" = 30000.0
+	#true or false if jumpscare after murdering animals event should happen
+	"jumpscare after murdering animals event happening" = false
+	#chance for jumpscare after murdering animals event to happen
+	"jumpscare after murdering animals eventrate modifier" = 70.0
+	#true or false if dead body event should happen
+	"dead body event happening" = false
+	"deadbody event minimum cooldown" = 72000.0
+	"deadbody event maximum cooldown" = 120000.0
+
+["Visual Effects"]
+	#true or false if red fog should be enabled
+	"red fog enabled" = true
+	"nighttime and rain enabled on decay spawn" = true
+	"particles enabled" = true
+

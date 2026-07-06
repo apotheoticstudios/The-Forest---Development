@@ -1,0 +1,18 @@
+{
+  "requirements": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "butchery:bone_cleaver",
+      "required_amount": 1
+    }
+  ],
+  "objectives": [],
+  "rewards": [],
+  "title": "Cleaver",
+  "description": "In addition to being a proficient weapon, you can use the cleaver to carve animal carcasses when on a hook.",
+  "icon": {
+    "item": "butchery:iron_cleaver"
+  },
+  "triggered_sound": "minecraft:block.enchantment_table.use",
+  "completed_sound": "minecraft:entity.experience_bottle.throw"
+}

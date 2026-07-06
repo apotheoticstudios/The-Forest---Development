@@ -1,0 +1,57 @@
+
+[texture_selection]
+
+	#Enabled textures (client-only). Keys are full ResourceLocations.
+	[texture_selection.enabledTextures]
+		"face_of_horror:textures/entity/jumpscare/face9.png" = true
+		"face_of_horror:textures/entity/jumpscare/face4.png" = true
+		"face_of_horror:textures/entity/jumpscare/face11.png" = true
+		"face_of_horror:textures/entity/jumpscare/face3.png" = true
+		"face_of_horror:textures/entity/jumpscare/face2.png" = true
+		"face_of_horror:textures/entity/jumpscare/face6.png" = true
+		"face_of_horror:textures/entity/jumpscare/face1.png" = true
+		"face_of_horror:textures/entity/jumpscare/face10.png" = true
+		"face_of_horror:textures/entity/jumpscare/face5.png" = true
+		"face_of_horror:textures/entity/jumpscare/face8.png" = true
+		"face_of_horror:textures/entity/jumpscare/face7.png" = true
+
+[sound_selection]
+
+	#Enabled sound entries (client-only). Keys are generated ResourceLocations.
+	[sound_selection.enabledSounds]
+		"face_of_horror:ambience-02" = true
+		"face_of_horror:ambience-01" = true
+		"face_of_horror:look-at-me-01" = true
+		"face_of_horror:look-at-me-02" = true
+		"face_of_horror:ambience-08" = true
+		"face_of_horror:look-at-me-03" = true
+		"face_of_horror:ambience-07" = true
+		"face_of_horror:look-at-me-04" = true
+		"face_of_horror:ambience-06" = true
+		"face_of_horror:look-at-me-05" = true
+		"face_of_horror:ambience-05" = true
+		"face_of_horror:look-at-me-06" = true
+		"face_of_horror:ambience-04" = true
+		"face_of_horror:look-at-me-07" = true
+		"face_of_horror:ambience-03" = true
+		"face_of_horror:look-at-me-08" = true
+		"face_of_horror:giggle-06" = true
+		"face_of_horror:giggle-05" = true
+		"face_of_horror:giggle-04" = true
+		"face_of_horror:i-can-see-you-04" = true
+		"face_of_horror:giggle-03" = true
+		"face_of_horror:i-can-see-you-03" = true
+		"face_of_horror:giggle-02" = true
+		"face_of_horror:i-can-see-you-02" = true
+		"face_of_horror:giggle-01" = true
+		"face_of_horror:i-can-see-you-01" = true
+		"face_of_horror:i-can-see-you-08" = true
+		"face_of_horror:death-04" = true
+		"face_of_horror:i-can-see-you-07" = true
+		"face_of_horror:death-03" = true
+		"face_of_horror:i-can-see-you-06" = true
+		"face_of_horror:death-02" = true
+		"face_of_horror:i-can-see-you-05" = true
+		"face_of_horror:death-01" = true
+		"face_of_horror:i-can-see-you-09" = true
+

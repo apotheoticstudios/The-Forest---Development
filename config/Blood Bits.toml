@@ -1,0 +1,31 @@
+
+[particles]
+	"Blood Amount" = 12.0
+	"Particle Threshold" = 200.0
+	"Sparkle Particles" = false
+	"Sparkle Amount" = 15.0
+	"Blood Particles" = true
+
+[sound_effects]
+	"Hit Sound Effects" = true
+	"Kill Sound Effects" = true
+
+[screen_effects]
+	#Bloody screen effect when a mob is attacked
+	"Bloody Screen" = false
+	"Bloody Screen Mid Range" = 7.0
+	"Bloody Screen Close Range" = 2.0
+	#Control how fast blood dissapears from the screen (Default is -1% opacity per tick)
+	"Bloody Screen Opacity Rate" = 3.0
+
+[low_health_effects]
+	"Low Health Sound Effects" = false
+	"Low Health Screen Overlay" = false
+
+[death_particles]
+	"Death Particles" = true
+	"Death Particle Amount" = 50.0
+
+[black_list]
+	"Entity Black List" = []
+

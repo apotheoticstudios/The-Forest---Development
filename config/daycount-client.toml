@@ -1,0 +1,22 @@
+#If true, the Day Count will be displayed | default: true
+dayCountEnabled = true
+#Offset to add to the Day Count | default: 1
+#Range: > 0
+dayOffset = 1
+#Horizontal size of the Day Counter | default: 2.0
+#Range: 0.0 ~ 20000.0
+sizeX = 1.2
+#Vertical size of the Day Counter | default: 2.0
+#Range: 0.0 ~ 20000.0
+sizeY = 1.2
+#Horizontal position of the Day Counter | default: 2.0
+#Range: 0.0 ~ 20000.0
+locationX = 2.0
+#Vertical position of the Day Counter | default: 2.0
+#Range: 0.0 ~ 20000.0
+locationY = 2.0
+#Color of the Day Counter | default: FFFFFF (for white)
+textColor = "FFFFFF"
+#DayCounter String | default: 'Day: '
+dayCounterString = "Day: "
+

@@ -1,0 +1,5 @@
+
+["Client Configs for Voice Chat Recording Mod"]
+	#Whether your audios get saved to the disk of servers you speak on
+	"Privacy Mode" = false
+

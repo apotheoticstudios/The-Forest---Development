@@ -1,0 +1,9 @@
+
+["Remove Mouseover Highlight Configs"]
+	#Enables one key press to toggle this mod functionality
+	"Use key toggle" = true
+	#Default State for Remove Mouseover Highlight - true = ON (Invisible Highlight) // false = OFF (Visible Highlight)
+	"Default State" = true
+	#Makes the barrier always invisible (Barriers ignore other settings)
+	"Invisible Barrier" = false
+

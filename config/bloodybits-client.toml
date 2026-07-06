@@ -1,0 +1,14 @@
+
+["blood spray settings"]
+	#Whether or not an entity should show injury textures when damaged.
+	show_entity_damage = false
+	#The maximum amount of available injury textures permitted per entity.
+	#Resource packs can be created to add additional textures for entities, override existing textures, or to
+	#even create textures for entities that have none (only applies when show_entity_damage is true).
+	#Range: 0 ~ 100
+	available_textures_per_entity = 25
+	#List of the damage sources that will display burn damage for the entities (only applies when show_entity_damage is true).
+	burn_damage_sources = ["burn", "fireball", "fireworks", "lava", "hotFloor", "onFire", "inFire", "lightningBolt"]
+	#List of the damage sources that will not display texture damage to the entity (only applies when show_entity_damage is true).
+	blacklist_injury_sources = ["drown", "starve", "dryOut", "freeze", "fellOutOfWorld"]
+

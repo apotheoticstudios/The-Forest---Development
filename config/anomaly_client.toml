@@ -1,0 +1,11 @@
+
+[Effects]
+	#Determines if a heartbeat sound is played when near certain anomalies.
+	heartbeat = true
+	#Determines if anxiety can affect your screen visuals. Set it to false if you have sensible vision.
+	anxiety = true
+
+[Other]
+	#Displays a warning when entering the world for the first time.
+	warning = true
+

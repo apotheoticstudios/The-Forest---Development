@@ -1,0 +1,39 @@
+{
+  "requirements": [
+    {
+      "type": "questlog:stat",
+      "stat": "minecraft:play_time",
+      "required_amount": 12000
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:stat",
+      "stat": "minecraft:play_time",
+      "required_amount": 24000,
+      "name": "First Night"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:lantern",
+      "display": {
+        "name": "First Night",
+        "icon": {
+          "item": "minecraft:red_bed"
+        },
+        "sound": {
+          "claimed": "minecraft:entity.experience_orb.pickup"
+        }
+      }
+    }
+  ],
+  "title": "First Night",
+  "description": "Night comes fast out here. The forest doesn’t go quiet, it awakens.",
+  "icon": {
+    "item": "biomesoplenty:redwood_sapling"
+  },
+  "triggered_sound": "minecraft:block.enchantment_table.use",
+  "completed_sound": "minecraft:entity.experience_orb.pickup"
+}

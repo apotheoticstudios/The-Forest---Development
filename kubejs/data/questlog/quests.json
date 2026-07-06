@@ -1,0 +1,13 @@
+{
+  "quests": [
+    "questlog:quests/intro_2_first_night",
+    "questlog:quests/intro_3_establish_the_post",
+    "questlog:quests/intro_4_butchery",
+    "questlog:quests/intro_5_thirst",
+    "questlog:quests/intro_6_temperature",
+    "questlog:quests/side_1_food",
+    "questlog:quests/side_3_headlamp",
+    "questlog:quests/info_cleaver",
+    "questlog:quests/info_skinning_knife"
+  ]
+}

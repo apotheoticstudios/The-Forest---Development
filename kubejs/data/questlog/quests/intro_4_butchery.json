@@ -1,0 +1,62 @@
+{
+  "triggers": [
+    {
+      "type": "questlog:stat",
+      "total": 24000,
+      "stat": "minecraft:play_time"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_craft",
+      "total": 1,
+      "item": "butchery:iron_skinning_kinfe",
+      "display": {
+        "name": "Craft a skinning knife",
+        "icon": {
+          "item": "butchery:iron_skinning_knife"
+        }
+      }
+    },
+    {
+      "type": "questlog:item_obtain",
+      "total": 1,
+      "item": "butchery:heart",
+      "display": {
+        "name": "Bleed, skin and butcher a hanging carcass",
+        "icon": {
+          "item": "butchery:hook"
+        }
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "butchery:cow_carcass",
+      "display": {
+        "name": "Cow Carcass",
+        "icon": {
+          "item": "butchery:cow_carcass"
+        },
+        "sound": {
+          "claimed": "minecraft:entity.experience_orb.pickup"
+        }
+      }
+    }
+  ],
+  "display": {
+    "title": "Butchery Basics",
+    "description": "You’ll need a steady food supply if you’re going to last out here. Animals aren’t useful until you know how to process them.",
+    "icon": {
+      "item": "butchery:iron_cleaver"
+    },
+    "notification": {
+      "popup": true
+    },
+    "sound": {
+      "triggered": "minecraft:entity.experience_orb.pickup",
+      "completed": "minecraft:block.enchantment_table.use"
+    }
+  }
+}

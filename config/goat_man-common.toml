@@ -1,0 +1,250 @@
+
+["Spawn Conditions"]
+	#The spawn chance per tick (once the spawn timer is finished)
+	#Range: 0.0 ~ 1.0
+	spawn_chance_per_tick = 0.05
+	#Depth at which the GoatMan can start to spawn
+	spawn_height = 500
+	#Allow GoatMan to spawn underground
+	spawn_in_caves = true
+	#Whether the GoatMan can spawn on the surface or not
+	allow_surface_spawn = true
+	#The maximum sky light level the GoatMan can spawn at
+	#Range: 0 ~ 15
+	sky_light_level = 14
+	#The maximum block light level the GoatMan can spawn at
+	#Range: 0 ~ 15
+	block_light_level = 14
+	#The maximum amount of GoatMan which can exist at the same time
+	#Range: 0 ~ 100
+	maximum_amount = 1
+	#How close to players the GoatMan is allowed to spawn (in blocks)
+	#Range: 0 ~ 64
+	spawn_distance = 18
+	#If set to true the GoatMan will try to find a spawn position with a possible path to the player
+	check_path_to_spawn = true
+
+	["Spawn Conditions".Dimensions]
+		#The dimensions where the GoatMan can spawn in (Whitelist)
+		dimension_whitelist = ["minecraft:overworld"]
+
+	["Spawn Conditions".Biomes]
+		#If you don't want to create a datapack to configure the biomes
+		override_biome_datapack_config = true
+		#Use the surface biome list either as white- or blacklist
+		surface_biomes_is_whitelist = false
+		#Either white- or blacklist of the surface biomes the GoatMan can spawn in (Syntax: modid:biome, e.g. `minecraft:plains`)
+		surface_biomes = ["minecraft:desert", "minecraft:badlands", "minecraft:eroded_badlands", "minecraft:wooded_badlands", "minecraft:savanna", "minecraft:savanna_plateau", "minecraft:windswept_savanna", "minecraft:swamp", "minecraft:mangrove_swamp", "minecraft:mushroom_fields", "minecraft:ocean", "minecraft:deep_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:ice_spikes", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:beach", "minecraft:snowy_beach", "minecraft:stony_shore", "minecraft:river", "minecraft:frozen_river", "minecraft:deep_dark"]
+
+	["Spawn Conditions".Timers]
+		#Modify the timers for the surface (to reduce or increase them), based on the general timer set (e.g. spawn timer of 300 seconds -> 0.3 turns it into 90 seconds and 1.7 turns it into 510 seconds for the surface)
+		#Range: 0.0 ~ 5.0
+		surface_timer_multiplier = 1.0
+
+		["Spawn Conditions".Timers.Spawn]
+			#Minimum time between spawns in seconds
+			#Range: 0 ~ 86400
+			can_spawn_min = 400
+			#Maximum time between spawns in seconds
+			#Range: 0 ~ 86400
+			can_spawn_max = 800
+			#Chance for a spawn cooldown to occur
+			#Range: 0.0 ~ 1.0
+			can_spawn_cooldown_chance = 0.05
+			#Spawn cooldown length in seconds
+			#Range: 0 ~ 86400
+			can_spawn_cooldown = 1200
+
+		["Spawn Conditions".Timers.Noise]
+			#Minimum time between noise occurrences in seconds
+			#Range: 0 ~ 86400
+			reset_noise_min = 340
+			#Maximum time between noise occurrences in seconds
+			#Range: 0 ~ 86400
+			reset_noise_max = 460
+
+		["Spawn Conditions".Timers.Leave]
+			#Time (in seconds) it takes for the GoatMan to leave
+			#Range: 1 ~ 6000
+			time_until_leave = 200
+			#Time (in seconds) it takes for the GoatMan to leave once a chase begins
+			#Range: 1 ~ 600
+			time_until_leave_chase = 25
+
+[Behaviour]
+	#The distance in blocks at which the GoatMan can detect whether a player is looking at it or not
+	#Range: 0 ~ 128
+	spotting_range = 100
+	#Whether the GoatMan can climb or not
+	can_climb = true
+	#Allow the GoatMan to follow vanilla riding logic (e.g. boats)
+	allow_riding = false
+	#Whether invisible players can be targets or not
+	target_invisible = false
+	#Whether the GoatMan can charge on flat ground
+	charge = true
+	#Whether the charge can target mobs
+	charge_on_mobs = true
+	#If enabled, GoatMan ignores range requirements and immediately charges a player using a shield
+	charge_shield_rush = true
+	#Whether the GoatMan can leap directly at the player
+	leap = true
+	#Whether the GoatMan can leap on mobs in addition to players
+	leap_on_mobs = true
+	#Whether the GoatMan mimics mob sounds (prioritising the last mob it killed) during calm and stalking phases
+	mimic_sounds = true
+	#Whether the GoatMan attacks isolated villagers, wandering traders, and wolves that are separated from their group
+	pick_off_stragglers = true
+	#Whether the GoatMan can destroy crops
+	destroy_crops = true
+
+	[Behaviour."Creep Stalk"]
+		#Chance a GoatMan spawns in creep-stalk mode when underground
+		#Range: 0.0 ~ 1.0
+		creep_stalk_chance_cave = 0.6
+		#Chance a GoatMan spawns in creep-stalk mode on the surface
+		#Range: 0.0 ~ 1.0
+		creep_stalk_chance_surface = 0.3
+		#Distance at which the creep-stalk hands off to chase/flee
+		#Range: 1.0 ~ 32.0
+		creep_stalk_trigger_distance = 4.0
+		#Creep-stalk movement as a FRACTION of normal speed. 0.05 ≈ player crouch speed (very slow), 1.0 = full speed. Lower = creepier/slower
+		#Range: 0.03 ~ 1.0
+		creep_stalk_speed = 0.5
+
+	[Behaviour.Charge]
+		#Minimum duration in seconds — shield charge stun / leap shield-disable when GoatMan hits a blocking player
+		#Range: 1 ~ 60
+		shield_stun_disable_min = 5
+		#Maximum duration in seconds — shield charge stun / leap shield-disable when GoatMan hits a blocking player
+		#Range: 1 ~ 60
+		shield_stun_disable_max = 10
+		#Blocks broken around entities hit by a charge
+		#Range: 0 ~ 3
+		charge_impact_radius = 2
+		#How many blocks GoatMan can break when a charge hits a wall
+		#Range: 0 ~ 4
+		charge_break_blocks = 3
+		#Minimum distance to start a charge
+		#Range: 1.0 ~ 32.0
+		charge_min_range = 4.0
+		#Maximum distance to start a charge
+		#Range: 1.0 ~ 64.0
+		charge_max_range = 12.0
+		#Horizontal speed during the charge
+		#Range: 0.1 ~ 5.0
+		charge_speed = 4.0
+		#Total ticks the charge lasts including wind-up
+		#Range: 10 ~ 200
+		charge_duration = 10
+		#Wind-up ticks before the charge launches (Ravager-style pause)
+		#Range: 0 ~ 60
+		charge_windup_ticks = 3
+		#Base damage radius during charge
+		#Range: 0.0 ~ 8.0
+		charge_damage_radius = 2.0
+		#Extra forward damage reach during charge
+		#Range: 0.0 ~ 8.0
+		charge_forward_reach = 2.0
+		#Minimum seconds between charges
+		#Range: 1 ~ 120
+		charge_cooldown_min = 3
+		#Maximum seconds between charges
+		#Range: 1 ~ 120
+		charge_cooldown_max = 6
+
+	[Behaviour.Leap]
+		#Maximum distance to trigger a leap
+		#Range: 1.0 ~ 32.0
+		pounce_range = 30.0
+		#Minimum distance to trigger a leap (too close = just melee instead)
+		#Range: 0.5 ~ 16.0
+		pounce_min_range = 9.5
+		#Speed of the leap — higher = faster
+		#Range: 0.1 ~ 5.0
+		leap_speed = 4.0
+		#Minimum seconds between leap
+		#Range: 1 ~ 120
+		leap_cooldown_min = 3
+		#Maximum seconds between leap
+		#Range: 1 ~ 120
+		leap_cooldown_max = 6
+		#Radius in blocks around the GoatMan that deals damage while leaping (0 = disabled, uses normal melee only)
+		#Range: 0.0 ~ 8.0
+		pounce_damage_radius = 3.0
+		#Radius in blocks around the GoatMan that breaks blocks when leaping into them
+		#Range: 0 ~ 5
+		pounce_break_radius = 3
+
+[Attributes]
+	#Maximum Armor
+	#Range: 0.0 ~ 20.0
+	maximum_armor = 20.0
+	#Maximum Health
+	#Range: 1.0 ~ 500.0
+	maximum_health = 100.0
+	#Attack Damage
+	#Range: 0.0 ~ 50.0
+	attack_damage = 5.0
+	#Movement Speed
+	#Range: 0.0 ~ 5.0
+	movement_speed = 0.6
+	#Depth Strider (movement speed in water) Bonus
+	#Range: 1.0 ~ 3.0
+	depth_strider_bonus = 2.0
+
+["Goat Herd"]
+	#Whether the GoatMan randomly summons a herd of goats
+	summon_herd = true
+	#Whether goats from the herd can only spawn on the surface (not in caves)
+	summon_herd_surface_only = true
+	#Minimum number of goats in the summoned herd
+	#Range: 1 ~ 20
+	summon_herd_size_min = 6
+	#Maximum number of goats in the summoned herd
+	#Range: 1 ~ 20
+	summon_herd_size_max = 13
+	#Spawn frequency for the summoned herd. 1.0 = normal rate (same as chicken/pig/cow), 0.5 = rare. Higher values spawn more frequently. 0.0 = disabled
+	#Range: 0.0 ~ 1.0
+	summon_herd_frequency = 1.0
+
+	["Goat Herd"."Goat Omen"]
+		#Whether goats spawn independently in the world as an omen of the GoatMan's territory — fires regardless of whether GoatMan is active
+		omen_goat_enabled = true
+		#Spawn frequency for omen goats. 1.0 = normal animal rate, 0.5 = rare, 0.0 = disabled
+		#Range: 0.0 ~ 1.0
+		omen_goat_frequency = 1.0
+		#Minimum number of omen goats per spawn
+		#Range: 1 ~ 20
+		omen_goat_size_min = 2
+		#Maximum number of omen goats per spawn
+		#Range: 1 ~ 20
+		omen_goat_size_max = 3
+
+[Music]
+	#Plays music during stalk and chase like traditional Cave Dweller
+	music_enabled = true
+	#Volume for stalk phase and chase phase (0.0 = silent, 1.0 = full)
+	#Range: 0.0 ~ 1.0
+	music_volume = 1.0
+
+	[Music."Legacy Music"]
+		#Uses the original chase sounds
+		chase_sound_legacy = false
+		#Volume for legacy sounds (0.0 = silent, 1.0 = full)
+		#Range: 0.0 ~ 1.0
+		legacy_chase_volume = 1.0
+
+[Misc]
+	#Only play the ambient noises to the current (spawn) target (Note: The target can change when a spawn attempt is not successful)
+	only_play_noise_to_target = false
+	#Whether the charge and leap applies blindness, weakness and nausea on hit
+	charge_and_leap_apply_effects = true
+	#Duration in seconds of charge and leap status effects
+	#Range: 1 ~ 30
+	charge_and_leap_effect_duration = 3
+	#Whether the GoatMan can break blocks (fences, doors, glass, etc.)
+	break_block = true
+	#Whether the GoatMan drops blocks
+	drop_block = true
+

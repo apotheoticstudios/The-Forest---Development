@@ -1,0 +1,30 @@
+#Enable flicker effect when on low battery.
+flicker = true
+#[WIP] [Accessibility Setting] Turns the flicker effect into a constant color change.
+mild_flicker = false
+#Range to search for blocks/entities that affect the flashlight flicker.
+#Range: 1 ~ 100
+flicker_range = 10
+#When these blocks/entities are near, the flicker effect will happen.
+#For blocks, block:<mod>:<block>:<multiplier>
+#Example, block:minecraft:jack_o_lantern:1
+#For entities, entity:<mod>:<entity>:<multiplier>
+#Example, entity:minecraft:enderman:1.5
+flicker_multipliers = []
+#Range to search for blocks/entities that affect the flashlight drain.
+#Range: 1 ~ 100
+drain_range = 1
+#When these blocks/entities are near, the battery will drain faster.
+#Leave empty to remove drain effect.
+#For blocks, block:<mod>:<block>:<drain>
+#Example, block:minecraft:jack_o_lantern:2
+#For entities, entity:<mod>:<entity>:<multiplier>
+#Example, entity:minecraft:enderman:5
+drain_multipliers = []
+#Battery life (in seconds) for the base flashlight and miner's helmet
+#Range: > 1
+battery_life = 8400
+#Battery life (in seconds) for the ultra version of the flashlight and miner's helmet
+#Range: > 1
+ultra_battery_life = 42000
+
