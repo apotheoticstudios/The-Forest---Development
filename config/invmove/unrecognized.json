@@ -86,7 +86,8 @@
     "de.maxhenkel.voicechat.gui.onboarding.FinalOnboardingScreen": true,
     "me.decce.gnetum.gui.ConfigScreen": true,
     "me.decce.gnetum.gui.MoreOptionsScreen": true,
-    "Nihil.Mods.face_of_horror.Config.screen.HFConfigScreen": true
+    "Nihil.Mods.face_of_horror.Config.screen.HFConfigScreen": true,
+    "net.minecraft.client.gui.screens.ConfirmLinkScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreenV2": true,

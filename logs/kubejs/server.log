@@ -1,61 +1,20 @@
-[12:51:18] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[12:51:18] [INIT] Loaded plugins:
-[12:51:18] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[12:51:18] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[12:51:18] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
-[12:51:18] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
-[12:51:19] [INFO] Loaded script server_scripts:deepvoid_message.js in 0.001 s
-[12:51:19] [INFO] Loaded script server_scripts:first_join_message.js in 0.001 s
-[12:51:19] [INFO] Loaded script server_scripts:first_night_message.js in 0.0 s
-[12:51:19] [INFO] Loaded script server_scripts:iron_tools_recipes.js in 0.001 s
-[12:51:19] [INFO] Loaded script server_scripts:limbo_message.js in 0.002 s
-[12:51:19] [INFO] Loaded script server_scripts:recipes.js in 0.0 s
-[12:51:19] [INFO] Loaded script server_scripts:stone_tools_recipes.js in 0.0 s
-[12:51:19] [INFO] Loaded script server_scripts:wooden_tools_recipes.js in 0.0 s
-[12:51:19] [INFO] Loaded 8/8 KubeJS server scripts in 0.019 s with 0 errors and 0 warnings
-[12:51:19] [INFO] Scripts loaded
-[12:51:19] [INFO] Initializing recipe event...
-[12:51:19] [INFO] Processing recipes...
-[12:51:19] [WARN] Failed to parse recipe 'arphex:spacetime_helmet[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:spectral_legs[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:jugger_boot[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:spectral_chest[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:umbral_helm[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:spectral_boots[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:chitin_legs_3[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:chitin_legs_2[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:vital_boots_upgrade[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:vital_leggings_upgrade[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:jugger_chest[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:chitin_chestplate_2[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:chitin_chestplate_3[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:chitinhelm_2combine[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:chitinchest_2combine[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:chitin_boots_3[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:chitin_boots_2[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:infernal_boots_upgrade[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:spacetime_leggings[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:chitinboots_2combine[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'butchery:guide[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:umbral_chest[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'theforest_recipes:unlit_torches_to_lit_torches[minecraft:campfire_cooking]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:chitin_helmet_2[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:chitin_helmet_3[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:chitinlegs_2combine[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:infernal_leggings_upgrade[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:infernal_chestplate_upgrade[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:umbral_boots[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:spacetime_boots[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:infernal_helmet_upgrade[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:vital_chest_upgrade[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:spectral_helm[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:jugger_head[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:vital_helmet_upgrade[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:spacetime_chestplate[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:umbral_legs[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [WARN] Failed to parse recipe 'arphex:jugger_leg[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
-[12:51:19] [INFO] Found 5551 recipes in 55.34 ms
-[12:51:20] [INFO] Posted recipe events in 99.33 ms
-[12:51:20] [WARN] Error parsing recipe alexsdelight:barbecue_on_a_stick[minecraft:crafting_shapeless]: {"group":"barbecue_stick","type":"minecraft:crafting_shapeless","ingredients":[{"item":"farmersdelight:tomato"},{"item":"farmersdelight:onion"},{"item":"amfd:singular_cooked_moose_rib"},{"item":"minecraft:cooked_chicken"},{"item":"minecraft:stick"},{"item":"minecraft:stick"}],"result":{"item":"farmersdelight:barbecue_stick","count":2}}: Unknown item 'amfd:singular_cooked_moose_rib'
-[12:51:20] [INFO] Added 28 recipes, removed 68 recipes, modified 0 recipes, with 1 failed recipes in 9.729 ms
-[12:51:20] [INFO] Server resource reload complete!
+[13:35:07] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[13:35:07] [INIT] Loaded plugins:
+[13:35:07] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[13:35:07] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[13:35:07] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[13:35:07] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
+[13:35:07] [INFO] Loaded script server_scripts:deepvoid_message.js in 0.001 s
+[13:35:07] [INFO] Loaded script server_scripts:first_join_message.js in 0.0 s
+[13:35:07] [INFO] Loaded script server_scripts:first_night_message.js in 0.0 s
+[13:35:07] [INFO] Loaded script server_scripts:iron_tools_recipes.js in 0.002 s
+[13:35:07] [INFO] Loaded script server_scripts:limbo_message.js in 0.001 s
+[13:35:07] [INFO] Loaded script server_scripts:recipes.js in 0.0 s
+[13:35:07] [INFO] Loaded script server_scripts:stone_tools_recipes.js in 0.0 s
+[13:35:07] [INFO] Loaded script server_scripts:wooden_tools_recipes.js in 0.0 s
+[13:35:07] [INFO] Loaded 8/8 KubeJS server scripts in 0.008 s with 0 errors and 0 warnings
+[13:35:07] [INFO] Scripts loaded
+[13:35:07] [INFO] Initializing recipe event...
+[13:35:07] [WARN] Due to the way Minecraft resource loading works, KubeJS' server.log may not contain everything that happened in your server scripts on initial world creation.
+[13:35:07] [WARN] You can still see the full log (including past reloads) in your latest.log file.
+[13:35:29] [INFO] Server resource reload complete!

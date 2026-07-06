@@ -10,7 +10,7 @@ enable_lightmap_caching: true
 # to block lighting, but slightly better performance.
 # Values below 2 will disable the optimization.
 # Has no effect in Minecraft 1.21.11+ as lightmap caching no longer directly uses time.
-lightmap_time_change_needed_for_update: 10
+lightmap_time_change_needed_for_update: 1
 
 # Whether the sky's color should be cached unless you're on a biome border.
 # Has no effect in Minecraft 1.21.11+ as the sky color was made data-driven.

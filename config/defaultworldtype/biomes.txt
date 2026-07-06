@@ -1,4 +1,4 @@
-259 possible biomes found:
+255 possible biomes found:
 - "terralith:alpha_islands"
 - "terralith:alpha_islands_winter"
 - "terralith:alpine_grove"
@@ -20,7 +20,6 @@
 - "the_deep_void:befouled_marsh"
 - "minecraft:birch_forest"
 - "terralith:birch_taiga"
-- "dimdoors:black_void"
 - "terralith:blooming_plateau"
 - "terralith:blooming_valley"
 - "biomesoplenty:bog"
@@ -53,7 +52,6 @@
 - "minecraft:crimson_forest"
 - "arphex:cryptic_complex"
 - "biomesoplenty:crystalline_chasm"
-- "dimdoors:dangerous_black_void"
 - "minecraft:dark_forest"
 - "biomesoplenty:dead_forest"
 - "arphex:decadent_desert"
@@ -123,7 +121,6 @@
 - "biomesoplenty:lavender_field"
 - "terralith:lavender_forest"
 - "terralith:lavender_valley"
-- "dimdoors:limbo"
 - "minecraft:lukewarm_ocean"
 - "minecraft:lush_caves"
 - "biomesoplenty:lush_desert"
@@ -242,7 +239,6 @@
 - "biomesoplenty:wetland"
 - "terralith:white_cliffs"
 - "terralith:white_mesa"
-- "dimdoors:white_void"
 - "minecraft:windswept_forest"
 - "minecraft:windswept_gravelly_hills"
 - "minecraft:windswept_hills"

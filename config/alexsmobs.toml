@@ -78,7 +78,7 @@
 	leafcutterAntRepopulateFeedings = 25
 	#Max number of ant entities allowed inside a leafcutter anthill.
 	#Range: 2 ~ 100000
-	leafcutterAntColonySize = 10
+	leafcutterAntColonySize = 12
 	#Percent chance for leafcutter ants to break leaves blocks when harvesting. Set to zero so that they can not break any blocks.
 	#Range: 0.0 ~ 1.0
 	leafcutterAntBreakLeavesChance = 0.2
