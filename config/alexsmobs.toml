@@ -37,7 +37,7 @@
 	#Whether wild crows steal crops from farmland.
 	crowsStealCrops = true
 	#Whether fish oil gives players a special levitation effect.
-	fishOilMeme = true
+	fishOilMeme = false
 	#Whether soul vulture spawns should be restricted solely to the nether fossil structure or to whatever biome is specified in their respective biome config.
 	soulVultureSpawnOnFossil = true
 	#Whether acacia blossoms should drop from blocks tagged with #alexsmobs:drops_acacia_blossoms
@@ -66,7 +66,7 @@
 	#Range: 0.0 ~ 1.0
 	emuPantsDodgeChance = 0.45
 	#Whether cachalots can destroy wood blocks if angry.
-	cachalotDestruction = true
+	cachalotDestruction = false
 	#Relative volume of cachalot whales compared to other animals. Note that irl they are the loudest animal. Turn this down if you find their clicks annoying.
 	#Range: 0.0 ~ 10.0
 	cachalotVolume = 3.0
@@ -136,7 +136,7 @@
 [spawning]
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	#Range: 0 ~ 1000
-	grizzlyBearSpawnWeight = 8
+	grizzlyBearSpawnWeight = 9
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	#Range: > 0
 	grizzlyBearSpawnRolls = 0
@@ -160,10 +160,10 @@
 	gazelleSpawnRolls = 0
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	#Range: 0 ~ 1000
-	crocodileSpawnWeight = 20
+	crocodileSpawnWeight = 0
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	#Range: > 0
-	crocSpawnRolls = 1
+	crocSpawnRolls = 0
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	#Range: 0 ~ 1000
 	flySpawnWeight = 3
@@ -250,7 +250,7 @@
 	warpedToadSpawnRolls = 0
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	#Range: 0 ~ 1000
-	mooseSpawnWeight = 9
+	mooseSpawnWeight = 16
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	#Range: > 0
 	mooseSpawnRolls = 0
@@ -394,7 +394,7 @@
 	kangarooSpawnRolls = 0
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	#Range: 0 ~ 1000
-	cachalotWhaleSpawnWeight = 2
+	cachalotWhaleSpawnWeight = 0
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	#Range: > 0
 	cachalotWhaleSpawnRolls = 0
@@ -406,7 +406,7 @@
 	enderiophageSpawnRolls = 2
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	#Range: 0 ~ 1000
-	baldEagleSpawnWeight = 15
+	baldEagleSpawnWeight = 16
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	#Range: > 0
 	baldEagleSpawnRolls = 0
@@ -580,13 +580,13 @@
 	skelewagSpawnRolls = 0
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	#Range: 0 ~ 1000
-	rainFrogSpawnWeight = 10
+	rainFrogSpawnWeight = 18
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	#Range: > 0
 	rainFrogSpawnRolls = 0
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	#Range: 0 ~ 1000
-	potooSpawnWeight = 15
+	potooSpawnWeight = 16
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	#Range: > 0
 	potooSpawnRolls = 0
@@ -671,7 +671,7 @@
 	#Range: -64 ~ 320
 	blobfishSpawnHeight = 25
 	#Whether to enable beached cachalot whales to spawn on beaches during thunder storms.
-	beachedCachalotWhales = true
+	beachedCachalotWhales = false
 	#Percent chance increase for each failed attempt to spawn a beached cachalot whale. Higher value = more spawns.
 	#Range: 0 ~ 100
 	beachedCachalotWhaleSpawnChance = 5

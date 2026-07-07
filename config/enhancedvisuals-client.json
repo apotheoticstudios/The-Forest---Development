@@ -335,7 +335,7 @@
     "heartbeat": {
       "enabled": true,
       "opacity": 0.8043478,
-      "useHealthPercentage": false,
+      "useHealthPercentage": true,
       "maxHealth": 6,
       "maxHealthPercentage": 0.3,
       "heartbeatOverlayIntensity": 0.5,

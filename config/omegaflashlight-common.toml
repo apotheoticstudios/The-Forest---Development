@@ -46,13 +46,13 @@ volBeamRenderScale = 0.5
 volBeamSaturation = 0.6006127450980391
 #Flashlight shadow-map resolution (square, per source). Higher = sharper flashlight shadows but more VRAM/GPU cost. Default 2048.
 #Range: 1024 ~ 4096
-shadowMapRes = 2048
+shadowMapRes = 1024
 #Maximum number of flashlights that cast their OWN shadow at once (1..8). Extra flashlights beyond this still light the scene, they just don't cast shadows. Lower this to trade shadow accuracy for performance. Default 8.
 #Range: 1 ~ 8
 maxShadowCasters = 8
 #Flashlight shadow PCF filter quality = number of shadow-atlas taps per fragment: 1 (Hard, cheapest), 4 (Soft) or 9 (Softest). Lower = less shadow-atlas sampling bandwidth -> higher FPS on weak GPUs; the value is normalized to the nearest of {1,4,9}. Default 9 (unchanged shadow softness).
 #Range: 1 ~ 9
-shadowPcfTaps = 9
+shadowPcfTaps = 4
 #When on, caches static-source terrain shadows so terrain geometry isn't re-rendered every frame (visual-neutral perf win): a static (placed / motionless held) flashlight's expensive terrain depth is rendered once into a terrain-cache atlas and copied each frame, while entities are still rendered fresh every frame so mob shadows stay live. When false, old behaviour (full terrain re-render each frame). Default true.
 shadowTerrainCache = true
 #How often (game ticks) a static source's cached terrain shadow is refreshed to catch world changes (block place/break in the beam). ~10 ticks = 0.5s. Default 10 (range 1..200).
