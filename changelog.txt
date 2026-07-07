@@ -1,0 +1,21 @@
+**v2.6 Patch Notes**
+
+- Updated mods
+
+- Improved flashlight smoothness
+
+- Added new creature and retired old ones
+
+———————————————
+
+Mods / Resource Packs Added:
+
+- Longwings
+
+———————————————
+
+Mods / Resource Packs Removed:
+
+- Arthropod Phobia Expansion (unnecessary)
+
+- The Deep Void (unnecessary)

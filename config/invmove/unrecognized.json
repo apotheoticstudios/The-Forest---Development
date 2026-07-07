@@ -87,7 +87,11 @@
     "me.decce.gnetum.gui.ConfigScreen": true,
     "me.decce.gnetum.gui.MoreOptionsScreen": true,
     "Nihil.Mods.face_of_horror.Config.screen.HFConfigScreen": true,
-    "net.minecraft.client.gui.screens.ConfirmLinkScreen": true
+    "net.minecraft.client.gui.screens.ConfirmLinkScreen": true,
+    "win.demistorm.visual_health.client.config.ConfigScreen$VisualHealthConfigScreen": true,
+    "win.demistorm.visual_health.client.config.ExtrasScreen": true,
+    "com.omega.flashlight.client.screen.FlashlightScreen": true,
+    "de.maxhenkel.voicechat.gui.VoiceChatScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreenV2": true,
@@ -116,6 +120,7 @@
     "com.mrcrayfish.backpacked.client.gui.screen.inventory.BackpackManagementScreen": true,
     "com.mrcrayfish.backpacked.client.gui.screen.CustomiseBackpackScreen": true,
     "net.mcreator.theyarewatching.client.gui.PlayerWatcherGUIScreen": true,
-    "net.geforcemods.securitycraft.screen.ProjectorScreen": true
+    "net.geforcemods.securitycraft.screen.ProjectorScreen": true,
+    "com.omega.flashlight.client.screen.FlashlightScreen": true
   }
 }

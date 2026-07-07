@@ -18,7 +18,7 @@ configVersion = 3
 	turningRollAccumulation = 1.0
 	# Maximum strength of the camera roll rotation caused by turning around horizontally.
 	# Default: 1.25
-	turningRollIntensity = 1.25
+	turningRollIntensity = 1.0
 	# Smoothness of the decay of the camera roll rotation caused by turning around horizontally.
 	# Default: 1.0
 	turningRollSmoothing = 1.0
@@ -57,7 +57,7 @@ configVersion = 3
 
 	# Strength of the camera roll rotation caused by strafing, or sideway horizontal velocity.
 	# Default: 10.0
-	strafingRollFactor = 10.0
+	strafingRollFactor = 7.0
 	# Strength of camera pitch rotations caused by moving forward or backwards.
 	# Default: 7.0
 	forwardVelocityPitchFactor = 7.0

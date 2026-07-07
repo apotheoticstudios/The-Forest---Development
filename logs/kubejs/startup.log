@@ -1,9 +1,9 @@
-[13:33:42] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[13:33:42] [INIT] Loaded plugins:
-[13:33:42] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[13:33:42] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[13:33:42] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
-[13:33:42] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
-[13:33:42] [INFO] Loaded script startup_scripts:block_properties.js in 0.042 s
-[13:33:42] [INFO] Loaded script startup_scripts:potion_stack.js in 0.0 s
-[13:33:42] [INFO] Loaded 2/2 KubeJS startup scripts in 0.567 s with 0 errors and 0 warnings
+[13:00:58] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[13:00:58] [INIT] Loaded plugins:
+[13:00:58] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[13:00:58] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[13:00:58] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[13:00:58] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
+[13:00:59] [INFO] Loaded script startup_scripts:block_properties.js in 0.042 s
+[13:00:59] [INFO] Loaded script startup_scripts:potion_stack.js in 0.0 s
+[13:00:59] [INFO] Loaded 2/2 KubeJS startup scripts in 0.601 s with 0 errors and 0 warnings

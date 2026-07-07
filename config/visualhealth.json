@@ -1,0 +1,12 @@
+{
+  "woundDensityPercentage": 60,
+  "damageTierCount": 5,
+  "damagePassiveMobs": true,
+  "damageVillagers": true,
+  "damagePlayers": true,
+  "drawOnOptifineEmissives": false,
+  "playerSampledDamage": false,
+  "playerDamageOnly": false,
+  "damageColor": "RED",
+  "colorOverrides": {}
+}

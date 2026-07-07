@@ -1,0 +1,126 @@
+#Detailed flashlight shadows (visual only): when on, the beam casts full soft shadows — entities, particles and weather cast too, colored-glass tint applies, and the shadow edge uses the configured PCF softness. Basic wall occlusion of the beam is ALWAYS on regardless of this setting (with this off, a cheap terrain-only depth map with a hard 1-tap edge still blocks the beam at walls). Default false (occlusion-only).
+flashlightShadows = true
+#Flashlight beam takes on the color of stained glass it passes through. Requires flashlightShadows.
+flashlightColoredGlass = true
+#Particles cast approximate shadows from the flashlight (visual only): when on, dense particles (campfire/fire smoke, explosions, etc.) in the beam project soft BLOB shadows onto the surface behind them. Approximate: light-facing occluder quads sized from each particle, capped per source and alpha/size-gated, so expect soft blobs rather than crisp shapes. Requires flashlightShadows. Default true (turn off if the blobs look ugly).
+particleShadows = true
+#Falling rain/snow casts approximate shadows from the flashlight (visual only): when on, the falling weather curtains (drawn by the vanilla weather renderer, NOT the particle engine) project approximate streak shadows onto the surface behind them. DENSE and EXPENSIVE — weather covers a whole column grid around the light — so this is DEFAULT FALSE. Bounded (radius + column cap per source). Requires flashlightShadows.
+weatherShadows = false
+#Volumetric flashlight beam / god rays (visual only): when on, a full-screen post-process ray-marches the flashlight cone for visible light shafts (stronger in rain/thunder). Default false (off).
+volumetricBeam = true
+#Enable cosmetic flashlight flicker (rare stutter + nearby-monster nervous flicker). When false the beam is fully steady. Default true.
+flashlightFlickerEnabled = true
+#Entity types that make the flashlight flicker nervously when one is nearby (and you look toward it). Use registry IDs, e.g. "minecraft:creeper", "minecraft:warden", or modded ids like "somemod:ghost". Leave the list empty to disable the nearby-mob flicker entirely (the rare random stutter still works if flashlightFlickerEnabled is true).
+flickerMobs = ["stalker:stalker", "pale_hound:pale_hound"]
+#Flashlight color warmth: 0 = cool white, 1 = warm/incandescent. Default 0.45.
+#Range: 0.0 ~ 1.0
+flashlightWarmth = 0.8982843137254901
+#Flashlight ndotl fill floor: how much faces angled away from the beam still receive. 0 = full directional falloff, 1 = flat. Default 0.55.
+#Range: 0.0 ~ 1.0
+flashlightAmbientFloor = 0.1041666666666667
+#Flashlight beam origin push FORWARD along the view direction (blocks). Default 0.45.
+#Range: 0.0 ~ 1.0
+flashlightForwardOffset = 1.0
+#Flashlight beam origin vertical offset from the eye (blocks; negative = below eye). Default -0.12.
+#Range: -0.5 ~ 0.5
+flashlightDownOffset = -0.12
+#Handheld dynamic flashlight beam: when on, YOUR OWN held flashlight's beam feels handheld — it lags slightly behind fast camera turns and eases back, sways subtly with your walk cycle, and swings a bit wider (plus a slight downward tilt) while sprinting, instead of being rigidly locked to the centre of the screen. Only affects your own held light; placed flashlights, the debug test light and other players' flashlights stay static. Default true.
+dynamicBeam = true
+#Strength multiplier for the dynamic beam sway (scales the camera lag + walk bob + sprint magnitudes together). 0 = fully static (same as turning dynamicBeam off), 1 = default, 2 = double. Tune to taste. Default 1.0.
+#Range: 0.0 ~ 2.0
+dynamicBeamStrength = 1.5
+#Volumetric beam in-scatter strength (brightness of the visible shaft). Default 0.5.
+#Range: 0.0 ~ 2.0
+volBeamStrength = 0.0
+#Volumetric beam density MULTIPLIER applied on top of the weather-driven density. Default 1.0.
+#Range: 0.0 ~ 2.0
+volBeamDensity = 0.7965686274509802
+#Volumetric beam ray-march step count (higher = smoother, costlier). Default 24.
+#Range: 8 ~ 192
+volBeamSteps = 64
+#Volumetric beam internal render scale: the god-ray ray-march is done in an offscreen buffer sized W*scale x H*scale, then bilinearly upscaled and additively composited. Lower = much cheaper on fill-rate-bound (integrated) GPUs; the soft god-ray stays nearly identical. 1.0 = full res (old behaviour), 0.5 = half res, 0.25 = quarter res. Default 0.5.
+#Range: 0.25 ~ 1.0
+volBeamRenderScale = 0.5
+#Volumetric beam soft-clamp factor: lower = brighter/more saturated shaft, higher = dimmer. Default 0.6.
+#Range: 0.1 ~ 2.0
+volBeamSaturation = 0.6006127450980391
+#Flashlight shadow-map resolution (square, per source). Higher = sharper flashlight shadows but more VRAM/GPU cost. Default 2048.
+#Range: 1024 ~ 4096
+shadowMapRes = 2048
+#Maximum number of flashlights that cast their OWN shadow at once (1..8). Extra flashlights beyond this still light the scene, they just don't cast shadows. Lower this to trade shadow accuracy for performance. Default 8.
+#Range: 1 ~ 8
+maxShadowCasters = 8
+#Flashlight shadow PCF filter quality = number of shadow-atlas taps per fragment: 1 (Hard, cheapest), 4 (Soft) or 9 (Softest). Lower = less shadow-atlas sampling bandwidth -> higher FPS on weak GPUs; the value is normalized to the nearest of {1,4,9}. Default 9 (unchanged shadow softness).
+#Range: 1 ~ 9
+shadowPcfTaps = 9
+#When on, caches static-source terrain shadows so terrain geometry isn't re-rendered every frame (visual-neutral perf win): a static (placed / motionless held) flashlight's expensive terrain depth is rendered once into a terrain-cache atlas and copied each frame, while entities are still rendered fresh every frame so mob shadows stay live. When false, old behaviour (full terrain re-render each frame). Default true.
+shadowTerrainCache = true
+#How often (game ticks) a static source's cached terrain shadow is refreshed to catch world changes (block place/break in the beam). ~10 ticks = 0.5s. Default 10 (range 1..200).
+#Range: 1 ~ 200
+shadowTerrainRefreshTicks = 10
+#Quality preset that bundles the key performance knobs (shadowMapRes, maxShadowCasters, volBeamSteps, volBeamRenderScale, shadowTerrainRefreshTicks). LOW / MEDIUM / HIGH apply a fixed bundle of those values; CUSTOM uses the individual settings below. Toggles (volumetricBeam, flashlightShadows) are NOT forced by the preset. Default CUSTOM.
+#Allowed Values: LOW, MEDIUM, HIGH, CUSTOM
+qualityPreset = "HIGH"
+#Persisted debug test light: whether the detached test flashlight is currently placed/active.
+testLightActive = false
+#Range: -3.0E7 ~ 3.0E7
+testLightPx = 0.0
+#Range: -3.0E7 ~ 3.0E7
+testLightPy = 0.0
+#Range: -3.0E7 ~ 3.0E7
+testLightPz = 0.0
+#Range: -1.0 ~ 1.0
+testLightDx = 0.0
+#Range: -1.0 ~ 1.0
+testLightDy = 0.0
+#Range: -1.0 ~ 1.0
+testLightDz = 0.0
+#Range: 0 ~ 2
+testLightMode = 0
+#Charge capacity of the Small Battery (ticks of light at drain 1). Default 2400.
+#Range: 1 ~ 1000000
+batterySmallCapacity = 2400
+#Charge capacity of the Medium Battery. Default 7200.
+#Range: 1 ~ 1000000
+batteryMediumCapacity = 7200
+#Charge capacity of the Large Battery. Default 24000.
+#Range: 1 ~ 1000000
+batteryLargeCapacity = 24000
+#Range/intensity multiplier of the Improved Lamp (tier 2). Default 1.25.
+#Range: 1.0 ~ 4.0
+bulbImprovedMultiplier = 1.25
+#Range/intensity multiplier of the High-Quality Lamp (tier 3). Default 1.6.
+#Range: 1.0 ~ 4.0
+bulbHighQualityMultiplier = 1.6
+#Battery charge consumed per server tick while the flashlight is ON. Default 1.
+#Range: 0 ~ 1000
+batteryDrainPerTick = 0
+#Whether a player is granted a ready-to-use flashlight the FIRST time they ever log into this world (a one-time grant tracked in the player's persistent data, so respawns / relogs never give a second one). The flashlight's contents are set by the starterBatteryCount / starterBatteryTier / starterLampTier options below. Default true.
+spawnWithFlashlight = false
+#How many batteries the starter flashlight comes pre-loaded with (the flashlight has 2 battery slots). 0 = an empty flashlight (no batteries). Range 0..2. Default 2.
+#Range: 0 ~ 2
+starterBatteryCount = 2
+#Tier of the batteries loaded into the starter flashlight: SMALL, MEDIUM or LARGE. Default MEDIUM.
+#Allowed Values: SMALL, MEDIUM, LARGE
+starterBatteryTier = "MEDIUM"
+#Whether the starter batteries arrive fully charged. When false they arrive empty (charge 0). Default true.
+starterBatteryFull = true
+#Lamp installed in the starter flashlight: NONE (empty lamp slot), BASIC, IMPROVED or HIGH_QUALITY. A flashlight needs a lamp AND charge to actually emit light. Default BASIC.
+#Allowed Values: NONE, BASIC, IMPROVED, HIGH_QUALITY
+starterLampTier = "BASIC"
+#Visual style of the bottom-left battery-charge HUD overlay shown while holding a flashlight: DEFAULT (the textured battery frame with six segments) or MINIMAL (a thin battery outline with vertical strip segments inside it that light up with charge). Default DEFAULT.
+#Allowed Values: DEFAULT, MINIMAL
+overlayStyle = "DEFAULT"
+#Show the remaining charge as a percentage number near the battery overlay. Default false (off).
+overlayShowPercent = false
+#Where the charge percentage number is drawn when overlayShowPercent is on: CENTER (centered over the battery indicator) or RIGHT (just to the right of the indicator, vertically centered). Default CENTER.
+#Allowed Values: CENTER, RIGHT
+overlayPercentPosition = "CENTER"
+#Size multiplier of the bottom-left battery-charge HUD overlay. 0.8 = the default size; lower shrinks it, higher enlarges it. Range 0.5..4.0. Default 0.8.
+#Range: 0.5 ~ 4.0
+overlayScale = 0.5
+#DEBUG (colored-glass tint): when true, the flashlight forces a constant strong MAGENTA tint on every lit fragment inside the beam cone (bypassing the glass-detection gates) AND logs the resolved Sodium tint uniform/sampler locations + whether the tint pass drew any sections, ONCE. Use it to isolate the colored-glass break: if the whole lit cone turns magenta the tint READ path (sampling + apply) works and the fault is in the tint WRITE/atlas; if it stays uncolored even with this on, the read path itself never runs (shadows off, patch not applied, or VerityShadowMapOn=0). Requires flashlightShadows. Default false (off) — purely a diagnostic.
+debugTintAtlas = false
+#DEBUG (particle shadows): when true, forces LARGE opaque occluder quads at EVERY gathered particle in the beam (bypassing the alpha/size gates) and logs, once per second per source, how many particles were read / passed the cull / were drawn plus the bound atlas FBO id + tile viewport. Use it to tell whether particle shadows are missing because nothing is gathered, everything is culled, or the quads draw but are too small to see. Requires flashlightShadows + particleShadows. Default false (diagnostic only).
+debugParticleShadows = false
+
