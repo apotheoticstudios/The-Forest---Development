@@ -265,3 +265,4 @@ biomesoplenty:redwood_forest
 !terralith:yosemite_lowlands,
 !terralith:alpha_islands,
 !biomesoplenty:redwood_forest,
+!gore_edition:valley_of_exarrack,

@@ -91,7 +91,8 @@
     "win.demistorm.visual_health.client.config.ConfigScreen$VisualHealthConfigScreen": true,
     "win.demistorm.visual_health.client.config.ExtrasScreen": true,
     "com.omega.flashlight.client.screen.FlashlightScreen": true,
-    "de.maxhenkel.voicechat.gui.VoiceChatScreen": true
+    "de.maxhenkel.voicechat.gui.VoiceChatScreen": true,
+    "hardcorequesting.common.forge.client.interfaces.GuiQuestBook": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreenV2": true,
