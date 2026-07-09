@@ -27,3 +27,5 @@ Mods / Resource Packs Removed:
 - The Deep Void (unnecessary)
 
 - Spyglass Improvements (replaced)
+
+- Another Flashlight Mod (replaced)

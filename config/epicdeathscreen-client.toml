@@ -2,7 +2,7 @@
 [death_cinematic]
 	#Full scene duration in seconds before auto respawn, or before manual respawn prompt appears.
 	#Range: 2.0 ~ 20.0
-	scene_duration_seconds = 7.0
+	scene_duration_seconds = 3.985915492957745
 	#Heartbeat layer volume multiplier.
 	#Range: 0.0 ~ 2.0
 	heartbeat_volume = 1.0
@@ -14,7 +14,7 @@
 	vhs_intensity = 1.0
 	#Strength of RGB split on the message text.
 	#Range: 0.0 ~ 1.5
-	chromatic_aberration = 0.35
+	chromatic_aberration = 0.3499999940395355
 	#Automatically respawn after the scene finishes.
 	auto_respawn = true
 

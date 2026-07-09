@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 [20:01:53] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
 [20:01:53] [INIT] Loaded plugins:
 [20:01:53] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
@@ -8,3 +9,15 @@
 [20:01:53] [INFO] Loaded 1/1 KubeJS client scripts in 0.016 s with 0 errors and 0 warnings
 [20:02:00] [INFO] Client resource reload complete!
 [20:02:44] [ERROR] ! tooltips.js#6: Error in 'ItemEvents.tooltip': TypeError: Cannot read property "id" from undefined
+=======
+[17:14:04] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[17:14:04] [INIT] Loaded plugins:
+[17:14:04] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[17:14:04] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[17:14:04] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[17:14:04] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
+[17:14:04] [INFO] Loaded script client_scripts:tooltips.js in 0.0 s
+[17:14:04] [INFO] Loaded 1/1 KubeJS client scripts in 0.01 s with 0 errors and 0 warnings
+[17:14:10] [INFO] Client resource reload complete!
+[17:14:39] [ERROR] ! tooltips.js#6: Error in 'ItemEvents.tooltip': TypeError: Cannot read property "id" from undefined
+>>>>>>> Stashed changes

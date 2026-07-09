@@ -65,6 +65,11 @@
 	# 
 	# Default: true
 	SHOW_TOOLTIP_WITHOUT_STACK = true
+	# Always show the equipment comparison tooltip when hovering a comparable item, without needing to hold the compare key (Left Shift
+	# by default).
+	# 
+	# Default: false
+	ALWAYS_SHOW_COMPARISON = false
 
 # divider §§
 [divider]

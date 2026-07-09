@@ -11,7 +11,7 @@ volumetricBeam = true
 #Enable cosmetic flashlight flicker (rare stutter + nearby-monster nervous flicker). When false the beam is fully steady. Default true.
 flashlightFlickerEnabled = true
 #Entity types that make the flashlight flicker nervously when one is nearby (and you look toward it). Use registry IDs, e.g. "minecraft:creeper", "minecraft:warden", or modded ids like "somemod:ghost". Leave the list empty to disable the nearby-mob flicker entirely (the rare random stutter still works if flashlightFlickerEnabled is true).
-flickerMobs = ["stalker:stalker", "pale_hound:pale_hound"]
+flickerMobs = ["stalker:stalker", "pale_hound:pale_hound", "the_knocker:knocker", "the_knocker:knockerstalk", "the_knocker:knockerstalklooked", "the_knocker:knockerswim", "cave_dweller:cave_dweller", "eyesinthedarkness:eyes", "goat_man:goat_man", "paranormal_activity:insomnia", "paranormal_activity:lightman", "paranormal_activity:poltergeist", "paranormal_activity:poltergeist_aggro", "paranormal_activity:poltergeist_aggro_2", "paranormal_activity:poltergeist_breathe", "paranormal_activity:poltergeist_cave", "paranormal_activity:poltergeist_darkness", "paranormal_activity:poltergeist_darkness_aggro", "paranormal_activity:poltergeist_grab", "paranormal_activity:poltergeist_noises", "paranormal_activity:poltergeist_shadow", "paranormal_activity:poltergeist_shadow_2", "paranormal_activity:poltergeist_stalking", "paranormal_activity:shadow_villager", "paranormal_activity:shadow_villager_stalking", "paranormal_activity:shadow_villager_stare", "paranormal_activity:shadowman", "paranormal_activity:shadowman_chase", "paranormal_activity:shadowman_eyes", "paranormal_activity:shadowman_eyes_stalking", "paranormal_activity:shadowman_invisible", "paranormal_activity:shadowman_split_second", "paranormal_activity:shadowman_stalking", "paranormal_activity:shadowman_stare", "paranormal_activity:white_eyes", "paranormal_activity:white_eyes_watching", "masked_mimic:masked", "the_masked:masked_behind", "the_masked:masked_chase", "the_masked:masked_decay", "the_masked:masked_grab", "the_masked:masked_intruder", "the_masked:masked_jumpscare", "the_masked:masked_running", "the_masked:masked_shadow", "the_masked:masked_sleeping", "the_masked:masked_stalking", "the_masked:masked_turn_around", "anomaly_rephased:a_chase", "anomaly_rephased:a_cow", "anomaly_rephased:a_darkness", "anomaly_rephased:a_find", "anomaly_rephased:a_fool", "anomaly_rephased:a_happy", "anomaly_rephased:a_haunt", "anomaly_rephased:a_hunt", "anomaly_rephased:a_hunt_shadow", "anomaly_rephased:a_look", "anomaly_rephased:a_peek", "anomaly_rephased:a_shadow", "anomaly_rephased:a_spectator", "anomaly_rephased:a_statue", "anomaly_rephased:a_statue_alt", "whos_there:empty_alex", "whos_there:empty_steve", "whos_there:ghost_player", "whos_there:white_eye"]
 #Flashlight color warmth: 0 = cool white, 1 = warm/incandescent. Default 0.45.
 #Range: 0.0 ~ 1.0
 flashlightWarmth = 0.8982843137254901
@@ -91,7 +91,7 @@ batteryLargeCapacity = 24000
 bulbImprovedMultiplier = 1.25
 #Range/intensity multiplier of the High-Quality Lamp (tier 3). Default 1.6.
 #Range: 1.0 ~ 4.0
-bulbHighQualityMultiplier = 1.6
+bulbHighQualityMultiplier = 1.8
 #Battery charge consumed per server tick while the flashlight is ON. Default 1.
 #Range: 0 ~ 1000
 batteryDrainPerTick = 0
@@ -123,4 +123,6 @@ overlayScale = 0.5
 debugTintAtlas = false
 #DEBUG (particle shadows): when true, forces LARGE opaque occluder quads at EVERY gathered particle in the beam (bypassing the alpha/size gates) and logs, once per second per source, how many particles were read / passed the cull / were drawn plus the bound atlas FBO id + tile viewport. Use it to tell whether particle shadows are missing because nothing is gathered, everything is culled, or the quads draw but are too small to see. Requires flashlightShadows + particleShadows. Default false (diagnostic only).
 debugParticleShadows = false
+#Swap how a HELD flashlight is operated. When false (default): the flashlight key toggles the light ON/OFF and right-click opens the battery/lamp menu. When true: right-click toggles the light ON/OFF and the flashlight key opens the menu. A head-worn (helmet-slot) flashlight has no right-click, so with this ON the key still falls back to toggling whenever you are NOT holding a flashlight in your main hand. Default false.
+swapFlashlightControls = true
 
