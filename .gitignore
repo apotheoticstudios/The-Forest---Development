@@ -28,3 +28,12 @@
 /.mixin.out/
 /bivrik/
 /caxton_cache/
+
+# Runtime junk / crash logs
+.DS_Store
+hs_err_pid*.log
+/crash-reports/
+
+# Player/session-mutated settings (rewritten every launch)
+/options.txt
+config/**/options.txt
