@@ -2,7 +2,7 @@
 
 - Updated mods
 
--
+- Removed custom skies (too bright)
 
 ———————————————
 
@@ -14,4 +14,4 @@ Mods / Resource Packs Added:
 
 Mods / Resource Packs Removed:
 
--
+- Dramatic Skies
