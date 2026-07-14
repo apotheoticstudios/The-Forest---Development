@@ -1,31 +1,17 @@
-**v2.6 Patch Notes**
+**v3.1 Patch Notes**
 
 - Updated mods
 
-- Overhauled flashlight to be more advanced and realistic
-
-- Revamped the zoom system to be less obstructive
-
-- Added new creature and retired old ones
+-
 
 ———————————————
 
 Mods / Resource Packs Added:
 
-- Longwings
-
-- Just Zoom
-
-- Omega Flashlight
+-
 
 ———————————————
 
 Mods / Resource Packs Removed:
 
-- Arthropod Phobia Expansion (unnecessary)
-
-- The Deep Void (unnecessary)
-
-- Spyglass Improvements (replaced)
-
-- Another Flashlight Mod (replaced)
+-
