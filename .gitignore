@@ -1,6 +1,5 @@
 /mod_data/
 /local/
-/bivrik/
 /downloads/
 /modlist.html
 /.mixin.out/
@@ -13,7 +12,6 @@
 /cosmetics/
 /manifest.json
 /.gitattributes
-/.curseclient
 /ops.json
 /rhino.local.properties
 /servers.dat
@@ -27,7 +25,6 @@
 /.idea/
 /.mixin.out/
 /bivrik/
-/caxton_cache/
 
 # Runtime junk / crash logs
 .DS_Store

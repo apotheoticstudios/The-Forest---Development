@@ -1,405 +1,73 @@
 {
-  "naturalist:recipes/food/cooked_egg": {
-    "criteria": {
-      "has_eggs": "2026-07-07 17:23:35 +1000"
-    },
-    "done": true
-  },
-  "antiqueatlas:recipes/atlas_new": {
-    "criteria": {
-      "has_compass": "2026-07-07 17:23:35 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:biomesoplenty/root": {
-    "criteria": {
-<<<<<<< Updated upstream
-      "redwood_forest": "2026-07-07 20:12:41 +1000"
-=======
-      "redwood_forest": "2026-07-07 17:23:35 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:biomesoplenty/all_biomes": {
-    "criteria": {
-      "redwood_forest": "2026-07-07 17:23:35 +1000"
-    },
-    "done": false
-  },
-  "antiqueatlas:recipes/atlas": {
-    "criteria": {
-      "has_compass": "2026-07-07 17:23:35 +1000"
-    },
-    "done": true
-  },
-  "farmersdelight:main/root": {
-    "criteria": {
-      "seeds": "2026-07-07 17:23:35 +1000"
-    },
-    "done": true
-  },
   "farmersdelight:recipes/cooking/onion_soup": {
     "criteria": {
-      "has_any_ingredient": "2026-07-07 17:23:39 +1000"
+      "has_any_ingredient": "2026-07-13 15:33:19 +1000"
     },
     "done": true
   },
   "legendarysurvivaloverhaul:main/root": {
     "criteria": {
-      "main": "2026-07-07 17:23:39 +1000"
+      "main": "2026-07-13 15:32:14 +1000"
     },
     "done": true
   },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2026-07-07 17:23:39 +1000"
+      "unlock_right_away": "2026-07-13 15:32:14 +1000"
     },
     "done": true
   },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
-      "has_lots_of_items": "2026-07-07 17:23:39 +1000"
+      "has_lots_of_items": "2026-07-13 15:33:19 +1000"
+    },
+    "done": true
+  },
+  "naturalist:recipes/food/cooked_egg": {
+    "criteria": {
+      "has_eggs": "2026-07-13 15:32:11 +1000"
+    },
+    "done": true
+  },
+  "antiqueatlas:recipes/atlas_new": {
+    "criteria": {
+      "has_compass": "2026-07-13 15:32:11 +1000"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "redwood_forest": "2026-07-13 15:32:11 +1000"
     },
     "done": true
   },
   "exposure:recipes/tools/album": {
     "criteria": {
-      "has_book": "2026-07-07 17:23:39 +1000"
+      "has_book": "2026-07-13 15:33:19 +1000"
     },
     "done": true
   },
   "refurbished_furniture:recipes/misc/slicing/bread_slice_from_bread": {
     "criteria": {
-      "has_bread": "2026-07-07 17:23:39 +1000"
->>>>>>> Stashed changes
+      "has_bread": "2026-07-13 15:33:19 +1000"
     },
     "done": true
   },
-  "biomesoplenty:recipes/transportation/willow_boat": {
+  "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
-<<<<<<< Updated upstream
-      "redwood_forest": "2026-07-07 20:12:41 +1000"
+      "redwood_forest": "2026-07-13 15:32:11 +1000"
     },
     "done": false
   },
   "antiqueatlas:recipes/atlas": {
     "criteria": {
-      "has_compass": "2026-07-07 17:23:35 +1000"
-=======
-      "in_water": "2026-07-09 14:09:42 +1000"
->>>>>>> Stashed changes
+      "has_compass": "2026-07-13 15:32:11 +1000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/cherry_boat": {
+  "farmersdelight:main/root": {
     "criteria": {
-      "in_water": "2026-07-09 14:09:42 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/umbran_boat": {
-    "criteria": {
-      "in_water": "2026-07-09 14:09:42 +1000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/bamboo_raft": {
-    "criteria": {
-      "in_water": "2026-07-09 14:09:42 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/dead_boat": {
-    "criteria": {
-      "in_water": "2026-07-09 14:09:42 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/magic_boat": {
-    "criteria": {
-      "in_water": "2026-07-09 14:09:42 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/pine_boat": {
-    "criteria": {
-      "in_water": "2026-07-09 14:09:42 +1000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "in_water": "2026-07-09 14:09:42 +1000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/jungle_boat": {
-    "criteria": {
-      "in_water": "2026-07-09 14:09:42 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/fir_boat": {
-    "criteria": {
-      "in_water": "2026-07-09 14:09:42 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/maple_boat": {
-    "criteria": {
-      "in_water": "2026-07-09 14:09:42 +1000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/spruce_boat": {
-    "criteria": {
-      "in_water": "2026-07-09 14:09:42 +1000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "in_water": "2026-07-09 14:09:42 +1000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/oak_boat": {
-    "criteria": {
-      "in_water": "2026-07-09 14:09:42 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/redwood_boat": {
-    "criteria": {
-      "in_water": "2026-07-09 14:09:42 +1000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/mangrove_boat": {
-    "criteria": {
-      "in_water": "2026-07-09 14:09:42 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/hellbark_boat": {
-    "criteria": {
-      "in_water": "2026-07-09 14:09:42 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/jacaranda_boat": {
-    "criteria": {
-      "in_water": "2026-07-09 14:09:42 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/mahogany_boat": {
-    "criteria": {
-      "in_water": "2026-07-09 14:09:42 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/palm_boat": {
-    "criteria": {
-      "in_water": "2026-07-09 14:09:42 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/empyreal_boat": {
-    "criteria": {
-      "in_water": "2026-07-09 14:09:42 +1000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/dark_oak_boat": {
-    "criteria": {
-      "in_water": "2026-07-09 14:09:42 +1000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:river": "2026-07-09 14:19:36 +1000"
-    },
-    "done": false
-  },
-  "farmersdelight:recipes/food/fried_egg_from_campfire_cooking": {
-    "criteria": {
-      "fried_egg": "2026-07-09 14:48:30 +1000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/baked_cod_stew": {
-    "criteria": {
-      "has_any_ingredient": "2026-07-09 14:48:30 +1000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/fried_egg_from_smoking": {
-    "criteria": {
-      "fried_egg": "2026-07-09 14:48:30 +1000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cake": {
-    "criteria": {
-      "has_egg": "2026-07-09 14:48:30 +1000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/fried_rice": {
-    "criteria": {
-      "has_any_ingredient": "2026-07-09 14:48:30 +1000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/fried_egg": {
-    "criteria": {
-      "fried_egg": "2026-07-09 14:48:30 +1000"
-    },
-    "done": true
-  },
-  "legendarysurvivaloverhaul:main/root": {
-    "criteria": {
-      "main": "2026-07-07 20:12:41 +1000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2026-07-07 20:12:41 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/willow_boat": {
-    "criteria": {
-      "in_water": "2026-07-07 20:13:29 +1000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/cherry_boat": {
-    "criteria": {
-      "in_water": "2026-07-07 20:13:29 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/umbran_boat": {
-    "criteria": {
-      "in_water": "2026-07-07 20:13:29 +1000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/bamboo_raft": {
-    "criteria": {
-      "in_water": "2026-07-07 20:13:29 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/dead_boat": {
-    "criteria": {
-      "in_water": "2026-07-07 20:13:29 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/magic_boat": {
-    "criteria": {
-      "in_water": "2026-07-07 20:13:29 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/pine_boat": {
-    "criteria": {
-      "in_water": "2026-07-07 20:13:29 +1000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "in_water": "2026-07-07 20:13:29 +1000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/jungle_boat": {
-    "criteria": {
-      "in_water": "2026-07-07 20:13:29 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/fir_boat": {
-    "criteria": {
-      "in_water": "2026-07-07 20:13:29 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/maple_boat": {
-    "criteria": {
-      "in_water": "2026-07-07 20:13:29 +1000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/spruce_boat": {
-    "criteria": {
-      "in_water": "2026-07-07 20:13:29 +1000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "in_water": "2026-07-07 20:13:29 +1000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/oak_boat": {
-    "criteria": {
-      "in_water": "2026-07-07 20:13:29 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/redwood_boat": {
-    "criteria": {
-      "in_water": "2026-07-07 20:13:29 +1000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/mangrove_boat": {
-    "criteria": {
-      "in_water": "2026-07-07 20:13:29 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/hellbark_boat": {
-    "criteria": {
-      "in_water": "2026-07-07 20:13:29 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/jacaranda_boat": {
-    "criteria": {
-      "in_water": "2026-07-07 20:13:29 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/mahogany_boat": {
-    "criteria": {
-      "in_water": "2026-07-07 20:13:29 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/palm_boat": {
-    "criteria": {
-      "in_water": "2026-07-07 20:13:29 +1000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/empyreal_boat": {
-    "criteria": {
-      "in_water": "2026-07-07 20:13:29 +1000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/dark_oak_boat": {
-    "criteria": {
-      "in_water": "2026-07-07 20:13:29 +1000"
+      "seeds": "2026-07-13 15:32:11 +1000"
     },
     "done": true
   },

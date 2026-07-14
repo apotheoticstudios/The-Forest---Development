@@ -35,7 +35,7 @@
 [emotes]
 
 	[emotes.general]
-		disable_emotes = true
+		disable_emotes = false
 		allow_emote_sounds = 0
 		play_emotes_in_third_person_view = true
 		emote_preview = false
