@@ -4,6 +4,8 @@
 
 - Removed custom skies (too bright)
 
+- Removed leather requirement for stone and leather tools
+
 ———————————————
 
 Mods / Resource Packs Added:

@@ -24,10 +24,10 @@
 [chase]
 	#Minutes between chases.
 	#Range: 1 ~ 300
-	cooldown_minutes = 30
+	cooldown_minutes = 40
 	#How many seconds the chase lasts before the entity despawns.
 	#Range: 5 ~ 600
-	duration_seconds = 40
+	duration_seconds = 30
 	#How far away (blocks) the chase entity spawns.
 	#Range: 5.0 ~ 100.0
 	spawn_distance = 20.0
