@@ -71,5 +71,11 @@
     },
     "done": true
   },
+  "omegaflashlight:unlock_dye_table": {
+    "criteria": {
+      "tick": "2026-07-26 19:57:20 +1000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

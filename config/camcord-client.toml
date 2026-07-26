@@ -1,0 +1,27 @@
+#Toggles Camcord shader
+enabled = false
+#Toggles VHS border on Camcord shader
+boarder = false
+#Toggles fisheye effect
+fisheyeEnabled = true
+#Toggles bokeh depth-of-field effect
+bokehEnabled = false
+#Fisheye distortion amount
+#Range: 0.0 ~ 16.0
+fisheyeZoom = 2.0
+#Fisheye distortion scale
+#Range: 0.0 ~ 16.0
+fisheyeScale = 0.4000000059604645
+#Fisheye zoom/pinch factor
+#Range: 0.0 ~ 16.0
+fisheyePinch = 4.950000286102295
+#Bokeh near plane
+#Range: 0.0 ~ 1000.0
+nearPlane = 1.0
+#Bokeh far plane
+#Range: 0.0 ~ 10000.0
+farPlane = 100.0
+#Bokeh blur amount
+#Range: 0.0 ~ 256.0
+blurAmount = 24.0
+

@@ -2,15 +2,23 @@
 
 - Updated mods
 
+- Added an analog-style visual overlay
+
 - Removed custom skies (too bright)
 
 - Removed leather requirement for stone and leather tools
+
+- Added custom automatic HUD-element hiding (immersion)
+
+- Improved visual environmental ambience
 
 ———————————————
 
 Mods / Resource Packs Added:
 
--
+- Old Recording
+
+- AutoHUD
 
 ———————————————
 

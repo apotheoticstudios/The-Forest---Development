@@ -1,6 +1,8 @@
 Manifest-Version: 1
 Essential-Mod-Publisher-Slug: essential
 Essential-Mod-Slug: essential
-Essential-Mod-Version: 1.4.0.3
-Essential-Mod-Checksum: 3fd317019ec86fbf762bcb91607e9188
+Essential-Mod-Version-Id: cef645247198409dfde9c199
+Essential-Mod-Version: 1.4.1
+Essential-Mod-Platform: forge_1-20-1
+Essential-Mod-Checksum: 9a5014db5ae64d01d461c05422d23561
 
