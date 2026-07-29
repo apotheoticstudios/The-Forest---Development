@@ -4,6 +4,12 @@
 
 - Added an analog-style visual overlay
 
+- Added complete quest system
+
+- Added colored-lighting
+
+- General performance improvements (especially with flashlight)
+
 - Removed custom skies (too bright)
 
 - Removed leather requirement for stone and leather tools
@@ -11,6 +17,10 @@
 - Added custom automatic HUD-element hiding (immersion)
 
 - Improved visual environmental ambience
+
+- Added multiple players sleeping in one bed :D
+
+- Fixed several vanilla items not being visible in JEI
 
 ———————————————
 
@@ -20,8 +30,16 @@ Mods / Resource Packs Added:
 
 - AutoHUD
 
+- Colorful Lighting
+
+- Simple Voice Radio
+
+- And There Was Only One Bed
+
 ———————————————
 
 Mods / Resource Packs Removed:
 
 - Dramatic Skies
+
+- Security Craft (unnecessary)

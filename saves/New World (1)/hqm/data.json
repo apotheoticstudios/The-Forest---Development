@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "uuid": "aa88add0-bc48-4e1d-bc7d-deac2d196c19",
+    "name": "_Apotheotic_",
+    "lives": 3,
+    "team": {
+      "id": "00000000-0000-0000-0000-000000000000",
+      "lifeSetting": "SHARE",
+      "rewardSetting": "ALL",
+      "players": [
+        {
+          "uuid": "aa88add0-bc48-4e1d-bc7d-deac2d196c19",
+          "owner": true,
+          "inTeam": true,
+          "name": "_Apotheotic_"
+        }
+      ],
+      "reputations": [],
+      "questDataList": [],
+      "invites": []
+    },
+    "playedLore": false,
+    "receivedBook": false,
+    "groupData": {}
+  }
+]

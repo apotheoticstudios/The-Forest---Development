@@ -1,0 +1,10 @@
+{
+  "sets": [
+    "first_clearing",
+    "light_and_climate",
+    "food_and_butchery",
+    "exploration_and_evidence",
+    "signals_and_escalation",
+    "wrong_places"
+  ]
+}

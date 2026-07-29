@@ -4,5 +4,5 @@ defaultDifficulty = "NORMAL"
 #Set to true if the difficulty for new world's should be locked to the specific default. This cannot be unlocked by players without external tools! Probably a bad idea. I don't recommend. Why am I adding this option?
 lockDifficulty = false
 #Resource pack IDs to have enabled by default on the first run.
-defaultResourcePacks = []
+defaultResourcePacks = ["vanilla", "tacz_resources", "mod_resources", "fabric", "Moonlight Mods Dynamic Assets", "-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip", "Foliage+ V1.5.9.4.zip", "Clear Glass Pack 1.20.zip", "FreshAnimations_v1.10.4.zip", "Hidden-Armor-1.2.0.zip", "LowOnFire_1.20.1.zip", "Realistic Combat Soundpack 2.0.zip", "TaxCreepyMob+M.1.20.1+ResP.1.0.0.zip", "§6Dynamic§9Surroundings §2R19.zip", "§6Immersive§8_§6Interfaces§8.zip", "§eExtended_Illumina_NEA_1.20x.zip", "§l3D§f+Ladders+v1.1.zip", "TheForestCustomTextures.zip", "AHM.zip", "AnalogueWatchClock-[1.19.3]-1.2.1.zip", "Better-Leaves-9.5.zip", "DarkAtmosphere2.0.zip", "Enhanced Audio r7.zip", "FA+Emissive-v1.6.zip", "FA+Spiders-v2.2.zip", "Tactical3DTools[10.2].zip", "§e[FORGE]Eating Animations More Compat.zip", "§6Immersive_Interfaces_Modded§8_1.20.x.zip", "colorful_lighting:add_pack/colorful_lighting_core_shaders", "Omega-Colorful-Lighting-Compat.zip", "TheForest-Colorful-Lighting-Compat.zip"]
 

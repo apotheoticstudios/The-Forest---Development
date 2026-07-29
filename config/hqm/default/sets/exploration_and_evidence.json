@@ -1,0 +1,478 @@
+{
+  "name": "Exploration And Evidence",
+  "description": {
+    "text": "The forest is larger than the first clearing. This chapter turns mapping, caves, bunkers, photography, and strange encounters into a field log.",
+    "isTranslationKey": false
+  },
+  "quests": [
+    {
+      "uuid": "36e71c32-96ef-4610-af1e-db1c8becb2cb",
+      "name": {
+        "text": "Map The Perimeter",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Use the atlas to mark water, shelter, caves, and anything that looks deliberately placed.",
+        "isTranslationKey": false
+      },
+      "x": 0,
+      "y": 0,
+      "icon": {
+        "id": "antiqueatlas:antique_atlas",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "description": {
+            "text": "Mark three locations",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Add at least three useful markers to your atlas: water, base, cave, bunker, campsite, or a suspicious structure.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [
+        "23c1c9c7-3c34-411a-abb5-015460c2fc86"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:paper",
+          "Count": 12
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "18f414af-9b6c-4c72-a2de-cf842029f6ec",
+      "name": {
+        "text": "Campsite Sweep",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Campsite structures and bunkers are the first signs that other people were here before you.",
+        "isTranslationKey": false
+      },
+      "x": 30,
+      "y": 0,
+      "icon": {
+        "id": "minecraft:lantern",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "description": {
+            "text": "Loot a campsite or bunker",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Find and clear a campsite, abandoned shelter, or underground bunker. Mark it on the atlas before leaving.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [
+        "36e71c32-96ef-4610-af1e-db1c8becb2cb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:torch",
+          "Count": 12
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0d3ab92d-4ddc-4fd3-ad6d-659f256e44cf",
+      "name": {
+        "text": "Proof Beats Memory",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Exposure gives the pack a perfect evidence loop. Build a camera before the forest convinces you nothing happened.",
+        "isTranslationKey": false
+      },
+      "x": 60,
+      "y": 0,
+      "icon": {
+        "id": "exposure:camera",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:craft",
+          "description": {
+            "text": "Craft a camera",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Craft the listed item after this quest is available.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "exposure:camera",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "18f414af-9b6c-4c72-a2de-cf842029f6ec"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:glass_pane",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d2bdb743-8bc0-4c57-a1fe-153de9f8c5ef",
+      "name": {
+        "text": "Load The Reel",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "A camera without film is just extra weight.",
+        "isTranslationKey": false
+      },
+      "x": 90,
+      "y": 0,
+      "icon": {
+        "id": "exposure:black_and_white_film",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:craft",
+          "description": {
+            "text": "Craft film",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Craft the listed item after this quest is available.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "exposure:black_and_white_film",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0d3ab92d-4ddc-4fd3-ad6d-659f256e44cf"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:paper",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f7eff2e2-5dea-4f96-a9ef-0b70da434d15",
+      "name": {
+        "text": "Photograph The Wrong Thing",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Use the camera on an unexplained structure, cave entrance, silhouette, or corpse scene.",
+        "isTranslationKey": false
+      },
+      "x": 120,
+      "y": 0,
+      "icon": {
+        "id": "exposure:photograph",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "description": {
+            "text": "Take an evidence photo",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Take at least one photograph of something worth reporting. HQM cannot inspect photo contents, so this is manual.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [
+        "d2bdb743-8bc0-4c57-a1fe-153de9f8c5ef"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "81bfffec-8b63-4603-ab2c-e9a44614909b",
+      "name": {
+        "text": "Case File",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Keep evidence together. An album turns scattered photos into a readable field record.",
+        "isTranslationKey": false
+      },
+      "x": 150,
+      "y": 0,
+      "icon": {
+        "id": "exposure:album",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:craft",
+          "description": {
+            "text": "Craft a photo album",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Craft the listed item after this quest is available.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "exposure:album",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f7eff2e2-5dea-4f96-a9ef-0b70da434d15"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:ink_sac",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1e2871cb-7296-4bfc-a670-655fcf9c038b",
+      "name": {
+        "text": "Stone With Teeth",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Spelunker's Charm adds cave finds that make underground trips feel different from strip mining.",
+        "isTranslationKey": false
+      },
+      "x": 30,
+      "y": 45,
+      "icon": {
+        "id": "spelunkers_charm:geode",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Find a geode",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Have the listed supplies in your inventory.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "spelunkers_charm:geode",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "18f414af-9b6c-4c72-a2de-cf842029f6ec"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d9c06df2-d1f0-46d6-a6da-2ab1ead34aa0",
+      "name": {
+        "text": "Light On Your Head",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Hands-free cave lighting is a major upgrade when dynamic held lights are expensive.",
+        "isTranslationKey": false
+      },
+      "x": 60,
+      "y": 45,
+      "icon": {
+        "id": "spelunkers_charm:candle_helmet",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:craft",
+          "description": {
+            "text": "Craft a candle helmet",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Craft the listed item after this quest is available.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "spelunkers_charm:candle_helmet",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1e2871cb-7296-4bfc-a670-655fcf9c038b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:candle",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8c1fd450-f0c8-4914-a1a9-7bd9880d17a7",
+      "name": {
+        "text": "Below The Roots",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Caves contain resources, sound traps, ghost events, cave dust, and the things that do not announce themselves politely.",
+        "isTranslationKey": false
+      },
+      "x": 90,
+      "y": 45,
+      "icon": {
+        "id": "minecraft:deepslate",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "description": {
+            "text": "Complete a cave run",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Enter a cave, collect resources, mark the entrance, and return to base with the same or better gear than you left with.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [
+        "d9c06df2-d1f0-46d6-a6da-2ab1ead34aa0"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot",
+          "Count": 6
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0dddb711-7f78-4eaa-a6d8-7c561f92a17e",
+      "name": {
+        "text": "Catalog The Living Forest",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Alex's Mobs and Naturalist make wildlife part of the setting, not just ambient decoration.",
+        "isTranslationKey": false
+      },
+      "x": 120,
+      "y": 45,
+      "icon": {
+        "id": "alexsmobs:banana_slug_slime",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Collect a forest specimen",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Have the listed supplies in your inventory.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "alexsmobs:banana_slug_slime",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "36e71c32-96ef-4610-af1e-db1c8becb2cb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:slime_ball",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

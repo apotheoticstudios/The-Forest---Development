@@ -21,16 +21,16 @@ PlayerEvents.tick(event => {
 
     if (dim === 'the_deep_void:deep_void') {
       // FIRST message
-      player.runCommandSilent(
-        `/immersivemessages sendcustom @s {anchor:"BOTTOM_CENTRE",y:90,shake:1b,typewriter:1b,glow:1b,color:"#7a88a6"} 10 where.... am I......`
+      event.server.runCommandSilent(
+        `immersivemessages sendcustom ${player.username} {anchor:3,y:-90f,size:1.15f,shake:1b,typewriter:1b,color:"#7a88a6"} 10 where.... am I......`
       )
 
       // SECOND message after 20 seconds
       event.server.scheduleInTicks(400, () => {
         if (!player || player.isRemoved()) return
 
-        player.runCommandSilent(
-          `/immersivemessages sendcustom @s {anchor:"BOTTOM_CENTRE",y:90,typewriter:1b,glow:1b,color:"#7a88a6"} 8 This is above my pay grade.`
+        event.server.runCommandSilent(
+          `immersivemessages sendcustom ${player.username} {anchor:3,y:-90f,size:1.15f,typewriter:1b,color:"#7a88a6"} 8 This is above my pay grade.`
         )
       })
 
@@ -38,8 +38,8 @@ PlayerEvents.tick(event => {
       event.server.scheduleInTicks(600, () => {
         if (!player || player.isRemoved()) return
 
-        player.runCommandSilent(
-          `/immersivemessages sendcustom @s {anchor:"BOTTOM_CENTRE",y:90,typewriter:1b,glow:1b,color:"#7a88a6"} 8 I need to find a way out of here.`
+        event.server.runCommandSilent(
+          `immersivemessages sendcustom ${player.username} {anchor:3,y:-90f,size:1.15f,typewriter:1b,color:"#7a88a6"} 8 I need to find a way out of here.`
         )
           // Send crafting recipe in chat after 700 ticks
           event.server.scheduleInTicks(200, () => {

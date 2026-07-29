@@ -1,0 +1,292 @@
+{
+  "name": "Wrong Places",
+  "description": {
+    "text": "This chapter reserves room for Limbo and Deep Void progression referenced by KubeJS scripts. It stays mostly manual because the dimension jars are not present in the current mods folder.",
+    "isTranslationKey": false
+  },
+  "quests": [
+    {
+      "uuid": "0cf13a11-96eb-4ddc-ad66-7e9a23e1da72",
+      "name": {
+        "text": "Limbo Note",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "KubeJS has a Limbo entry message, but the matching Dimensional Doors jar is not in this mods folder. Keep this as the story hook for when the dimension returns.",
+        "isTranslationKey": false
+      },
+      "x": 0,
+      "y": 0,
+      "icon": {
+        "id": "minecraft:ender_eye",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "description": {
+            "text": "Read the Limbo hook",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The script says: delve down the layers of limbo to find a pool of blood. Mark this complete after confirming Dimensional Doors is installed in the target build.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [
+        "8c1fd450-f0c8-4914-a1a9-7bd9880d17a7"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:ender_pearl",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c2f9467e-6417-4bdb-a802-353c5b8cdbde",
+      "name": {
+        "text": "Where Am I",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "If Dimensional Doors is restored, this can be completed by entering Limbo.",
+        "isTranslationKey": false
+      },
+      "x": 30,
+      "y": 0,
+      "icon": {
+        "id": "minecraft:compass",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:location",
+          "description": {
+            "text": "Enter Limbo",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Enter dimdoors:limbo.",
+            "isTranslationKey": false
+          },
+          "locations": [
+            {
+              "name": {
+                "text": "Enter Limbo",
+                "isTranslationKey": false
+              },
+              "x": 0,
+              "y": 64,
+              "z": 0,
+              "dim": "dimdoors:limbo",
+              "radius": -1,
+              "visible": "FULL"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0cf13a11-96eb-4ddc-ad66-7e9a23e1da72"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "441508e3-f5b0-41a7-a42f-cba3dee95cc9",
+      "name": {
+        "text": "Deep Void Note",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "KubeJS references The Deep Void and a Void Pendant recipe, but only config/cache files are present right now.",
+        "isTranslationKey": false
+      },
+      "x": 60,
+      "y": 0,
+      "icon": {
+        "id": "minecraft:echo_shard",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "description": {
+            "text": "Read the Deep Void hook",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The script names the Void Pendant ingredients: Bone Marrow Strands, Rotten Bones, and Onyx. Keep this note until the dimension mod is restored.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [
+        "0cf13a11-96eb-4ddc-ad66-7e9a23e1da72"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:amethyst_shard",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b22d954e-f62c-415a-a46c-00201f7f2ee0",
+      "name": {
+        "text": "Above My Pay Grade",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "If The Deep Void is restored, this can be completed by entering the Deep Void dimension.",
+        "isTranslationKey": false
+      },
+      "x": 90,
+      "y": 0,
+      "icon": {
+        "id": "minecraft:sculk",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:location",
+          "description": {
+            "text": "Enter the Deep Void",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Enter the_deep_void:deep_void.",
+            "isTranslationKey": false
+          },
+          "locations": [
+            {
+              "name": {
+                "text": "Enter the Deep Void",
+                "isTranslationKey": false
+              },
+              "x": 0,
+              "y": 64,
+              "z": 0,
+              "dim": "the_deep_void:deep_void",
+              "radius": -1,
+              "visible": "FULL"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "441508e3-f5b0-41a7-a42f-cba3dee95cc9"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4289ae4a-b7e9-435d-a081-c5ae82e25d82",
+      "name": {
+        "text": "Find A Way Out",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The point of both wrong-place chapters is escape, not tourism.",
+        "isTranslationKey": false
+      },
+      "x": 120,
+      "y": 0,
+      "icon": {
+        "id": "minecraft:recovery_compass",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "description": {
+            "text": "Return alive",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Return to the Overworld from Limbo or the Deep Void with your quest book, atlas, and one useful artifact.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [
+        "0cf13a11-96eb-4ddc-ad66-7e9a23e1da72",
+        "441508e3-f5b0-41a7-a42f-cba3dee95cc9"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:halfheart",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e22a1522-0af1-4666-a7a4-16c121343a63",
+      "name": {
+        "text": "File The Impossible",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Bring the impossible back into the normal progression loop: map it, photograph it, and report it over the radio.",
+        "isTranslationKey": false
+      },
+      "x": 150,
+      "y": 0,
+      "icon": {
+        "id": "exposure:album",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "description": {
+            "text": "Document the event",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Add a photo or written note about the wrong-place trip, mark the route if possible, and transmit from the radio station.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [
+        "4289ae4a-b7e9-435d-a081-c5ae82e25d82",
+        "b5f26f27-ade9-42f8-a3e1-9e62ab515b1c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:heart",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

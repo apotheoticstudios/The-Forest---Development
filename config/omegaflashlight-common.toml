@@ -3,7 +3,7 @@ flashlightShadows = false
 #Flashlight beam takes on the color of stained glass it passes through. Requires flashlightShadows.
 flashlightColoredGlass = true
 #Particles cast approximate shadows from the flashlight (visual only): when on, dense particles (campfire/fire smoke, explosions, etc.) in the beam project soft BLOB shadows onto the surface behind them. Approximate: light-facing occluder quads sized from each particle, capped per source and alpha/size-gated, so expect soft blobs rather than crisp shapes. Requires flashlightShadows. Default true (turn off if the blobs look ugly).
-particleShadows = true
+particleShadows = false
 #Falling rain/snow casts approximate shadows from the flashlight (visual only): when on, the falling weather curtains (drawn by the vanilla weather renderer, NOT the particle engine) project approximate streak shadows onto the surface behind them. DENSE and EXPENSIVE вЂ” weather covers a whole column grid around the light вЂ” so this is DEFAULT FALSE. Bounded (radius + column cap per source). Requires flashlightShadows.
 weatherShadows = false
 #Volumetric flashlight beam / god rays (visual only): when on, a full-screen post-process ray-marches the flashlight cone for visible light shafts (stronger in rain/thunder). Default false (off).
@@ -25,7 +25,7 @@ flashlightForwardOffset = 1.0
 #Range: -0.5 ~ 0.5
 flashlightDownOffset = -0.12
 #Handheld dynamic flashlight beam: when on, YOUR OWN held flashlight's beam feels handheld вЂ” it lags slightly behind fast camera turns and eases back, sways subtly with your walk cycle, and swings a bit wider (plus a slight downward tilt) while sprinting, instead of being rigidly locked to the centre of the screen. Only affects your own held light; placed flashlights, the debug test light and other players' flashlights stay static. Default true.
-dynamicBeam = true
+dynamicBeam = false
 #Strength multiplier for the dynamic beam sway (scales the camera lag + walk bob + sprint magnitudes together). 0 = fully static (same as turning dynamicBeam off), 1 = default, 2 = double. Tune to taste. Default 1.0.
 #Range: 0.0 ~ 2.0
 dynamicBeamStrength = 1.5
@@ -37,10 +37,10 @@ volBeamStrength = 0.0
 volBeamDensity = 0.7965686274509802
 #Volumetric beam ray-march step count (higher = smoother, costlier). Default 24.
 #Range: 8 ~ 192
-volBeamSteps = 64
+volBeamSteps = 24
 #Volumetric beam internal render scale: the god-ray ray-march is done in an offscreen buffer sized W*scale x H*scale, then bilinearly upscaled and additively composited. Lower = much cheaper on fill-rate-bound (integrated) GPUs; the soft god-ray stays nearly identical. 1.0 = full res (old behaviour), 0.5 = half res, 0.25 = quarter res. Default 0.5.
 #Range: 0.25 ~ 1.0
-volBeamRenderScale = 0.5
+volBeamRenderScale = 0.3
 #Volumetric beam soft-clamp factor: lower = brighter/more saturated shaft, higher = dimmer. Default 0.6.
 #Range: 0.1 ~ 2.0
 volBeamSaturation = 0.6006127450980391
@@ -49,7 +49,7 @@ volBeamSaturation = 0.6006127450980391
 shadowMapRes = 1024
 #Flashlight shadow PCF filter quality = number of shadow-atlas taps per fragment: 1 (Hard, cheapest), 4 (Soft) or 9 (Softest). Lower = less shadow-atlas sampling bandwidth -> higher FPS on weak GPUs; the value is normalized to the nearest of {1,4,9}. Default 9 (unchanged shadow softness).
 #Range: 1 ~ 9
-shadowPcfTaps = 4
+shadowPcfTaps = 3
 #When on, caches static-source terrain shadows so terrain geometry isn't re-rendered every frame (visual-neutral perf win): a static (placed / motionless held) flashlight's expensive terrain depth is rendered once into a terrain-cache atlas and copied each frame, while entities are still rendered fresh every frame so mob shadows stay live. When false, old behaviour (full terrain re-render each frame). Default true.
 shadowTerrainCache = true
 #How often (game ticks) a static source's cached terrain shadow is refreshed to catch world changes (block place/break in the beam). ~10 ticks = 0.5s. Default 10 (range 1..200).
@@ -142,7 +142,7 @@ angleWide = 46.0
 angleWider = 62.0
 #Maximum number of flashlights active at once (1..1024, default 16). This is the hard simultaneous light-source cap: extra flashlights beyond this are ignored for the frame. Every source within the cap both lights the scene AND casts its own shadow. Config-file only (no in-game control): the value is read once when shaders are built, so it applies on game restart or a resource reload (F3+T); editing it mid-session does nothing until then. The EFFECTIVE cap is auto-clamped down to what the GPU can link (fragment uniform registers, max texture size and a shadow-atlas VRAM budget) and logged once at startup.
 #Range: 1 ~ 1024
-maxLightSources = 16
+maxLightSources = 8
 #Per-source occlusion culling (visual-neutral perf win): a flashlight whose entire lit cone is provably hidden behind opaque geometry has its shadow, soft-light and beam work skipped for that frame (verified each frame with a GPU occlusion query against the finished scene depth). Frustum culling of off-screen cones is always on regardless of this setting; this toggle only controls the behind-wall test, which carries a one-frame reappearance latency. Disabled automatically under an external shader pack. Default true.
 occlusionCulling = true
 #Default beam/light color of the Basic Lamp as a HEX string "RRGGBB" (an optional leading # is allowed, case-insensitive). Used only when that lamp has no dyed color. Empty or invalid = the warmth-based default color (unchanged behaviour).

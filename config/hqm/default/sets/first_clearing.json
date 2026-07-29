@@ -1,0 +1,529 @@
+{
+  "name": "The First Clearing",
+  "description": {
+    "text": "The first chapter teaches the player how this pack expects them to survive: check the kit, keep the atlas, make a shelter, and respect nightfall.",
+    "isTranslationKey": false
+  },
+  "quests": [
+    {
+      "uuid": "b14bedc4-9d36-4a06-a141-30d59c1cb21f",
+      "name": {
+        "text": "Wake In The Redwoods",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "You did not spawn in a normal overworld start. Read the journal, check the kit, and mark this entry once you understand that the forest is already watching.",
+        "isTranslationKey": false
+      },
+      "x": 0,
+      "y": 0,
+      "icon": {
+        "id": "minecraft:writable_book",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "description": {
+            "text": "Read the journal",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The starter journal establishes the watchtower job and the warning about voices in the woods. This quest is manual so the book can serve as a diegetic introduction.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:bread",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c4e96b7e-3d98-45ba-a9e5-95c07d22a6d3",
+      "name": {
+        "text": "Inventory Audit",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Confirm the essentials from CustomStartingGear: flashlight, water, atlas, axe, and cleaver. This teaches players that the starter kit is not flavor; it is survival equipment.",
+        "isTranslationKey": false
+      },
+      "x": 30,
+      "y": 0,
+      "icon": {
+        "id": "omegaflashlight:flashlight",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Carry the kit",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Have the listed supplies in your inventory.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "omegaflashlight:flashlight",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "legendarysurvivaloverhaul:purified_water_bottle",
+                "Count": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "antiqueatlas:empty_antique_atlas",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:stone_axe",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "butchery:bone_cleaver",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b14bedc4-9d36-4a06-a141-30d59c1cb21f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4f2ab8da-9454-4ac9-aef8-991a7e1c83e6",
+      "name": {
+        "text": "Hands Full Of Bark",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Gather enough wood to make the first shelter. FallingTree makes this quick, but the point is to establish a perimeter before the light goes.",
+        "isTranslationKey": false
+      },
+      "x": 60,
+      "y": 0,
+      "icon": {
+        "id": "minecraft:oak_log",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Gather logs",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Have the listed supplies in your inventory.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:oak_log",
+                "Count": 1
+              },
+              "required": 16,
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c4e96b7e-3d98-45ba-a9e5-95c07d22a6d3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:torch",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "99bc0f9c-a328-4a10-a001-db856765cd6d",
+      "name": {
+        "text": "Stone Before Steel",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Collect stone and cobblestone before committing to a base location. The forest rewards simple preparation.",
+        "isTranslationKey": false
+      },
+      "x": 90,
+      "y": 0,
+      "icon": {
+        "id": "minecraft:cobblestone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Gather rough stone",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Have the listed supplies in your inventory.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:cobblestone",
+                "Count": 1
+              },
+              "required": 24,
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "4f2ab8da-9454-4ac9-aef8-991a7e1c83e6"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:coal",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "833c3a3d-fe43-4180-adaf-b44f82bebafc",
+      "name": {
+        "text": "A Door Between You And It",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Build a sealed room with a bed or bedroll nearby. Check this once you can close the door and stop watching every tree line.",
+        "isTranslationKey": false
+      },
+      "x": 120,
+      "y": 0,
+      "icon": {
+        "id": "minecraft:oak_door",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "description": {
+            "text": "Build a shelter",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Make a small enclosed shelter before the first night. HQM cannot reliably inspect a whole base, so this is intentionally a manual survival checkpoint.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [
+        "99bc0f9c-a328-4a10-a001-db856765cd6d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:glass",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "28455adf-801f-4346-a545-8149b4eb3b18",
+      "name": {
+        "text": "Name The Place",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Open or craft an Antique Atlas and start marking useful landmarks. Navigation matters because F3 information is intentionally restricted.",
+        "isTranslationKey": false
+      },
+      "x": 150,
+      "y": 0,
+      "icon": {
+        "id": "antiqueatlas:empty_antique_atlas",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Keep an atlas",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Have the listed supplies in your inventory.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "antiqueatlas:empty_antique_atlas",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "833c3a3d-fe43-4180-adaf-b44f82bebafc"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:paper",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "074804ea-0d4f-444d-a4b1-eaaeb88a0206",
+      "name": {
+        "text": "Leave Room For Panic",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Craft a backpack so caving and supply runs do not turn into inventory management disasters.",
+        "isTranslationKey": false
+      },
+      "x": 180,
+      "y": 0,
+      "icon": {
+        "id": "backpacked:backpack",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:craft",
+          "description": {
+            "text": "Craft a backpack",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Craft the listed item after this quest is available.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "backpacked:backpack",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "28455adf-801f-4346-a545-8149b4eb3b18"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:leather",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "61c3cc85-3dde-458a-a858-cc8347782f9c",
+      "name": {
+        "text": "Night Has Fallen",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The first night message is not just atmosphere. Darkness, sound, fog, and stalker events make night a real system.",
+        "isTranslationKey": false
+      },
+      "x": 210,
+      "y": 0,
+      "icon": {
+        "id": "minecraft:clock",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "description": {
+            "text": "Survive a night",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Stay alive through a full night cycle in the Overworld. Use light, walls, distance, and sound instead of rushing combat.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [
+        "833c3a3d-fe43-4180-adaf-b44f82bebafc"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "de97bc46-dbca-4a87-a117-08d3454594ed",
+      "name": {
+        "text": "The Usual Dead",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Prove you can handle normal Minecraft hostiles before chasing the things added by the horror mods.",
+        "isTranslationKey": false
+      },
+      "x": 240,
+      "y": 0,
+      "icon": {
+        "id": "minecraft:iron_sword",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:kill",
+          "description": {
+            "text": "Kill zombies",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Kill the listed hostile mobs.",
+            "isTranslationKey": false
+          },
+          "mobs": [
+            {
+              "name": {
+                "text": "Kill zombies",
+                "isTranslationKey": false
+              },
+              "mob": "minecraft:zombie",
+              "kills": 5
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:kill",
+          "description": {
+            "text": "Kill skeletons",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Kill the listed hostile mobs.",
+            "isTranslationKey": false
+          },
+          "mobs": [
+            {
+              "name": {
+                "text": "Kill skeletons",
+                "isTranslationKey": false
+              },
+              "mob": "minecraft:skeleton",
+              "kills": 3
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "61c3cc85-3dde-458a-a858-cc8347782f9c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:arrow",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "23c1c9c7-3c34-411a-abb5-015460c2fc86",
+      "name": {
+        "text": "One More Day",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Finish the basic loop: shelter, food, water, light, map. From here the pack opens into specialist systems.",
+        "isTranslationKey": false
+      },
+      "x": 270,
+      "y": 0,
+      "icon": {
+        "id": "minecraft:campfire",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "description": {
+            "text": "Stabilize the first base",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Mark this once you have a defensible base, a marked atlas, spare food, drinkable water, and a plan for the next trip.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [
+        "de97bc46-dbca-4a87-a117-08d3454594ed",
+        "074804ea-0d4f-444d-a4b1-eaaeb88a0206"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:halfheart",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

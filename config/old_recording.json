@@ -7,12 +7,12 @@
   "vignetteStrength": 0.0,
   "grainStrength": 0.1,
   "scanlineStrength": 0.6,
-  "scratchStrength": 0.5,
+  "scratchStrength": 0.0,
   "flickerStrength": 0.0,
   "trackingBarStrength": 0.4,
   "enableSepia": false,
   "enableScanlines": true,
   "enableTrackingBar": true,
-  "enableScratches": true,
+  "enableScratches": false,
   "warningAccepted": true
 }

@@ -1,0 +1,485 @@
+{
+  "name": "Food And Butchery",
+  "description": {
+    "text": "The pack leans into practical, uncomfortable food production. Butchery, Farmer's Delight, thirst, and custom recipes turn meals into progression.",
+    "isTranslationKey": false
+  },
+  "quests": [
+    {
+      "uuid": "5e10efe0-e374-4f2a-a419-b5aff701c168",
+      "name": {
+        "text": "Forage Before Hunger",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Collect simple food before hunting. The goal is to teach that every trip starts with calories.",
+        "isTranslationKey": false
+      },
+      "x": 0,
+      "y": 0,
+      "icon": {
+        "id": "minecraft:sweet_berries",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Carry simple food",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Have the listed supplies in your inventory.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bread",
+                "Count": 1
+              },
+              "required": 8,
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "23c1c9c7-3c34-411a-abb5-015460c2fc86"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:apple",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1b5b4ccb-45ea-4744-a30b-27c5b8abae53",
+      "name": {
+        "text": "The Cleaver Is Not A Weapon",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The starter bone cleaver points directly at Butchery progression. Keep it on you.",
+        "isTranslationKey": false
+      },
+      "x": 30,
+      "y": 0,
+      "icon": {
+        "id": "butchery:bone_cleaver",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Carry a cleaver",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Have the listed supplies in your inventory.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "butchery:bone_cleaver",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5e10efe0-e374-4f2a-a419-b5aff701c168"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:bone",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "52c856c2-1284-41d7-ac1b-ef2563ea14c6",
+      "name": {
+        "text": "Cleaner Work",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Craft a skinning knife for proper carcass processing.",
+        "isTranslationKey": false
+      },
+      "x": 60,
+      "y": 0,
+      "icon": {
+        "id": "butchery:bone_skinning_knife",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:craft",
+          "description": {
+            "text": "Craft a skinning knife",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Craft the listed item after this quest is available.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "butchery:bone_skinning_knife",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1b5b4ccb-45ea-4744-a30b-27c5b8abae53"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:leather",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "07c53924-1ba3-431d-a17a-f79e9fb3bcda",
+      "name": {
+        "text": "Table Work",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Build a butcher table and move carcass work out of your main room.",
+        "isTranslationKey": false
+      },
+      "x": 90,
+      "y": 0,
+      "icon": {
+        "id": "butchery:oak_butchers_table",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:craft",
+          "description": {
+            "text": "Craft a butcher table",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Craft the listed item after this quest is available.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "butchery:oak_butchers_table",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "52c856c2-1284-41d7-ac1b-ef2563ea14c6"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_nugget",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5ce658a5-3c31-4922-ad5e-28434388ec25",
+      "name": {
+        "text": "Meat Has A Cost",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Hunt normal animals first. Save the horror entities for when you have armor, light, and an exit route.",
+        "isTranslationKey": false
+      },
+      "x": 120,
+      "y": 0,
+      "icon": {
+        "id": "minecraft:beef",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:kill",
+          "description": {
+            "text": "Hunt cows",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Kill the listed hostile mobs.",
+            "isTranslationKey": false
+          },
+          "mobs": [
+            {
+              "name": {
+                "text": "Hunt cows",
+                "isTranslationKey": false
+              },
+              "mob": "minecraft:cow",
+              "kills": 2
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:kill",
+          "description": {
+            "text": "Hunt pigs",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Kill the listed hostile mobs.",
+            "isTranslationKey": false
+          },
+          "mobs": [
+            {
+              "name": {
+                "text": "Hunt pigs",
+                "isTranslationKey": false
+              },
+              "mob": "minecraft:pig",
+              "kills": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "07c53924-1ba3-431d-a17a-f79e9fb3bcda"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:coal",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d3eb787a-fee2-4946-a5aa-d90fb466bba4",
+      "name": {
+        "text": "A Real Meal",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The cooking pot recipe is custom and more expensive, so it marks the shift from scraps to meals.",
+        "isTranslationKey": false
+      },
+      "x": 150,
+      "y": 0,
+      "icon": {
+        "id": "farmersdelight:cooking_pot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:craft",
+          "description": {
+            "text": "Craft a cooking pot",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Craft the listed item after this quest is available.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "farmersdelight:cooking_pot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5ce658a5-3c31-4922-ad5e-28434388ec25"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:bowl",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "43fe7113-94bc-4545-a08c-93901834fc40",
+      "name": {
+        "text": "Permanent Kitchen",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "A stove is a base investment. Once built, long trips become easier to prepare for.",
+        "isTranslationKey": false
+      },
+      "x": 180,
+      "y": 0,
+      "icon": {
+        "id": "farmersdelight:stove",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:craft",
+          "description": {
+            "text": "Craft a stove",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Craft the listed item after this quest is available.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "farmersdelight:stove",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d3eb787a-fee2-4946-a5aa-d90fb466bba4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:brick",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b05f1f8c-7d16-45cf-a974-f258fd499c83",
+      "name": {
+        "text": "Crates And Shelves",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Store ingredients in crates and keep the base scannable under pressure.",
+        "isTranslationKey": false
+      },
+      "x": 210,
+      "y": 0,
+      "icon": {
+        "id": "farmersdelight:carrot_crate",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:craft",
+          "description": {
+            "text": "Craft a food crate",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Craft the listed item after this quest is available.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "farmersdelight:carrot_crate",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "43fe7113-94bc-4545-a08c-93901834fc40"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:chest",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2f9837bc-3a25-4278-ae60-f31a450642e0",
+      "name": {
+        "text": "Crystal Heart",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The custom heart-container recipe ties healing herbs and gold apples into long-term survival.",
+        "isTranslationKey": false
+      },
+      "x": 240,
+      "y": 0,
+      "icon": {
+        "id": "legendarysurvivaloverhaul:heart_container",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:craft",
+          "description": {
+            "text": "Craft a crystal heart",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Craft the listed item after this quest is available.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "legendarysurvivaloverhaul:heart_container",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b05f1f8c-7d16-45cf-a974-f258fd499c83"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:halfheart",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

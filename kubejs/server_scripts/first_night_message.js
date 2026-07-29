@@ -39,14 +39,14 @@ PlayerEvents.tick(event => {
 
   // Title: cold, moonlit slate-blue, types itself in and lingers.
   server.runCommandSilent(
-    `immersivemessages sendcustom ${name} {anchor:0,y:-8f,size:2.2f,font:"immersivemessages:anton",color:"#8FA3C2",typewriter:1b,fadein:1.2f,fadeout:2.0f} 6 Night has fallen`
+    `immersivemessages sendcustom ${name} {anchor:0,y:80f,size:1.2f,color:"#8FA3C2",typewriter:1b,fadein:1f,fadeout:1f} 6 Night has fallen`
   )
 
   // Subtitle: a scrawled, uneasy line just below.
   server.scheduleInTicks(30, () => {
     if (!player || player.isRemoved()) return
     server.runCommandSilent(
-      `immersivemessages sendcustom ${name} {anchor:0,y:18f,size:1.15f,font:"immersivemessages:kalam",color:"#9A9184",italic:1b,typewriter:1b,fadein:1.4f,fadeout:2.0f} 5 Something stirs in the dark...`
+      `immersivemessages sendcustom ${name} {anchor:0,y:100f,size:1f,color:"#9A9184",italic:1b,typewriter:1b,fadein:1.4f,fadeout:2.0f} 5 Something stirs in the dark...`
     )
   })
 })

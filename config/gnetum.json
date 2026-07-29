@@ -1,6 +1,6 @@
 {
   "enabled": {
-    "value": "ON"
+    "value": "OFF"
   },
   "showHudFps": {
     "value": "ON"
@@ -97,6 +97,12 @@
       "pass": 3
     },
     "minecraft:title_text": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "autohud:chat_indicator": {
       "enabled": {
         "value": "AUTO"
       },
@@ -237,6 +243,18 @@
       "pass": 1
     },
     "the_deep_void": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "gore_edition": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "goat_man": {
       "enabled": {
         "value": "AUTO"
       },
