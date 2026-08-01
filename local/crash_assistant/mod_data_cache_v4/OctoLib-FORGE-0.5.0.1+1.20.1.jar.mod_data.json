@@ -1,0 +1,1 @@
+{"jarName":"OctoLib-FORGE-0.5.0.1+1.20.1.jar","modId":"octolib","name":"OctoLib","version":"0.5.0.1","mixinConfigs":["octolib-common.mixins.json"],"jarJarMods":[{"jarName":"snakeyaml-2.2.jar","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}],"curseForgeHash":2265070471,"modrinthHash":"9eab28baff36942e1c924489e34753df10f40208"}

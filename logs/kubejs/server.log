@@ -1,23 +1,23 @@
-[15:56:25] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[15:56:25] [INIT] Loaded plugins:
-[15:56:25] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[15:56:25] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[15:56:25] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
-[15:56:25] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
-[15:56:26] [INFO] Loaded script server_scripts:deepvoid_message.js in 0.001 s
-[15:56:26] [INFO] Loaded script server_scripts:first_join_message.js in 0.0 s
-[15:56:26] [INFO] Loaded script server_scripts:first_night_message.js in 0.0 s
-[15:56:26] [INFO] Loaded script server_scripts:iron_tools_recipes.js in 0.002 s
-[15:56:26] [INFO] Loaded script server_scripts:limbo_message.js in 0.0 s
-[15:56:26] [INFO] Loaded script server_scripts:recipes.js in 0.001 s
-[15:56:26] [INFO] Loaded 6/6 KubeJS server scripts in 0.007 s with 0 errors and 0 warnings
-[15:56:26] [INFO] Scripts loaded
-[15:56:26] [INFO] Initializing recipe event...
-[15:56:26] [INFO] Processing recipes...
-[15:56:26] [WARN] Failed to parse recipe 'butchery:guide[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[15:56:26] [WARN] Failed to parse recipe 'theforest_recipes:unlit_torches_to_lit_torches[minecraft:campfire_cooking]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[15:56:26] [INFO] Found 4200 recipes in 25.64 ms
-[15:56:26] [INFO] Posted recipe events in 20.09 ms
-[15:56:26] [WARN] Error parsing recipe alexsdelight:barbecue_on_a_stick[minecraft:crafting_shapeless]: {"group":"barbecue_stick","type":"minecraft:crafting_shapeless","ingredients":[{"item":"farmersdelight:tomato"},{"item":"farmersdelight:onion"},{"item":"amfd:singular_cooked_moose_rib"},{"item":"minecraft:cooked_chicken"},{"item":"minecraft:stick"},{"item":"minecraft:stick"}],"result":{"item":"farmersdelight:barbecue_stick","count":2}}: Unknown item 'amfd:singular_cooked_moose_rib'
-[15:56:26] [INFO] Added 18 recipes, removed 51 recipes, modified 0 recipes, with 1 failed recipes in 6.690 ms
-[15:56:27] [INFO] Server resource reload complete!
+[22:34:09] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[22:34:09] [INIT] Loaded plugins:
+[22:34:09] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[22:34:09] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[22:34:09] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[22:34:09] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
+[22:34:09] [INFO] Loaded script server_scripts:first_join_message.js in 0.002 s
+[22:34:09] [INFO] Loaded script server_scripts:iron_tools_recipes.js in 0.002 s
+[22:34:09] [INFO] Loaded script server_scripts:first_night_message.js in 0.001 s
+[22:34:09] [INFO] Loaded script server_scripts:deepvoid_message.js in 0.001 s
+[22:34:09] [INFO] Loaded script server_scripts:limbo_message.js in 0.001 s
+[22:34:09] [INFO] Loaded script server_scripts:recipes.js in 0.001 s
+[22:34:09] [INFO] Loaded 6/6 KubeJS server scripts in 0.022 s with 0 errors and 0 warnings
+[22:34:09] [INFO] Scripts loaded
+[22:34:09] [INFO] Initializing recipe event...
+[22:34:10] [INFO] Processing recipes...
+[22:34:10] [WARN] Failed to parse recipe 'butchery:guide[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:34:10] [WARN] Failed to parse recipe 'theforest_recipes:unlit_torches_to_lit_torches[minecraft:campfire_cooking]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:34:10] [INFO] Found 4200 recipes in 51.96 ms
+[22:34:11] [INFO] Posted recipe events in 141.2 ms
+[22:34:11] [WARN] Error parsing recipe alexsdelight:barbecue_on_a_stick[minecraft:crafting_shapeless]: {"group":"barbecue_stick","type":"minecraft:crafting_shapeless","ingredients":[{"item":"farmersdelight:tomato"},{"item":"farmersdelight:onion"},{"item":"amfd:singular_cooked_moose_rib"},{"item":"minecraft:cooked_chicken"},{"item":"minecraft:stick"},{"item":"minecraft:stick"}],"result":{"item":"farmersdelight:barbecue_stick","count":2}}: Unknown item 'amfd:singular_cooked_moose_rib'
+[22:34:11] [INFO] Added 18 recipes, removed 51 recipes, modified 0 recipes, with 1 failed recipes in 20.86 ms
+[22:34:16] [INFO] Server resource reload complete!

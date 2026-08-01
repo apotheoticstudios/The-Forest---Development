@@ -8,7 +8,7 @@
 		replace_window_title = false
 
 	[general.online_status]
-		show_essential_indicator_on_tab = true
+		show_essential_indicator_on_tab = false
 		show_essential_indicator_on_nametags = false
 
 	[general.experience]

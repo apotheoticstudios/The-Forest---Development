@@ -8,6 +8,8 @@
 
 - Added colored-lighting
 
+- Fixed jumbled menu screen layout in some resolutions
+
 - General performance improvements (especially with flashlight)
 
 - Removed custom skies (too bright)

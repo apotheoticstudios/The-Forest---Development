@@ -6,7 +6,7 @@ modpackMode = false
   # Fullscreen and borderless window behavior
   # Window mode applied at boot and by the fullscreen option
   # Accepted values are: [WINDOWED, BORDERLESS, FULLSCREEN]
-  mode = "WINDOWED"
+  mode = "BORDERLESS"
 
   # Adds 1px to the borderless window height, avoiding driver-level exclusive fullscreen optimizations
   disableBorderlessOptimizations = false
@@ -18,7 +18,7 @@ modpackMode = false
 [fpsDisplay]
   # FPS and system details overlay
   # Accepted values are: [OFF, SIMPLE, ADVANCED]
-  mode = "ADVANCED"
+  mode = "OFF"
 
   # Accepted values are: [LEFT, CENTER, RIGHT]
   align = "LEFT"
