@@ -11187,3 +11187,42 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity
 [22:39:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev World]'/minecraft:the_end
 [22:39:59] [Render thread/INFO]: [ReactiveMusic]: Changing entry: DAY_ Song name: Alpha
 [22:39:59] [ReactiveMusic Player Thread/INFO]: Playing Alpha
+[22:40:22] [CullThread/INFO]: [dev.tr7zw.entityculling.CullTask:run:89]: Shutting down culling task!
+[22:40:22] [Render thread/INFO]: Stopping!
+[22:40:22] [Render thread/INFO]: Disconnected from server, resetting proxy config values
+[22:40:22] [Render thread/INFO]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
+[22:40:22] [Render thread/INFO]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
+[22:40:22] [Render thread/INFO]: Stopping JEI
+[22:40:22] [Render thread/INFO]: Sending Runtime Unavailable...
+[22:40:22] [Render thread/INFO]: Stopping JEI GUI
+[22:40:22] [Render thread/INFO]: Sending Runtime Unavailable took 7.662 ms
+[22:40:22] [Render thread/INFO]: Block minecraft:vine had its color provider replaced and will not use per-vertex coloring
+[22:40:22] [Render thread/INFO]: Block minecraft:birch_leaves had its color provider replaced and will not use per-vertex coloring
+[22:40:22] [Render thread/INFO]: Block minecraft:spruce_leaves had its color provider replaced and will not use per-vertex coloring
+[22:40:22] [Render thread/INFO]: Colored light engine reset
+[22:40:22] [Render thread/INFO]: [voicechat] Clearing audio channels
+[22:40:22] [Server thread/INFO]: _Apotheotic_ lost connection: Disconnected
+[22:40:22] [Server thread/INFO]: _Apotheotic_ left the game
+[22:40:22] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[22:40:22] [Server thread/INFO]: Stopping server
+[22:40:22] [Server thread/INFO]: Saving players
+[22:40:22] [Server thread/INFO]: Saving worlds
+[22:40:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev World]'/minecraft:overworld
+[22:40:23] [Server thread/INFO]: Saving HQM world data
+[22:40:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev World]'/gore_edition:the_xash
+[22:40:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev World]'/minecraft:the_nether
+[22:40:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Dev World]'/minecraft:the_end
+[22:40:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
+[22:40:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (the_xash): All chunks are saved
+[22:40:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:40:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:40:23] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:40:24] [Server thread/INFO]: Unloading server configs...
+[22:40:24] [Server thread/INFO]: Sending config unload event for backpacked.backpack.toml
+[22:40:24] [Server thread/INFO]: Sending config unload event for refurbished_furniture.server.toml
+[22:40:24] [Server thread/INFO]: Sending config unload event for backpacked.server.toml
+[22:40:24] [Server thread/INFO]: Sending config unload event for backpacked.augments.toml
+[22:40:24] [Server thread/INFO]: Finished unloading server configs
+[22:40:24] [Render thread/INFO]: Stopping worker threads
+[22:40:24] [Render thread/INFO]: [ETF]: emissive suffixes loaded: [_e]
+[22:40:24] [Thread-20/INFO]: Sound of Rain is evaporating...
