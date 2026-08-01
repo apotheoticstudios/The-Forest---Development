@@ -1,10 +1,1 @@
-{
-  "sets": [
-    "first_clearing",
-    "light_and_climate",
-    "food_and_butchery",
-    "exploration_and_evidence",
-    "signals_and_escalation",
-    "wrong_places"
-  ]
-}
+{"sets":["The_First_Clearing","Light_And_Climate","Food_And_Butchery","Exploration_And_Evidence","Signals_And_Escalation","Wrong_Places"]}

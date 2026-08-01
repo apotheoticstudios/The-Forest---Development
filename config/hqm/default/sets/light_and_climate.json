@@ -1,232 +1,27 @@
 {
   "name": "Light And Climate",
-  "description": {
-    "text": "Light is the central tool in The Forest. This chapter moves from fire and water into flashlights, lamps, cold protection, and seasonal awareness.",
-    "isTranslationKey": false
-  },
   "quests": [
     {
-      "uuid": "0bbb1ef4-1f0c-4f3c-af37-b4051600fd67",
+      "uuid": "25c43c9f-2401-47d9-a989-7a141d96564a",
       "name": {
-        "text": "Boil The Creek",
+        "text": "A Beam You Trust",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Water is not optional. The pack starts you with purified bottles and adds a campfire recipe for more.",
-        "isTranslationKey": false
-      },
-      "x": 0,
-      "y": 0,
-      "icon": {
-        "id": "legendarysurvivaloverhaul:purified_water_bottle",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:craft",
-          "description": {
-            "text": "Make purified water",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Craft the listed item after this quest is available.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "legendarysurvivaloverhaul:purified_water_bottle",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "23c1c9c7-3c34-411a-abb5-015460c2fc86"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:charcoal",
-          "Count": 8
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "eae18e83-33c9-48a7-abfb-7efd596d89c0",
-      "name": {
-        "text": "Something With A Cap",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Craft a canteen so thirst stops controlling every trip.",
-        "isTranslationKey": false
-      },
-      "x": 30,
-      "y": 0,
-      "icon": {
-        "id": "legendarysurvivaloverhaul:canteen",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:craft",
-          "description": {
-            "text": "Craft a canteen",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Craft the listed item after this quest is available.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "legendarysurvivaloverhaul:canteen",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "0bbb1ef4-1f0c-4f3c-af37-b4051600fd67"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "legendarysurvivaloverhaul:purified_water_bottle",
-          "Count": 2
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "8ae17ae2-41d4-45f7-a3ab-ca751623f3d3",
-      "name": {
-        "text": "Stop The Bleeding",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Carry medical supplies before hunting the things that make the soundscape go quiet.",
-        "isTranslationKey": false
-      },
-      "x": 60,
-      "y": 0,
-      "icon": {
-        "id": "legendarysurvivaloverhaul:bandage",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:craft",
-          "description": {
-            "text": "Craft bandages",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Craft the listed item after this quest is available.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "legendarysurvivaloverhaul:bandage",
-                "Count": 1
-              },
-              "required": 3
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "eae18e83-33c9-48a7-abfb-7efd596d89c0"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:string",
-          "Count": 8
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "149e730c-2824-4e86-aac1-09d4b801d748",
-      "name": {
-        "text": "Read The Air",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Temperature is enabled and dangerous cold can hurt you. Craft a thermometer before traveling far.",
-        "isTranslationKey": false
-      },
-      "x": 90,
-      "y": 0,
-      "icon": {
-        "id": "legendarysurvivaloverhaul:thermometer",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:craft",
-          "description": {
-            "text": "Craft a thermometer",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Craft the listed item after this quest is available.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "legendarysurvivaloverhaul:thermometer",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "8ae17ae2-41d4-45f7-a3ab-ca751623f3d3"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:redstone",
-          "Count": 8
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "4501203b-3374-4a59-ac36-e78f6fc28286",
-      "name": {
-        "text": "The Season Has Teeth",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Serene Seasons and survival temperature make long-term shelter planning matter.",
+        "text": "Upgrade beyond basic lamps once you can afford the materials. Better light should feel like progress.",
         "isTranslationKey": false
       },
       "x": 120,
-      "y": 0,
+      "y": 45,
       "icon": {
-        "id": "legendarysurvivaloverhaul:seasonal_calendar",
+        "id": "omegaflashlight:high_quality_lamp",
         "Count": 1
       },
       "tasks": [
         {
           "type": "hardcorequesting:craft",
           "description": {
-            "text": "Craft a seasonal calendar",
+            "text": "Craft a high-quality lamp",
             "isTranslationKey": false
           },
           "longDescription": {
@@ -236,7 +31,7 @@
           "items": [
             {
               "item": {
-                "id": "legendarysurvivaloverhaul:seasonal_calendar",
+                "id": "omegaflashlight:high_quality_lamp",
                 "Count": 1
               }
             }
@@ -244,13 +39,13 @@
         }
       ],
       "prerequisites": [
-        "149e730c-2824-4e86-aac1-09d4b801d748"
+        "c98bd984-8619-4b4c-a3ec-2a02b41e23bc"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "minecraft:paper",
-          "Count": 8
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -301,112 +96,6 @@
         {
           "id": "minecraft:coal_block",
           "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "8a5fd790-5712-4813-a715-c538fee9bd4d",
-      "name": {
-        "text": "Reserve Power",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "The flashlight is reliable because it uses its own path, but batteries still define how long a trip can last.",
-        "isTranslationKey": false
-      },
-      "x": 30,
-      "y": 45,
-      "icon": {
-        "id": "omegaflashlight:large_battery",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:craft",
-          "description": {
-            "text": "Craft spare batteries",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Craft the listed item after this quest is available.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "omegaflashlight:small_battery",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "omegaflashlight:medium_battery",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "c4e96b7e-3d98-45ba-a9e5-95c07d22a6d3"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:redstone",
-          "Count": 12
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "e284a4dc-5daa-4a5c-a03c-8db7b13f6891",
-      "name": {
-        "text": "Fixed Light",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Move from handheld panic to permanent lighting with Omega lamps.",
-        "isTranslationKey": false
-      },
-      "x": 60,
-      "y": 45,
-      "icon": {
-        "id": "omegaflashlight:basic_lamp",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:craft",
-          "description": {
-            "text": "Craft a basic lamp",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Craft the listed item after this quest is available.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "omegaflashlight:basic_lamp",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "8a5fd790-5712-4813-a715-c538fee9bd4d"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:glowstone_dust",
-          "Count": 8
         }
       ],
       "rewardchoice": [],
@@ -467,26 +156,26 @@
       "commandrewards": []
     },
     {
-      "uuid": "25c43c9f-2401-47d9-a989-7a141d96564a",
+      "uuid": "eae18e83-33c9-48a7-abfb-7efd596d89c0",
       "name": {
-        "text": "A Beam You Trust",
+        "text": "Something With A Cap",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Upgrade beyond basic lamps once you can afford the materials. Better light should feel like progress.",
+        "text": "Craft a canteen so thirst stops controlling every trip.",
         "isTranslationKey": false
       },
-      "x": 120,
-      "y": 45,
+      "x": 30,
+      "y": 0,
       "icon": {
-        "id": "omegaflashlight:high_quality_lamp",
+        "id": "legendarysurvivaloverhaul:canteen",
         "Count": 1
       },
       "tasks": [
         {
           "type": "hardcorequesting:craft",
           "description": {
-            "text": "Craft a high-quality lamp",
+            "text": "Craft a canteen",
             "isTranslationKey": false
           },
           "longDescription": {
@@ -496,7 +185,7 @@
           "items": [
             {
               "item": {
-                "id": "omegaflashlight:high_quality_lamp",
+                "id": "legendarysurvivaloverhaul:canteen",
                 "Count": 1
               }
             }
@@ -504,18 +193,332 @@
         }
       ],
       "prerequisites": [
-        "c98bd984-8619-4b4c-a3ec-2a02b41e23bc"
+        "0bbb1ef4-1f0c-4f3c-af37-b4051600fd67"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "hardcorequesting:quarterheart",
-          "Count": 1
+          "id": "legendarysurvivaloverhaul:purified_water_bottle",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8a5fd790-5712-4813-a715-c538fee9bd4d",
+      "name": {
+        "text": "Reserve Power",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The flashlight is reliable because it uses its own path, but batteries still define how long a trip can last.",
+        "isTranslationKey": false
+      },
+      "x": 30,
+      "y": 45,
+      "icon": {
+        "id": "omegaflashlight:large_battery",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:craft",
+          "description": {
+            "text": "Craft spare batteries",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Craft the listed item after this quest is available.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "omegaflashlight:small_battery",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            },
+            {
+              "item": {
+                "id": "omegaflashlight:medium_battery",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c4e96b7e-3d98-45ba-a9e5-95c07d22a6d3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:redstone",
+          "Count": 12
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0bbb1ef4-1f0c-4f3c-af37-b4051600fd67",
+      "name": {
+        "text": "Boil The Creek",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Water is not optional. The pack starts you with purified bottles and adds a campfire recipe for more.",
+        "isTranslationKey": false
+      },
+      "x": 0,
+      "y": 0,
+      "icon": {
+        "id": "legendarysurvivaloverhaul:purified_water_bottle",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:craft",
+          "description": {
+            "text": "Make purified water",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Craft the listed item after this quest is available.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "legendarysurvivaloverhaul:purified_water_bottle",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "23c1c9c7-3c34-411a-abb5-015460c2fc86"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:charcoal",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4501203b-3374-4a59-ac36-e78f6fc28286",
+      "name": {
+        "text": "The Season Has Teeth",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Serene Seasons and survival temperature make long-term shelter planning matter.",
+        "isTranslationKey": false
+      },
+      "x": 120,
+      "y": 0,
+      "icon": {
+        "id": "legendarysurvivaloverhaul:seasonal_calendar",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:craft",
+          "description": {
+            "text": "Craft a seasonal calendar",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Craft the listed item after this quest is available.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "legendarysurvivaloverhaul:seasonal_calendar",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "149e730c-2824-4e86-aac1-09d4b801d748"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:paper",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e284a4dc-5daa-4a5c-a03c-8db7b13f6891",
+      "name": {
+        "text": "Fixed Light",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Move from handheld panic to permanent lighting with Omega lamps.",
+        "isTranslationKey": false
+      },
+      "x": 60,
+      "y": 45,
+      "icon": {
+        "id": "omegaflashlight:basic_lamp",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:craft",
+          "description": {
+            "text": "Craft a basic lamp",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Craft the listed item after this quest is available.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "omegaflashlight:basic_lamp",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "8a5fd790-5712-4813-a715-c538fee9bd4d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:glowstone_dust",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "149e730c-2824-4e86-aac1-09d4b801d748",
+      "name": {
+        "text": "Read The Air",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Temperature is enabled and dangerous cold can hurt you. Craft a thermometer before traveling far.",
+        "isTranslationKey": false
+      },
+      "x": 90,
+      "y": 0,
+      "icon": {
+        "id": "legendarysurvivaloverhaul:thermometer",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:craft",
+          "description": {
+            "text": "Craft a thermometer",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Craft the listed item after this quest is available.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "legendarysurvivaloverhaul:thermometer",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "8ae17ae2-41d4-45f7-a3ab-ca751623f3d3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:redstone",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8ae17ae2-41d4-45f7-a3ab-ca751623f3d3",
+      "name": {
+        "text": "Stop The Bleeding",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Carry medical supplies before hunting the things that make the soundscape go quiet.",
+        "isTranslationKey": false
+      },
+      "x": 60,
+      "y": 0,
+      "icon": {
+        "id": "legendarysurvivaloverhaul:bandage",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:craft",
+          "description": {
+            "text": "Craft bandages",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Craft the listed item after this quest is available.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "legendarysurvivaloverhaul:bandage",
+                "Count": 1
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "eae18e83-33c9-48a7-abfb-7efd596d89c0"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:string",
+          "Count": 8
         }
       ],
       "rewardchoice": [],
       "commandrewards": []
     }
   ],
-  "reputationBar": []
+  "reputationBar": [],
+  "description": {
+    "text": "Light is the central tool in The Forest. This chapter moves from fire and water into flashlights, lamps, cold protection, and seasonal awareness.",
+    "isTranslationKey": false
+  }
 }

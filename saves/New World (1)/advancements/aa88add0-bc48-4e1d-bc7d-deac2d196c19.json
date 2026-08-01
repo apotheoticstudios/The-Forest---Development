@@ -329,5 +329,77 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/magenta_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2026-08-01 16:13:12 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2026-08-01 16:12:26 +1000"
+    },
+    "done": true
+  },
+  "legendarysurvivaloverhaul:recipes/tools/thermometer": {
+    "criteria": {
+      "has_glass": "2026-08-01 16:06:12 +1000"
+    },
+    "done": true
+  },
+  "chimes:recipes/decorations/glass_bells": {
+    "criteria": {
+      "has_bottle": "2026-08-01 16:03:19 +1000"
+    },
+    "done": true
+  },
+  "longwings:recipes/decorations/glass_jar": {
+    "criteria": {
+      "has_items": "2026-08-01 16:03:19 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2026-08-01 16:06:12 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2026-08-01 16:12:46 +1000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/rainbow_glass": {
+    "criteria": {
+      "gustmaker": "2026-08-01 16:11:54 +1000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2026-08-01 16:03:14 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2026-08-01 16:09:55 +1000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_beef": "2026-08-01 16:03:14 +1000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2026-08-01 16:12:12 +1000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

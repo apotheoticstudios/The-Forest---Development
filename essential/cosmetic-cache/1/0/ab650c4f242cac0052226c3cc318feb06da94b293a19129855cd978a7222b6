@@ -1,0 +1,1 @@
+{"sound_definitions":{"lazer_defense_first_sound":{"category":"hostile","max_distance":32.0,"sounds":[{"name":"sounds/lazer_defense_first","interruptible":true}]},"lazer_defense_loop_sound":{"category":"hostile","max_distance":32.0,"sounds":[{"name":"sounds/lazer_defense_loop","interruptible":true}]}}}
