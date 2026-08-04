@@ -1,0 +1,306 @@
+{
+  "name": "Boundary Notes",
+  "description": {
+    "text": "Boundary work is simple: mark the edge of the useful map, test uncertain routes, and come back with notes.",
+    "isTranslationKey": false
+  },
+  "quests": [
+    {
+      "uuid": "0cf13a11-96eb-4ddc-ad66-7e9a23e1da72",
+      "name": {
+        "text": "Old Route Note",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Some older field notes mention routes that do not appear on the current map. Treat them as unreliable until the ground proves otherwise.",
+        "isTranslationKey": false
+      },
+      "x": -120,
+      "y": 0,
+      "icon": {
+        "id": "minecraft:ender_eye",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "description": {
+            "text": "Check an old route",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Choose one suspicious path, cave mouth, ravine, bunker stairwell, or broken road. Mark the entrance, walk no farther than you can safely return, and record whether the route matches the terrain around it.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [
+        "c67ee66b-d607-4e76-adf0-04423d5ac1ee"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:ender_pearl",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c2f9467e-6417-4bdb-a802-353c5b8cdbde",
+      "name": {
+        "text": "Unmarked Turn",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "A bad route is useful once it is named. Unknown ground stops being confusing when it becomes a warning marker.",
+        "isTranslationKey": false
+      },
+      "x": -80,
+      "y": 0,
+      "icon": {
+        "id": "minecraft:compass",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "description": {
+            "text": "Mark the uncertain turn",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Place an atlas marker and a physical marker at a route that disorients you, loops strangely, drops too sharply, or changes visibility faster than the surrounding forest.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [
+        "0cf13a11-96eb-4ddc-ad66-7e9a23e1da72"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "441508e3-f5b0-41a7-a42f-cba3dee95cc9",
+      "name": {
+        "text": "Bad Ground",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Low places collect water, fog, debris, and bad footing. Survey them before the next expedition depends on crossing them.",
+        "isTranslationKey": false
+      },
+      "x": -40,
+      "y": 0,
+      "icon": {
+        "id": "minecraft:echo_shard",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "description": {
+            "text": "Survey a low place",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Find a sinkhole, deep cave, flooded trench, ravine, or basin. Mark safe footing, unsafe footing, water access, and the fastest return path.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [
+        "0cf13a11-96eb-4ddc-ad66-7e9a23e1da72"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:amethyst_shard",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b22d954e-f62c-415a-a46c-00201f7f2ee0",
+      "name": {
+        "text": "Below The Sound",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The deepest trips are not only for loot. They test whether your route markers are clear enough to follow tired.",
+        "isTranslationKey": false
+      },
+      "x": 0,
+      "y": 0,
+      "icon": {
+        "id": "minecraft:sculk",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "description": {
+            "text": "Run a depth test",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Descend to the lowest safe point on a marked route, pause for thirty seconds, then return without taking a new tunnel home.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [
+        "441508e3-f5b0-41a7-a42f-cba3dee95cc9"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "26b4b492-660b-487a-a574-7c9d958fcade",
+      "name": {
+        "text": "Pocket Notes",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "If you cannot explain a route yet, at least make the note legible for the next person using your map.",
+        "isTranslationKey": false
+      },
+      "x": 40,
+      "y": 0,
+      "icon": {
+        "id": "minecraft:writable_book",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "description": {
+            "text": "Write a route warning",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Write a short note for one dangerous location: what it looks like, why it is unsafe, what supplies are required, and when to turn back.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [
+        "441508e3-f5b0-41a7-a42f-cba3dee95cc9"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:paper",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4289ae4a-b7e9-435d-a081-c5ae82e25d82",
+      "name": {
+        "text": "Find A Way Out",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The only successful boundary survey is the one that ends back at camp.",
+        "isTranslationKey": false
+      },
+      "x": 80,
+      "y": 0,
+      "icon": {
+        "id": "minecraft:recovery_compass",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "description": {
+            "text": "Return alive",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Return to base from a marked boundary, low place, or uncertain turn with your quest book, atlas, light, and one useful note or photograph.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [
+        "0cf13a11-96eb-4ddc-ad66-7e9a23e1da72",
+        "441508e3-f5b0-41a7-a42f-cba3dee95cc9"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:halfheart",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e22a1522-0af1-4666-a7a4-16c121343a63",
+      "name": {
+        "text": "File The Boundary",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unclear routes still need procedure: map them, photograph them, transmit them, and do not rely on memory.",
+        "isTranslationKey": false
+      },
+      "x": 120,
+      "y": 0,
+      "icon": {
+        "id": "exposure:album",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "description": {
+            "text": "Document the boundary case",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Add a photo or written note about the route, mark it on the atlas, and transmit the status from the radio station.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [
+        "4289ae4a-b7e9-435d-a081-c5ae82e25d82",
+        "b5f26f27-ade9-42f8-a3e1-9e62ab515b1c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:heart",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

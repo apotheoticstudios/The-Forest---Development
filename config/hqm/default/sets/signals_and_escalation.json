@@ -1,48 +1,10 @@
 {
   "name": "Signals And Escalation",
+  "description": {
+    "text": "Once the base is stable, the book moves into communication, range checks, practice, and a controlled overnight watch.",
+    "isTranslationKey": false
+  },
   "quests": [
-    {
-      "uuid": "5100b892-3d9e-4aa8-a9af-82b62bf8fd65",
-      "name": {
-        "text": "Range Markers",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Test contact from the edge of your marked perimeter.",
-        "isTranslationKey": false
-      },
-      "x": 180,
-      "y": 0,
-      "icon": {
-        "id": "minecraft:repeater",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:checkbox",
-          "description": {
-            "text": "Test the radio range",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Walk to a marked atlas point outside the base, test the handheld/radio setup, and return before nightfall.",
-            "isTranslationKey": false
-          }
-        }
-      ],
-      "prerequisites": [
-        "b5f26f27-ade9-42f8-a3e1-9e62ab515b1c"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:redstone_torch",
-          "Count": 4
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
     {
       "uuid": "a6bd1842-ee82-480e-afb2-2aeb26033a5b",
       "name": {
@@ -50,10 +12,10 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Simple Radio starts with parts. Make wire before building a whole station.",
+        "text": "Simple Radio starts with parts. Make wire before pretending anyone can hear you.",
         "isTranslationKey": false
       },
-      "x": 0,
+      "x": -140,
       "y": 0,
       "icon": {
         "id": "simpleradio:copper_wire",
@@ -81,7 +43,7 @@
         }
       ],
       "prerequisites": [
-        "8c1fd450-f0c8-4914-a1a9-7bd9880d17a7"
+        "942cc454-74da-49a9-a929-977ac4e916c6"
       ],
       "optionlinks": [],
       "reward": [
@@ -94,180 +56,16 @@
       "commandrewards": []
     },
     {
-      "uuid": "ba8a1359-0cf3-4c83-a26a-a69356a2862a",
-      "name": {
-        "text": "Escalation Bench",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "TaCZ exists for the moment avoidance stops being enough. Build the workbench before wasting ammo.",
-        "isTranslationKey": false
-      },
-      "x": 60,
-      "y": 45,
-      "icon": {
-        "id": "tacz:workbench_a",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:craft",
-          "description": {
-            "text": "Craft a gun workbench",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Craft the listed item after this quest is available.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "tacz:workbench_a",
-                "Count": 1
-              },
-              "precision": "NBT_FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "8c1fd450-f0c8-4914-a1a9-7bd9880d17a7"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:gunpowder",
-          "Count": 8
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "199449ae-52c8-4cc7-a7bd-52d69e6210c8",
-      "name": {
-        "text": "Build The Station",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Build the radio hardware that turns a camp into an outpost.",
-        "isTranslationKey": false
-      },
-      "x": 60,
-      "y": 0,
-      "icon": {
-        "id": "simpleradio:radio",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:craft",
-          "description": {
-            "text": "Craft a radio",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Craft the listed item after this quest is available.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "simpleradio:radio",
-                "Count": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:craft",
-          "description": {
-            "text": "Craft an antenna",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Craft the listed item after this quest is available.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "simpleradio:antenna",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "42aec49e-4c85-4668-afad-ebe66c20d860"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:iron_ingot",
-          "Count": 6
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "de6e3607-44cd-4946-a073-1a4ee992f708",
-      "name": {
-        "text": "Hold The Line",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "End the first quest arc by proving the outpost can survive pressure.",
-        "isTranslationKey": false
-      },
-      "x": 210,
-      "y": 0,
-      "icon": {
-        "id": "minecraft:crossbow",
-        "Count": 1,
-        "tag": "{Damage:0}"
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:checkbox",
-          "description": {
-            "text": "Survive a holdout night",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Spend a full night at the outpost with stocked water, food, light, medical supplies, radio access, and an escape route.",
-            "isTranslationKey": false
-          }
-        }
-      ],
-      "prerequisites": [
-        "5100b892-3d9e-4aa8-a9af-82b62bf8fd65",
-        "19c79fc9-c32c-461e-af1b-6f552264f81b"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "hardcorequesting:heart",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "42aec49e-4c85-4668-afad-ebe66c20d860",
       "name": {
         "text": "Short Range",
         "isTranslationKey": false
       },
       "description": {
-        "text": "A handheld radio is useful in multiplayer and still thematic in single player: someone might answer.",
+        "text": "A handheld radio is useful in multiplayer and still a good habit in single player. Test the tool before needing it.",
         "isTranslationKey": false
       },
-      "x": 30,
+      "x": -100,
       "y": 0,
       "icon": {
         "id": "simpleradio:walkie_talkie",
@@ -308,26 +106,26 @@
       "commandrewards": []
     },
     {
-      "uuid": "b5f26f27-ade9-42f8-a3e1-9e62ab515b1c",
+      "uuid": "199449ae-52c8-4cc7-a7bd-52d69e6210c8",
       "name": {
-        "text": "Two-Way Contact",
+        "text": "Base Station",
         "isTranslationKey": false
       },
       "description": {
-        "text": "A transceiver is the late-stage communication milestone.",
+        "text": "A station turns the shelter into an outpost and keeps reports centered in one place.",
         "isTranslationKey": false
       },
-      "x": 120,
+      "x": -60,
       "y": 0,
       "icon": {
-        "id": "simpleradio:transceiver",
+        "id": "simpleradio:radio",
         "Count": 1
       },
       "tasks": [
         {
           "type": "hardcorequesting:craft",
           "description": {
-            "text": "Craft a transceiver",
+            "text": "Craft radio hardware",
             "isTranslationKey": false
           },
           "longDescription": {
@@ -337,57 +135,13 @@
           "items": [
             {
               "item": {
-                "id": "simpleradio:transceiver",
+                "id": "simpleradio:radio",
                 "Count": 1
               }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "1b50a681-0cb5-4df0-abf0-8394915da4c0"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "hardcorequesting:quarterheart",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "e6963c43-05e9-4f82-af4e-1fb17393a2ce",
-      "name": {
-        "text": "Backup Channel",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "The separate Walkie-Talkie mod gives a simpler fallback channel.",
-        "isTranslationKey": false
-      },
-      "x": 150,
-      "y": 0,
-      "icon": {
-        "id": "walkietalkie:iron_walkietalkie",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:craft",
-          "description": {
-            "text": "Craft an iron walkie-talkie",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Craft the listed item after this quest is available.",
-            "isTranslationKey": false
-          },
-          "items": [
+            },
             {
               "item": {
-                "id": "walkietalkie:iron_walkietalkie",
+                "id": "simpleradio:antenna",
                 "Count": 1
               }
             }
@@ -401,23 +155,23 @@
       "reward": [
         {
           "id": "minecraft:iron_ingot",
-          "Count": 4
+          "Count": 6
         }
       ],
       "rewardchoice": [],
       "commandrewards": []
     },
     {
-      "uuid": "1b50a681-0cb5-4df0-abf0-8394915da4c0",
+      "uuid": "d6b2d7c9-3ed5-414b-ace3-bdf49e590d99",
       "name": {
         "text": "Tune The Signal",
         "isTranslationKey": false
       },
       "description": {
-        "text": "The Radiosmithing Station and Frequencer make communication feel like a project rather than a button.",
+        "text": "The Radiosmithing Station and Frequencer make contact deliberate. Record every frequency that carries clearly.",
         "isTranslationKey": false
       },
-      "x": 90,
+      "x": -20,
       "y": 0,
       "icon": {
         "id": "simpleradio:radiosmither",
@@ -464,17 +218,210 @@
       "commandrewards": []
     },
     {
-      "uuid": "19c79fc9-c32c-461e-af1b-6f552264f81b",
+      "uuid": "b5f26f27-ade9-42f8-a3e1-9e62ab515b1c",
       "name": {
-        "text": "Do Not Learn Under Chase",
+        "text": "Two-Way Contact",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Practice with targets before bringing firearms into a cave or night event.",
+        "text": "A transceiver is the first serious attempt to push a signal past rough terrain.",
         "isTranslationKey": false
       },
-      "x": 90,
-      "y": 45,
+      "x": 20,
+      "y": 0,
+      "icon": {
+        "id": "simpleradio:transceiver",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:craft",
+          "description": {
+            "text": "Craft a transceiver",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Craft the listed item after this quest is available.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "simpleradio:transceiver",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d6b2d7c9-3ed5-414b-ace3-bdf49e590d99"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:quarterheart",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e6963c43-05e9-4f82-af4e-1fb17393a2ce",
+      "name": {
+        "text": "Backup Channel",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The separate Walkie-Talkie mod gives a simpler fallback. Redundancy is useful when weather or distance cuts the first channel.",
+        "isTranslationKey": false
+      },
+      "x": -100,
+      "y": 70,
+      "icon": {
+        "id": "walkietalkie:iron_walkietalkie",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:craft",
+          "description": {
+            "text": "Craft an iron walkie-talkie",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Craft the listed item after this quest is available.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "walkietalkie:iron_walkietalkie",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "42aec49e-4c85-4668-afad-ebe66c20d860"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5100b892-3d9e-4aa8-a9af-82b62bf8fd65",
+      "name": {
+        "text": "Range Test",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Test contact from the edge of the marked perimeter. The return trip is part of the route check.",
+        "isTranslationKey": false
+      },
+      "x": 60,
+      "y": 0,
+      "icon": {
+        "id": "minecraft:repeater",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "description": {
+            "text": "Transmit from a marked point",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Walk to a marked atlas point outside the base, test the radio setup, record whether anything answers, and return before nightfall.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [
+        "b5f26f27-ade9-42f8-a3e1-9e62ab515b1c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:redstone_torch",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ba8a1359-0cf3-4c83-a26a-a69356a2862a",
+      "name": {
+        "text": "Escalation Bench",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "TaCZ belongs late in the field plan. Build the workbench before wasting ammunition during a real emergency.",
+        "isTranslationKey": false
+      },
+      "x": -60,
+      "y": 70,
+      "icon": {
+        "id": "tacz:workbench_a",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:craft",
+          "description": {
+            "text": "Craft a gun workbench",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Craft the listed item after this quest is available.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tacz:workbench_a",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c67ee66b-d607-4e76-adf0-04423d5ac1ee"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:gunpowder",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "19c79fc9-c32c-461e-af1b-6f552264f81b",
+      "name": {
+        "text": "Do Not Learn While Chased",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Practice before bringing firearms into a cave, campsite, or night route.",
+        "isTranslationKey": false
+      },
+      "x": -20,
+      "y": 70,
       "icon": {
         "id": "tacz:target",
         "Count": 1
@@ -512,11 +459,158 @@
       ],
       "rewardchoice": [],
       "commandrewards": []
+    },
+    {
+      "uuid": "20cab1c8-f5a2-4f4e-a709-460d4e4a0c95",
+      "name": {
+        "text": "Count Every Round",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "A gun without discipline makes louder mistakes.",
+        "isTranslationKey": false
+      },
+      "x": 20,
+      "y": 70,
+      "icon": {
+        "id": "minecraft:gunpowder",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:consume",
+          "description": {
+            "text": "Stock holdout supplies",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Submit basic ammunition materials to prove you can spare them. The reward is small because preparation is the real reward.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:gunpowder",
+                "Count": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_ingot",
+                "Count": 1
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "minecraft:paper",
+                "Count": 1
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "19c79fc9-c32c-461e-af1b-6f552264f81b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:flint",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "de6e3607-44cd-4946-a073-1a4ee992f708",
+      "name": {
+        "text": "Holdout Night",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "End the first major arc by staffing the outpost overnight without breaking procedure.",
+        "isTranslationKey": false
+      },
+      "x": 100,
+      "y": 0,
+      "icon": {
+        "id": "minecraft:crossbow",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "description": {
+            "text": "Survive a controlled holdout",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Spend a full night at the outpost with stocked water, food, light, medical supplies, radio access, a weapon, escape route, and an evidence log. Do not sleep through it.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [
+        "5100b892-3d9e-4aa8-a9af-82b62bf8fd65",
+        "20cab1c8-f5a2-4f4e-a709-460d4e4a0c95",
+        "8ea07bbf-8b66-4ff4-a8bd-660761fde7c1"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:heart",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c4baaeb9-99f1-4654-a83d-edd934496064",
+      "name": {
+        "text": "Transmit The Report",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Reports are only useful when sent. Transmit before the day's details blur together.",
+        "isTranslationKey": false
+      },
+      "x": 140,
+      "y": 0,
+      "icon": {
+        "id": "simpleradio:transceiver",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "description": {
+            "text": "Send the case summary",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "At dawn after the holdout, transmit a summary: base status, missing routes, weather, injuries if any, changed landmarks, and whether the tree line moved.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [
+        "de6e3607-44cd-4946-a073-1a4ee992f708"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:heart",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
     }
   ],
-  "reputationBar": [],
-  "description": {
-    "text": "Once the base is stable, the pack shifts toward communication, power, ranged defense, and a final attempt to make contact.",
-    "isTranslationKey": false
-  }
+  "reputationBar": []
 }

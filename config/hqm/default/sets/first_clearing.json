@@ -1,35 +1,35 @@
 {
   "name": "The First Clearing",
   "description": {
-    "text": "The first chapter teaches the player how this pack expects them to survive: check the kit, keep the atlas, make a shelter, and respect nightfall.",
+    "text": "Start with ordinary field setup: confirm the kit, build a small shelter, mark the ground, and learn how the woods look after dark.",
     "isTranslationKey": false
   },
   "quests": [
     {
       "uuid": "b14bedc4-9d36-4a06-a141-30d59c1cb21f",
       "name": {
-        "text": "Wake In The Redwoods",
+        "text": "Field Log 00",
         "isTranslationKey": false
       },
       "description": {
-        "text": "You did not spawn in a normal overworld start. Read the journal, check the kit, and mark this entry once you understand that the forest is already watching.",
+        "text": "You arrived under old redwoods with a quest book, a survival kit, and a lot of work ahead. Treat the clearing as a survey site.",
         "isTranslationKey": false
       },
-      "x": 0,
+      "x": -140,
       "y": 0,
       "icon": {
-        "id": "minecraft:writable_book",
+        "id": "hardcorequesting:quest_book",
         "Count": 1
       },
       "tasks": [
         {
           "type": "hardcorequesting:checkbox",
           "description": {
-            "text": "Read the journal",
+            "text": "Open the field log",
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "The starter journal establishes the watchtower job and the warning about voices in the woods. This quest is manual so the book can serve as a diegetic introduction.",
+            "text": "Read the quest book entry, check the first-join message, and get oriented before leaving the clearing.",
             "isTranslationKey": false
           }
         }
@@ -52,10 +52,10 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Confirm the essentials from CustomStartingGear: flashlight, water, atlas, axe, and cleaver. This teaches players that the starter kit is not flavor; it is survival equipment.",
+        "text": "The starting gear covers light, water, mapping, woodcutting, and food work. Account for every tool before moving.",
         "isTranslationKey": false
       },
-      "x": 30,
+      "x": -100,
       "y": 0,
       "icon": {
         "id": "omegaflashlight:flashlight",
@@ -65,11 +65,11 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Carry the kit",
+            "text": "Carry the issued kit",
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "Have the listed supplies in your inventory.",
+            "text": "Have the flashlight, two purified water bottles, the empty atlas, the stone axe, and the bone cleaver in your inventory.",
             "isTranslationKey": false
           },
           "items": [
@@ -123,14 +123,14 @@
     {
       "uuid": "4f2ab8da-9454-4ac9-aef8-991a7e1c83e6",
       "name": {
-        "text": "Hands Full Of Bark",
+        "text": "Timber For A Door",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Gather enough wood to make the first shelter. FallingTree makes this quick, but the point is to establish a perimeter before the light goes.",
+        "text": "FallingTree makes timber work quick. Gather enough wood for walls, storage, and repairs before the light thins out.",
         "isTranslationKey": false
       },
-      "x": 60,
+      "x": -60,
       "y": 0,
       "icon": {
         "id": "minecraft:oak_log",
@@ -140,11 +140,11 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Gather logs",
+            "text": "Stockpile logs",
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "Have the listed supplies in your inventory.",
+            "text": "Carry at least twenty-four logs. Any local timber is acceptable; the point is enough material for a sealed room.",
             "isTranslationKey": false
           },
           "items": [
@@ -153,7 +153,7 @@
                 "id": "minecraft:oak_log",
                 "Count": 1
               },
-              "required": 16,
+              "required": 24,
               "precision": "TAG_FUZZY"
             }
           ]
@@ -175,14 +175,14 @@
     {
       "uuid": "99bc0f9c-a328-4a10-a001-db856765cd6d",
       "name": {
-        "text": "Stone Before Steel",
+        "text": "Stone And Coal",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Collect stone and cobblestone before committing to a base location. The forest rewards simple preparation.",
+        "text": "Stone tools, a furnace, and spare coal make the first camp practical. Gather them before settling in for the evening.",
         "isTranslationKey": false
       },
-      "x": 90,
+      "x": -20,
       "y": 0,
       "icon": {
         "id": "minecraft:cobblestone",
@@ -192,11 +192,11 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Gather rough stone",
+            "text": "Gather base stone",
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "Have the listed supplies in your inventory.",
+            "text": "Carry building stone and fuel. Do not spend the first dusk mining with an open back.",
             "isTranslationKey": false
           },
           "items": [
@@ -205,7 +205,15 @@
                 "id": "minecraft:cobblestone",
                 "Count": 1
               },
-              "required": 24,
+              "required": 32,
+              "precision": "TAG_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:coal",
+                "Count": 1
+              },
+              "required": 8,
               "precision": "TAG_FUZZY"
             }
           ]
@@ -217,7 +225,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "minecraft:coal",
+          "id": "minecraft:glass",
           "Count": 8
         }
       ],
@@ -231,10 +239,10 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Build a sealed room with a bed or bedroll nearby. Check this once you can close the door and stop watching every tree line.",
+        "text": "Build a small room that closes. It does not need to be scenic; it needs to keep supplies dry and give you a controlled doorway.",
         "isTranslationKey": false
       },
-      "x": 120,
+      "x": 20,
       "y": 0,
       "icon": {
         "id": "minecraft:oak_door",
@@ -244,11 +252,11 @@
         {
           "type": "hardcorequesting:checkbox",
           "description": {
-            "text": "Build a shelter",
+            "text": "Seal the first room",
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "Make a small enclosed shelter before the first night. HQM cannot reliably inspect a whole base, so this is intentionally a manual survival checkpoint.",
+            "text": "Build a fully enclosed shelter with a door, a light source, a chest, and line of sight to the outside. Mark this only after you can shut yourself in and still find your supplies.",
             "isTranslationKey": false
           }
         }
@@ -259,8 +267,58 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "minecraft:glass",
+          "id": "minecraft:charcoal",
           "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "db54c4f6-4131-48b8-a754-0ab2b4ff51a4",
+      "name": {
+        "text": "Morning Check",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "A rested start makes fieldwork safer. Set a respawn point and keep track of where you wake.",
+        "isTranslationKey": false
+      },
+      "x": 60,
+      "y": 0,
+      "icon": {
+        "id": "minecraft:red_bed",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Set a respawn point",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Carry or place a bed. If you use a bedroll instead, keep this as a manual checkpoint and mark it after your spawn point is secured.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:red_bed",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "833c3a3d-fe43-4180-adaf-b44f82bebafc"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:white_wool",
+          "Count": 4
         }
       ],
       "rewardchoice": [],
@@ -269,14 +327,14 @@
     {
       "uuid": "28455adf-801f-4346-a545-8149b4eb3b18",
       "name": {
-        "text": "Name The Place",
+        "text": "Name The Clearing",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Open or craft an Antique Atlas and start marking useful landmarks. Navigation matters because F3 information is intentionally restricted.",
+        "text": "F3 is restricted, so the Antique Atlas is your route record. Start with names you can remember under bad weather.",
         "isTranslationKey": false
       },
-      "x": 150,
+      "x": 100,
       "y": 0,
       "icon": {
         "id": "antiqueatlas:empty_antique_atlas",
@@ -286,11 +344,11 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Keep an atlas",
+            "text": "Keep the atlas",
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "Have the listed supplies in your inventory.",
+            "text": "Keep the atlas on you until you can convert it into a marked field map.",
             "isTranslationKey": false
           },
           "items": [
@@ -304,13 +362,13 @@
         }
       ],
       "prerequisites": [
-        "833c3a3d-fe43-4180-adaf-b44f82bebafc"
+        "db54c4f6-4131-48b8-a754-0ab2b4ff51a4"
       ],
       "optionlinks": [],
       "reward": [
         {
           "id": "minecraft:paper",
-          "Count": 8
+          "Count": 12
         }
       ],
       "rewardchoice": [],
@@ -319,14 +377,14 @@
     {
       "uuid": "074804ea-0d4f-444d-a4b1-eaaeb88a0206",
       "name": {
-        "text": "Leave Room For Panic",
+        "text": "Field Pack Space",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Craft a backpack so caving and supply runs do not turn into inventory management disasters.",
+        "text": "A backpack gives you room for water, bandages, batteries, food, spare blocks, and samples from the day.",
         "isTranslationKey": false
       },
-      "x": 180,
+      "x": 140,
       "y": 0,
       "icon": {
         "id": "backpacked:backpack",
@@ -369,15 +427,15 @@
     {
       "uuid": "61c3cc85-3dde-458a-a858-cc8347782f9c",
       "name": {
-        "text": "Night Has Fallen",
+        "text": "Nightfall Routine",
         "isTranslationKey": false
       },
       "description": {
-        "text": "The first night message is not just atmosphere. Darkness, sound, fog, and stalker events make night a real system.",
+        "text": "Dense woods feel different after sundown. Stay close to camp and learn how far your light reaches.",
         "isTranslationKey": false
       },
-      "x": 210,
-      "y": 0,
+      "x": 20,
+      "y": 70,
       "icon": {
         "id": "minecraft:clock",
         "Count": 1
@@ -386,11 +444,11 @@
         {
           "type": "hardcorequesting:checkbox",
           "description": {
-            "text": "Survive a night",
+            "text": "Stay through one full night",
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "Stay alive through a full night cycle in the Overworld. Use light, walls, distance, and sound instead of rushing combat.",
+            "text": "Stay alive from nightfall to dawn in the Overworld. Use walls, light, sound, and retreat routes. Do not wander just because the path still looks familiar.",
             "isTranslationKey": false
           }
         }
@@ -411,15 +469,15 @@
     {
       "uuid": "de97bc46-dbca-4a87-a117-08d3454594ed",
       "name": {
-        "text": "The Usual Dead",
+        "text": "Known Hostiles",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Prove you can handle normal Minecraft hostiles before chasing the things added by the horror mods.",
+        "text": "Clear common hostiles around camp so routine night work is less chaotic.",
         "isTranslationKey": false
       },
-      "x": 240,
-      "y": 0,
+      "x": 60,
+      "y": 70,
       "icon": {
         "id": "minecraft:iron_sword",
         "Count": 1
@@ -428,17 +486,17 @@
         {
           "type": "hardcorequesting:kill",
           "description": {
-            "text": "Kill zombies",
+            "text": "Put down zombies",
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "Kill the listed hostile mobs.",
+            "text": "Complete the listed clearing task after the route home is marked.",
             "isTranslationKey": false
           },
           "mobs": [
             {
               "name": {
-                "text": "Kill zombies",
+                "text": "Put down zombies",
                 "isTranslationKey": false
               },
               "mob": "minecraft:zombie",
@@ -449,17 +507,17 @@
         {
           "type": "hardcorequesting:kill",
           "description": {
-            "text": "Kill skeletons",
+            "text": "Break skeleton line of fire",
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "Kill the listed hostile mobs.",
+            "text": "Complete the listed clearing task after the route home is marked.",
             "isTranslationKey": false
           },
           "mobs": [
             {
               "name": {
-                "text": "Kill skeletons",
+                "text": "Break skeleton line of fire",
                 "isTranslationKey": false
               },
               "mob": "minecraft:skeleton",
@@ -484,15 +542,15 @@
     {
       "uuid": "23c1c9c7-3c34-411a-abb5-015460c2fc86",
       "name": {
-        "text": "One More Day",
+        "text": "The First Routine",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Finish the basic loop: shelter, food, water, light, map. From here the pack opens into specialist systems.",
+        "text": "A camp works when supplies, exits, light, and habits are repeatable.",
         "isTranslationKey": false
       },
-      "x": 270,
-      "y": 0,
+      "x": 100,
+      "y": 70,
       "icon": {
         "id": "minecraft:campfire",
         "Count": 1
@@ -501,11 +559,11 @@
         {
           "type": "hardcorequesting:checkbox",
           "description": {
-            "text": "Stabilize the first base",
+            "text": "Stabilize the clearing",
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "Mark this once you have a defensible base, a marked atlas, spare food, drinkable water, and a plan for the next trip.",
+            "text": "Before opening the rest of the book, have a sealed shelter, spare food, drinkable water, torches or lamps, a marked atlas, storage, and a route you can run in the dark.",
             "isTranslationKey": false
           }
         }
