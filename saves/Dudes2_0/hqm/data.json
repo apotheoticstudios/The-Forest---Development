@@ -1,1 +1,1531 @@
-[]
+[
+  {
+    "uuid": "aa88add0-bc48-4e1d-bc7d-deac2d196c19",
+    "name": "_Apotheotic_",
+    "lives": 3,
+    "team": {
+      "id": "00000000-0000-0000-0000-000000000000",
+      "lifeSetting": "SHARE",
+      "rewardSetting": "ALL",
+      "players": [
+        {
+          "uuid": "aa88add0-bc48-4e1d-bc7d-deac2d196c19",
+          "owner": true,
+          "inTeam": true,
+          "name": "_Apotheotic_"
+        }
+      ],
+      "reputations": [],
+      "questDataList": [
+        {
+          "questId": "7ef931f2-adfb-47fc-a4fe-30fbe50fa287",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 2,
+                "progress": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "659e7418-80bd-4940-ab8e-0182e2c2b6b2",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "1b5b4ccb-45ea-4744-a30b-27c5b8abae53",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "b5f26f27-ade9-42f8-a3e1-9e62ab515b1c",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "8ea07bbf-8b66-4ff4-a8bd-660761fde7c1",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "d9c06df2-d1f0-46d6-a6da-2ab1ead34aa0",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "23c1c9c7-3c34-411a-abb5-015460c2fc86",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "19c79fc9-c32c-461e-af1b-6f552264f81b",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "8ae17ae2-41d4-45f7-a3ab-ca751623f3d3",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "36e71c32-96ef-4610-af1e-db1c8becb2cb",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "adc71979-5cc8-4465-a047-d7ef0d7d23d6",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "e7e24c55-7382-43a7-a74c-b4caae7c937a",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "59c3edc3-5737-4eac-a623-3e32a56cbaf4",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "7d7fa03b-13dd-4afc-a4a3-1c8d5df25c2b",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "99bc0f9c-a328-4a10-a001-db856765cd6d",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 2,
+                "progress": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "db54c4f6-4131-48b8-a754-0ab2b4ff51a4",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "e6963c43-05e9-4f82-af4e-1fb17393a2ce",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "5100b892-3d9e-4aa8-a9af-82b62bf8fd65",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "eca636b5-3a89-436c-abec-65d62a97ad7a",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "46842043-e1d5-456b-aa06-0e331c237b4b",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "eae18e83-33c9-48a7-abfb-7efd596d89c0",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "90101913-e6b3-4901-a1ae-eaf0910a7f42",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 0,
+                "progress": []
+              }
+            ]
+          }
+        },
+        {
+          "questId": "c2f9467e-6417-4bdb-a802-353c5b8cdbde",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "b14bedc4-9d36-4a06-a141-30d59c1cb21f",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "0bbb1ef4-1f0c-4f3c-af37-b4051600fd67",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "61c3cc85-3dde-458a-a858-cc8347782f9c",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "e22a1522-0af1-4666-a7a4-16c121343a63",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "1e2871cb-7296-4bfc-a670-655fcf9c038b",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "880eb3fa-bd3c-4524-abd7-537edcd60a22",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "d6b2d7c9-3ed5-414b-ace3-bdf49e590d99",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 2,
+                "progress": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "074804ea-0d4f-444d-a4b1-eaaeb88a0206",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "81bfffec-8b63-4603-ab2c-e9a44614909b",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "20cab1c8-f5a2-4f4e-a709-460d4e4a0c95",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 3,
+                "progress": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "f7eff2e2-5dea-4f96-a9ef-0b70da434d15",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "0cf13a11-96eb-4ddc-ad66-7e9a23e1da72",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "4289ae4a-b7e9-435d-a081-c5ae82e25d82",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "28455adf-801f-4346-a545-8149b4eb3b18",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "ac37a17c-01fa-4622-a141-477f61214b30",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "d2bdb743-8bc0-4c57-a1fe-153de9f8c5ef",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "de6e3607-44cd-4946-a073-1a4ee992f708",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "db78ecdf-e013-407d-adb6-166bea25f4f7",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "b22d954e-f62c-415a-a46c-00201f7f2ee0",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "8a5fd790-5712-4813-a715-c538fee9bd4d",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 0,
+                "progress": []
+              }
+            ]
+          }
+        },
+        {
+          "questId": "52c856c2-1284-41d7-ac1b-ef2563ea14c6",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "0d3ab92d-4ddc-4fd3-ad6d-659f256e44cf",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "441508e3-f5b0-41a7-a42f-cba3dee95cc9",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "4a70bd87-af1a-45a9-add6-c504cadbcf02",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 0,
+                "progress": []
+              }
+            ]
+          }
+        },
+        {
+          "questId": "7083b343-5734-4567-a9a4-a13fe3408a99",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "9f74cb3e-b3ed-4ba7-a6f3-86421262a682",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "07c53924-1ba3-431d-a17a-f79e9fb3bcda",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "d3eb787a-fee2-4946-a5aa-d90fb466bba4",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "ba8a1359-0cf3-4c83-a26a-a69356a2862a",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "c2112a81-0147-40a4-a7a1-101848d20f4d",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "42aec49e-4c85-4668-afad-ebe66c20d860",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "18f414af-9b6c-4c72-a2de-cf842029f6ec",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "833c3a3d-fe43-4180-adaf-b44f82bebafc",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "5ce658a5-3c31-4922-ad5e-28434388ec25",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "killed": [
+                  0
+                ]
+              },
+              {
+                "completed": false,
+                "count": 1,
+                "killed": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "c4e96b7e-3d98-45ba-a9e5-95c07d22a6d3",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 4,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "c67ee66b-d607-4e76-adf0-04423d5ac1ee",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "4a3e400d-5d12-4f46-aeb6-2993a846fc67",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "2f9837bc-3a25-4278-ae60-f31a450642e0",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "4501203b-3374-4a59-ac36-e78f6fc28286",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "b3e56e95-1ed3-4ab0-afe7-d4ace1c77df5",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 0,
+                "progress": []
+              }
+            ]
+          }
+        },
+        {
+          "questId": "149e730c-2824-4e86-aac1-09d4b801d748",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "b05f1f8c-7d16-45cf-a974-f258fd499c83",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "c4baaeb9-99f1-4654-a83d-edd934496064",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "26b4b492-660b-487a-a574-7c9d958fcade",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "de97bc46-dbca-4a87-a117-08d3454594ed",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "killed": [
+                  0
+                ]
+              },
+              {
+                "completed": false,
+                "count": 1,
+                "killed": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "ee0d0d11-b16c-46b6-afde-230a03efb68d",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "5e10efe0-e374-4f2a-a419-b5aff701c168",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "a6bd1842-ee82-480e-afb2-2aeb26033a5b",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "bb812631-f9c1-44f2-a4da-e5ec2078e4b9",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "199449ae-52c8-4cc7-a7bd-52d69e6210c8",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 2,
+                "progress": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "4f2ab8da-9454-4ac9-aef8-991a7e1c83e6",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "942cc454-74da-49a9-a929-977ac4e916c6",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false
+              }
+            ]
+          }
+        },
+        {
+          "questId": "43fe7113-94bc-4545-a08c-93901834fc40",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "0dddb711-7f78-4eaa-a6d8-7c561f92a17e",
+          "questData": {
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasks": [
+              {
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "invites": []
+    },
+    "playedLore": false,
+    "receivedBook": true,
+    "groupData": {}
+  }
+]

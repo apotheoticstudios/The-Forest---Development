@@ -224,31 +224,7 @@
     },
     "done": true
   },
-  "securitycraft:recipes/redstone/reinforced_birch_fence_gate": {
-    "criteria": {
-      "has_stick": "2026-07-06 13:51:57 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/redstone/reinforced_crimson_fence_gate": {
-    "criteria": {
-      "has_stick": "2026-07-06 13:51:57 +1000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/jungle_lattice_fence": {
-    "criteria": {
-      "has_stick": "2026-07-06 13:51:57 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/motion_activated_light": {
-    "criteria": {
-      "has_stick": "2026-07-06 13:51:57 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/redstone/reinforced_jungle_fence_gate": {
     "criteria": {
       "has_stick": "2026-07-06 13:51:57 +1000"
     },
@@ -290,12 +266,6 @@
     },
     "done": true
   },
-  "securitycraft:recipes/redstone/reinforced_spruce_fence_gate": {
-    "criteria": {
-      "has_stick": "2026-07-06 13:51:57 +1000"
-    },
-    "done": true
-  },
   "xercapaint:recipes/item_easel": {
     "criteria": {
       "has_item": "2026-07-06 13:51:57 +1000"
@@ -326,19 +296,7 @@
     },
     "done": true
   },
-  "securitycraft:recipes/misc/reinforced_acacia_fence": {
-    "criteria": {
-      "has_stick": "2026-07-06 13:51:57 +1000"
-    },
-    "done": true
-  },
   "backpacked:recipes/decorations/acacia_backpack_shelf": {
-    "criteria": {
-      "has_stick": "2026-07-06 13:51:57 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/redstone/reinforced_bamboo_fence_gate": {
     "criteria": {
       "has_stick": "2026-07-06 13:51:57 +1000"
     },
@@ -380,19 +338,7 @@
     },
     "done": true
   },
-  "securitycraft:recipes/misc/sonic_security_system": {
-    "criteria": {
-      "has_stick": "2026-07-06 13:51:57 +1000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/wooden_shovel": {
-    "criteria": {
-      "has_stick": "2026-07-06 13:51:57 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/redstone/reinforced_dark_oak_fence_gate": {
     "criteria": {
       "has_stick": "2026-07-06 13:51:57 +1000"
     },
@@ -410,49 +356,7 @@
     },
     "done": true
   },
-  "securitycraft:recipes/misc/reinforced_birch_fence": {
-    "criteria": {
-      "has_stick": "2026-07-06 13:51:57 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/reinforced_dark_oak_fence": {
-    "criteria": {
-      "has_stick": "2026-07-06 13:51:57 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/reinforced_oak_fence": {
-    "criteria": {
-      "has_stick": "2026-07-06 13:51:57 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/redstone/reinforced_oak_fence_gate": {
-    "criteria": {
-      "has_stick": "2026-07-06 13:51:57 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/sc_manual": {
-    "criteria": {
-      "has_wood": "2026-07-06 13:51:57 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/reinforced_bamboo_fence": {
-    "criteria": {
-      "has_stick": "2026-07-06 13:51:57 +1000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/mangrove_lattice_fence_gate": {
-    "criteria": {
-      "has_stick": "2026-07-06 13:51:57 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/reinforced_crimson_fence": {
     "criteria": {
       "has_stick": "2026-07-06 13:51:57 +1000"
     },
@@ -500,21 +404,9 @@
     },
     "done": true
   },
-  "securitycraft:recipes/misc/reinforced_jungle_fence": {
-    "criteria": {
-      "has_stick": "2026-07-06 13:51:57 +1000"
-    },
-    "done": true
-  },
   "mcwbiomesoplenty:recipes/redwood_rope_bridge_stair": {
     "criteria": {
       "has_redwood_log": "2026-07-06 13:51:57 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/reinforced_warped_fence": {
-    "criteria": {
-      "has_stick": "2026-07-06 13:51:57 +1000"
     },
     "done": true
   },
@@ -524,37 +416,13 @@
     },
     "done": true
   },
-  "securitycraft:recipes/redstone/reinforced_cherry_fence_gate": {
-    "criteria": {
-      "has_stick": "2026-07-06 13:51:57 +1000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/cherry_lattice_fence": {
     "criteria": {
       "has_stick": "2026-07-06 13:51:57 +1000"
     },
     "done": true
   },
-  "securitycraft:recipes/redstone/reinforced_acacia_fence_gate": {
-    "criteria": {
-      "has_stick": "2026-07-06 13:51:57 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/reinforced_cherry_fence": {
-    "criteria": {
-      "has_stick": "2026-07-06 13:51:57 +1000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/warped_lattice_fence_gate": {
-    "criteria": {
-      "has_stick": "2026-07-06 13:51:57 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/redstone/reinforced_warped_fence_gate": {
     "criteria": {
       "has_stick": "2026-07-06 13:51:57 +1000"
     },
@@ -602,19 +470,7 @@
     },
     "done": true
   },
-  "securitycraft:recipes/redstone/reinforced_mangrove_fence_gate": {
-    "criteria": {
-      "has_stick": "2026-07-06 13:51:57 +1000"
-    },
-    "done": true
-  },
   "backpacked:recipes/decorations/warped_backpack_shelf": {
-    "criteria": {
-      "has_stick": "2026-07-06 13:51:57 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/reinforced_mangrove_fence": {
     "criteria": {
       "has_stick": "2026-07-06 13:51:57 +1000"
     },
@@ -651,12 +507,6 @@
     "done": true
   },
   "refurbished_furniture:recipes/misc/constructing/birch_lattice_fence_gate": {
-    "criteria": {
-      "has_stick": "2026-07-06 13:51:57 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/reinforced_spruce_fence": {
     "criteria": {
       "has_stick": "2026-07-06 13:51:57 +1000"
     },
@@ -1220,12 +1070,6 @@
     },
     "done": true
   },
-  "securitycraft:recipes/tools/incognito_mask": {
-    "criteria": {
-      "has_leather": "2026-07-06 14:20:38 +1000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/knife": {
     "criteria": {
       "has_leather": "2026-07-06 14:20:38 +1000"
@@ -1371,12 +1215,6 @@
     "done": true
   },
   "refurbished_furniture:recipes/misc/constructing/white_trampoline": {
-    "criteria": {
-      "has_slime_ball": "2026-07-07 11:20:20 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/redstone/reinforced_sticky_piston": {
     "criteria": {
       "has_slime_ball": "2026-07-07 11:20:20 +1000"
     },
@@ -1743,181 +1581,7 @@
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/reinforced_light_gray_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_orange_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_glass_pane": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_black_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_red_stained_glass_pane_from_dye": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_pink_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_green_stained_glass_pane_from_dye": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_magenta_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_gray_stained_glass_pane_from_dye": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_gray_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_cyan_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_orange_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_white_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_lime_stained_glass_pane_from_dye": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_white_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_magenta_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_cyan_stained_glass_pane_from_dye": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_light_blue_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_red_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
   "legendarysurvivaloverhaul:recipes/tools/thermometer": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_green_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_blue_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_purple_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_yellow_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_purple_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_light_gray_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_lime_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_orange_stained_glass_pane_from_dye": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_green_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_lime_stained_glass": {
     "criteria": {
       "has_glass": "2026-07-07 12:12:25 +1000"
     },
@@ -1929,123 +1593,9 @@
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/reinforced_red_stained_glass": {
+  "omegaflashlight:unlock_dye_table": {
     "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_white_stained_glass_pane_from_dye": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_brown_stained_glass_pane_from_dye": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_yellow_stained_glass_pane_from_dye": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_magenta_stained_glass_pane_from_dye": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_pink_stained_glass_pane_from_dye": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_gray_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_cyan_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_brown_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_light_gray_stained_glass_pane_from_dye": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_yellow_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_light_blue_stained_glass_pane_from_dye": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_black_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_black_stained_glass_pane_from_dye": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_brown_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_light_blue_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_blue_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_purple_stained_glass_pane_from_dye": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_pink_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/decorations/reinforced_blue_stained_glass_pane_from_dye": {
-    "criteria": {
-      "has_glass": "2026-07-07 12:12:25 +1000"
+      "tick": "2026-08-05 11:36:20 +1000"
     },
     "done": true
   },

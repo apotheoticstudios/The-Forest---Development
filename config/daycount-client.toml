@@ -19,4 +19,10 @@ locationY = 2.0
 textColor = "FFFFFF"
 #DayCounter String | default: 'Day: '
 dayCounterString = "Day: "
+#If true, the Day Count number will be formatted with locale-specific separators (e.g. 1,000) | default: false
+useLocaleFormatting = false
+#If true, the box will be displayed | default: false
+isBoxEnabled = false
+#Color of the box (with transparency) | default: 80000000
+boxColorWithTransparency = "80000000"
 
