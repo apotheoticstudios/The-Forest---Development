@@ -6,8 +6,6 @@
 
 - Added complete quest system
 
-- Added colored-lighting
-
 - Fixed jumbled menu screen layout in some resolutions
 
 - General performance improvements (especially with flashlight)
@@ -31,8 +29,6 @@ Mods / Resource Packs Added:
 - Old Recording
 
 - AutoHUD
-
-- Colorful Lighting
 
 - Simple Voice Radio
 
