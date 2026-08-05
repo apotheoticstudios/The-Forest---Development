@@ -1,4 +1,5 @@
 ServerEvents.recipes(event => {
+  const hasLSO = Platform.isLoaded('legendarysurvivaloverhaul')
 
   event.remove({ output: 'minecraft:slime_ball' })
   event.shapeless(
@@ -39,37 +40,40 @@ ServerEvents.recipes(event => {
     }
   )
 
-  event.custom({
-    type: 'minecraft:campfire_cooking',
-    ingredient: { item: 'minecraft:potion' },
-    result: 'legendarysurvivaloverhaul:purified_water_bottle',
-    experience: 0.35,
-    cookingtime: 360
-  }).id('kubejs:campfire_water_bottle')
+  if (hasLSO) {
+    event.custom({
+      type: 'minecraft:campfire_cooking',
+      ingredient: { item: 'minecraft:potion' },
+      result: 'legendarysurvivaloverhaul:purified_water_bottle',
+      experience: 0.35,
+      cookingtime: 360
+    }).id('kubejs:campfire_water_bottle')
 
-  event.shaped('legendarysurvivaloverhaul:sun_fern_seeds', [
-    'RSR',
-    'SPS',
-    'RSR'
-  ], {
-    S: 'minecraft:magma_block',
-    P: 'minecraft:fern',
-    R: 'minecraft:blaze_rod',
-  }).id('kubejs:sun_fern_seeds');
+    event.shaped('legendarysurvivaloverhaul:sun_fern_seeds', [
+      'RSR',
+      'SPS',
+      'RSR'
+    ], {
+      S: 'minecraft:magma_block',
+      P: 'minecraft:fern',
+      R: 'minecraft:blaze_rod'
+    }).id('kubejs:sun_fern_seeds')
+  }
 
   event.shapeless('4x minecraft:string', ['#minecraft:wool'])
 
+  if (hasLSO) {
     event.remove({ output: 'legendarysurvivaloverhaul:heater' })
     event.shaped('legendarysurvivaloverhaul:heater', [
-        'AIA',
+        ' I ',
         'IFI',
         'ICI'
     ], {
-        A: 'minecraft:air',
         I: 'minecraft:iron_ingot',
         C: "minecraft:coal_block",
         F: 'minecraft:blast_furnace'
-    });
+    })
+  }
 
     event.remove({ output: 'farmersdelight:cooking_pot' })
     event.shaped('farmersdelight:cooking_pot', [
@@ -94,28 +98,27 @@ ServerEvents.recipes(event => {
             M: 'minecraft:magma_block'
     }).id('kubejs:stove');  
     
-        event.remove({ output: 'legendarysurvivaloverhaul:heart_container' }) 
+  if (hasLSO) {
+    event.remove({ output: 'legendarysurvivaloverhaul:heart_container' }) 
     
     event.shaped('legendarysurvivaloverhaul:heart_fragment', [
       'YRY',
       'RHR',
       'YRY'
-], {
-      V: 'minecraft:air',
+    ], {
       R: 'minecraft:red_stained_glass',
       Y: 'minecraft:yellow_stained_glass',
       H: 'legendarysurvivaloverhaul:healing_herbs'
-});
+    })
 
     event.shaped('legendarysurvivaloverhaul:heart_container', [
-      'VVV',
       'GHG',
-      'VGV'
+      ' G '
     ], {
-      V: 'minecraft:air',
       G: 'legendarysurvivaloverhaul:heart_fragment',
       H: 'minecraft:golden_apple'
-});
+    })
+  }
 
   // Remove vanilla recipes (optional)
   event.remove({ output: 'minecraft:iron_ingot', type: 'minecraft:smelting' })

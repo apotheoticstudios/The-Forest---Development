@@ -1,9 +1,5 @@
 -----------------------------------------------------------------------------------
-DateTime: 05.08.2026 11:34:15:414 +10:00; PID: 51823
+DateTime: 05.08.2026 20:08:59:406 +10:00; PID: 63988
 This file contains the stderr stream of the Minecraft process logged to a file.
 It does not include stdout or log (log4j) messages to avoid performance impact.
 -----------------------------------------------------------------------------------
-[11:34:40:847] [STDERR]: ANTLR Tool version 4.7.2 used for code generation does not match the current runtime version 4.9.1
-[11:34:40:847] [STDERR]: ANTLR Runtime version 4.7.2 used for parser compilation does not match the current runtime version 4.9.1
-[11:34:40:861] [STDERR]: ANTLR Tool version 4.7.2 used for code generation does not match the current runtime version 4.9.1
-[11:34:40:861] [STDERR]: ANTLR Runtime version 4.7.2 used for parser compilation does not match the current runtime version 4.9.1

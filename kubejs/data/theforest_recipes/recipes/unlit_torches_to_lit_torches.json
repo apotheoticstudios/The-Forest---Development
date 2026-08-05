@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "realistictorches"
+    }
+  ],
   "type": "minecraft:campfire_cooking",
   "category": "misc",
   "experience": 0,

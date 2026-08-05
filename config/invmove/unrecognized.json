@@ -92,7 +92,8 @@
     "win.demistorm.visual_health.client.config.ExtrasScreen": true,
     "com.omega.flashlight.client.screen.FlashlightScreen": true,
     "de.maxhenkel.voicechat.gui.VoiceChatScreen": true,
-    "hardcorequesting.common.forge.client.interfaces.GuiQuestBook": true
+    "hardcorequesting.common.forge.client.interfaces.GuiQuestBook": true,
+    "pepjebs.mapatlases.client.screen.AtlasOverviewScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreenV2": true,
@@ -122,6 +123,7 @@
     "com.mrcrayfish.backpacked.client.gui.screen.CustomiseBackpackScreen": true,
     "net.mcreator.theyarewatching.client.gui.PlayerWatcherGUIScreen": true,
     "net.geforcemods.securitycraft.screen.ProjectorScreen": true,
-    "com.omega.flashlight.client.screen.FlashlightScreen": true
+    "com.omega.flashlight.client.screen.FlashlightScreen": true,
+    "pepjebs.mapatlases.client.screen.AtlasOverviewScreen": true
   }
 }
