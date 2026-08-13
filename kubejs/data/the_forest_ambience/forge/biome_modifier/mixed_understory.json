@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#the_forest_ambience:redwood_reserve",
+  "features": "the_forest_ambience:mixed_understory",
+  "step": "vegetal_decoration"
+}
