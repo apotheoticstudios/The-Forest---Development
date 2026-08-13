@@ -73,7 +73,7 @@
 [leaf_piles]
 	leaf_piles_slow = true
 	#Range: 0.0 ~ 1.0
-	spawn_entity_from_decay = 0.3
+	spawn_entity_from_decay = 0.0
 	#Range: 1 ~ 256
 	reach = 12
 	#Range: 1 ~ 8

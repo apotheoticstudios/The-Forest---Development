@@ -2959,20 +2959,6 @@
 		#Should the entity spawn via mob conversion? i.e. villager -> zombie
 		allowConversions = true
 
-#Options for the bloodybits mod.
-[bloodybits]
-
-	#Spawning options for bloodybits:blood_spray
-	[bloodybits.blood_spray]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-
 #Options for the the_masked mod.
 [the_masked]
 
@@ -5005,6 +4991,20 @@
 
 	#Spawning options for omegaflashlight:placed_flashlight
 	[omegaflashlight.placed_flashlight]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+#Options for the yuushya mod.
+[yuushya]
+
+	#Spawning options for yuushya:ride_entity
+	[yuushya.ride_entity]
 		#Should the entity be allowed to spawn normally?
 		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?

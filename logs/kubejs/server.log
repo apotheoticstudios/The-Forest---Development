@@ -1,30 +1,20 @@
-[20:10:33] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[20:10:33] [INIT] Loaded plugins:
-[20:10:33] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[20:10:33] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[20:10:33] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
-[20:10:33] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
-[20:10:33] [INFO] Loaded script server_scripts:first_join_message.js in 0.002 s
-[20:10:33] [INFO] Loaded script server_scripts:iron_tools_recipes.js in 0.003 s
-[20:10:33] [INFO] Loaded script server_scripts:first_night_message.js in 0.001 s
-[20:10:33] [INFO] Loaded script server_scripts:deepvoid_message.js in 0.001 s
-[20:10:33] [INFO] Loaded script server_scripts:limbo_message.js in 0.002 s
-[20:10:33] [INFO] Loaded script server_scripts:recipes.js in 0.001 s
-[20:10:33] [INFO] Loaded 6/6 KubeJS server scripts in 0.019 s with 0 errors and 0 warnings
-[20:10:33] [INFO] Scripts loaded
-[20:10:33] [INFO] Initializing recipe event...
-[20:10:35] [INFO] Processing recipes...
-[20:10:35] [WARN] Failed to parse recipe 'butchery:guide[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[20:10:35] [WARN] Failed to parse recipe 'theforest_recipes:unlit_torches_to_lit_torches[minecraft:campfire_cooking]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[20:10:35] [INFO] Found 4151 recipes in 71.57 ms
-[20:10:35] [ERROR] ! recipes.js#48: Failed to create custom JSON recipe from '{"type":"minecraft:campfire_cooking","ingredient":{"item":"minecraft:potion"},"result":"legendarysurvivaloverhaul:purified_water_bottle","experience":0.35,"cookingtime":360}': ItemStack 'result' can't be empty!
-[20:10:35] [WARN] recipes.js#48: Tried to call a function on an errored recipe! (Failed to create custom JSON recipe from '{"type":"minecraft:campfire_cooking","ingredient":{"item":"minecraft:potion"},"result":"legendarysurvivaloverhaul:purified_water_bottle","experience":0.35,"cookingtime":360}')
-[20:10:35] [ERROR] ! recipes.js#58: Failed to create recipe for type 'kubejs:shaped': ItemStack 'result' can't be empty!
-[20:10:35] [WARN] recipes.js#58: Tried to call a function on an errored recipe! (Failed to create recipe for type 'kubejs:shaped')
-[20:10:35] [ERROR] ! recipes.js#63: Failed to create recipe for type 'kubejs:shaped': ItemStack 'result' can't be empty!
-[20:10:35] [ERROR] ! recipes.js#99: Failed to create recipe for type 'kubejs:shaped': ItemStack 'result' can't be empty!
-[20:10:35] [ERROR] ! recipes.js#110: Failed to create recipe for type 'kubejs:shaped': ItemStack 'result' can't be empty!
-[20:10:35] [INFO] Posted recipe events in 142.4 ms
-[20:10:35] [WARN] Error parsing recipe alexsdelight:barbecue_on_a_stick[minecraft:crafting_shapeless]: {"group":"barbecue_stick","type":"minecraft:crafting_shapeless","ingredients":[{"item":"farmersdelight:tomato"},{"item":"farmersdelight:onion"},{"item":"amfd:singular_cooked_moose_rib"},{"item":"minecraft:cooked_chicken"},{"item":"minecraft:stick"},{"item":"minecraft:stick"}],"result":{"item":"farmersdelight:barbecue_stick","count":2}}: Unknown item 'amfd:singular_cooked_moose_rib'
-[20:10:35] [INFO] Added 13 recipes, removed 49 recipes, modified 0 recipes, with 6 failed recipes in 29.85 ms
-[20:10:39] [INFO] Server resource reload complete!
+[20:37:40] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[20:37:40] [INIT] Loaded plugins:
+[20:37:40] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[20:37:40] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[20:37:40] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[20:37:40] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
+[20:37:41] [INFO] Loaded script server_scripts:first_join_message.js in 0.004 s
+[20:37:41] [INFO] Loaded script server_scripts:iron_tools_recipes.js in 0.004 s
+[20:37:41] [INFO] Loaded script server_scripts:first_night_message.js in 0.003 s
+[20:37:41] [INFO] Loaded script server_scripts:deepvoid_message.js in 0.003 s
+[20:37:41] [INFO] Loaded script server_scripts:limbo_message.js in 0.002 s
+[20:37:41] [INFO] Loaded script server_scripts:recipes.js in 0.003 s
+[20:37:41] [INFO] Loaded 6/6 KubeJS server scripts in 0.036 s with 0 errors and 0 warnings
+[20:37:41] [INFO] Scripts loaded
+[20:37:41] [INFO] Initializing recipe event...
+[20:37:44] [INFO] Processing recipes...
+[20:37:44] [INFO] Found 10068 recipes in 104.4 ms
+[20:37:45] [INFO] Posted recipe events in 145.0 ms
+[20:37:45] [INFO] Added 13 recipes, removed 49 recipes, modified 1 recipes, with 0 failed recipes in 50.98 ms
+[20:37:51] [INFO] Server resource reload complete!
