@@ -8,6 +8,7 @@
   "particle_emitters": [
     {
       "particle": "minecraft:spore_blossom_air",
+      "chance": 0.00002,
       "biomes": [
         "biomesoplenty:redwood_forest",
         "biomesoplenty:coniferous_forest"
