@@ -1,16 +1,16 @@
-[10:37:22] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[10:37:22] [INIT] Loaded plugins:
-[10:37:22] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[10:37:22] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[10:37:22] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
-[10:37:22] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
-[10:37:23] [INFO] Loaded script server_scripts:iron_tools_recipes.js in 0.002 s
-[10:37:23] [INFO] Loaded script server_scripts:recipes.js in 0.002 s
-[10:37:23] [INFO] Loaded 2/2 KubeJS server scripts in 0.012 s with 0 errors and 0 warnings
-[10:37:23] [INFO] Scripts loaded
-[10:37:23] [INFO] Initializing recipe event...
-[10:37:24] [INFO] Processing recipes...
-[10:37:24] [INFO] Found 10068 recipes in 61.64 ms
-[10:37:25] [INFO] Posted recipe events in 133.0 ms
-[10:37:25] [INFO] Added 13 recipes, removed 49 recipes, modified 1 recipes, with 0 failed recipes in 32.68 ms
-[10:37:30] [INFO] Server resource reload complete!
+[11:08:07] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[11:08:07] [INIT] Loaded plugins:
+[11:08:07] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[11:08:07] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[11:08:07] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[11:08:07] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
+[11:08:08] [INFO] Loaded script server_scripts:iron_tools_recipes.js in 0.002 s
+[11:08:08] [INFO] Loaded script server_scripts:recipes.js in 0.002 s
+[11:08:08] [INFO] Loaded 2/2 KubeJS server scripts in 0.011 s with 0 errors and 0 warnings
+[11:08:08] [INFO] Scripts loaded
+[11:08:08] [INFO] Initializing recipe event...
+[11:08:09] [INFO] Processing recipes...
+[11:08:09] [INFO] Found 10068 recipes in 75.80 ms
+[11:08:10] [INFO] Posted recipe events in 176.8 ms
+[11:08:10] [INFO] Added 13 recipes, removed 49 recipes, modified 1 recipes, with 0 failed recipes in 34.23 ms
+[11:08:13] [INFO] Server resource reload complete!

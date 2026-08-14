@@ -1,9 +1,9 @@
 -----------------------------------------------------------------------------------
-DateTime: 14.08.2026 10:46:42:740 +10:00; PID: 55714
+DateTime: 14.08.2026 11:07:05:453 +10:00; PID: 57124
 This file contains the stderr stream of the Minecraft process logged to a file.
 It does not include stdout or log (log4j) messages to avoid performance impact.
 -----------------------------------------------------------------------------------
-[10:47:00:847] [STDERR]: Aug 14, 2026 10:47:00 AM net.norevy.optileaves.optileaves <init>
-[10:47:00:847] [STDERR]: INFO: [OptiLeaves] Starting initialization...
-[10:47:00:850] [STDERR]: Aug 14, 2026 10:47:00 AM net.norevy.optileaves.config.optileavesConfig load
-[10:47:00:850] [STDERR]: INFO: Loading configuration from /Users/bowieconnors/Documents/GitHub/Instances/The-Forest---Development/config/optileaves.json
+[11:07:29:627] [STDERR]: Aug 14, 2026 11:07:29 AM net.norevy.optileaves.optileaves <init>
+[11:07:29:627] [STDERR]: INFO: [OptiLeaves] Starting initialization...
+[11:07:29:630] [STDERR]: Aug 14, 2026 11:07:29 AM net.norevy.optileaves.config.optileavesConfig load
+[11:07:29:630] [STDERR]: INFO: Loading configuration from /Users/bowieconnors/Documents/GitHub/Instances/The-Forest---Development/config/optileaves.json

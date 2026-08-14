@@ -1,8 +1,12 @@
 {
   "equipped": {
+    "WINGS": "LITTLE_ANGEL_WINGS",
+    "CAPE": "AETHER_CAPE",
     "ICON": "BASE_ICON"
   },
   "settings": {
-    "BASE_ICON": []
+    "LITTLE_ANGEL_WINGS": [],
+    "BASE_ICON": [],
+    "AETHER_CAPE": []
   }
 }

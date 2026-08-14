@@ -2,6 +2,8 @@
   "unlockAllCosmetics": true,
   "showAllFree": true,
   "disableNewCosmeticDots": true,
+  "hideCosmeticsInInventoryWithShaders": true,
+  "fixShaderGlintCorruption": true,
   "disableTelemetry": true,
   "disableFPSTelemetry": true,
   "disableImpressionTracking": true,
@@ -19,7 +21,7 @@
   "disableWikiToast": true,
   "skipCommunityRules": true,
   "hideAnnouncementChannel": true,
-  "disableAutoUpdate": false,
+  "disableAutoUpdate": true,
   "httpCosmeticSync": true,
   "httpCosmeticSyncBaseUrl": "https://cosmetics.leclowndu93150.dev"
 }

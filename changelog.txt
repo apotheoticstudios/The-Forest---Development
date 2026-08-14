@@ -14,6 +14,8 @@
 
 - Removed leather requirement for stone and leather tools
 
+- Completely disabled Essential mod popups and shop
+
 - Added custom automatic HUD-element hiding (immersion)
 
 - Improved visual environmental ambience
