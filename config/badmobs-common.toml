@@ -957,20 +957,6 @@
 		#Should the entity spawn via mob conversion? i.e. villager -> zombie
 		allowConversions = true
 
-#Options for the cave_dweller mod.
-[cave_dweller]
-
-	#Spawning options for cave_dweller:cave_dweller
-	[cave_dweller.cave_dweller]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-
 #Options for the pale_hound mod.
 [pale_hound]
 
