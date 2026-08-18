@@ -1,10 +1,10 @@
-[11:07:32] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[11:07:32] [INIT] Loaded plugins:
-[11:07:32] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[11:07:32] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[11:07:32] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
-[11:07:32] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
-[11:07:32] [INFO] Loaded script client_scripts:tooltips.js in 0.0 s
-[11:07:32] [INFO] Loaded 1/1 KubeJS client scripts in 0.019 s with 0 errors and 0 warnings
-[11:07:39] [INFO] Client resource reload complete!
-[11:08:20] [ERROR] ! tooltips.js#6: Error in 'ItemEvents.tooltip': TypeError: Cannot read property "id" from undefined
+[20:49:07] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[20:49:07] [INIT] Loaded plugins:
+[20:49:07] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[20:49:07] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[20:49:07] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[20:49:07] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
+[20:49:07] [INFO] Loaded script client_scripts:tooltips.js in 0.002 s
+[20:49:07] [INFO] Loaded 1/1 KubeJS client scripts in 0.016 s with 0 errors and 0 warnings
+[20:49:15] [INFO] Client resource reload complete!
+[20:50:41] [ERROR] ! tooltips.js#6: Error in 'ItemEvents.tooltip': TypeError: Cannot read property "id" from undefined
