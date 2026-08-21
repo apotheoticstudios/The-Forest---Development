@@ -94,7 +94,8 @@
     "de.maxhenkel.voicechat.gui.VoiceChatScreen": true,
     "hardcorequesting.common.forge.client.interfaces.GuiQuestBook": true,
     "pepjebs.mapatlases.client.screen.AtlasOverviewScreen": true,
-    "com.epicdeathscreen.client.DeathCinematicScreen": true
+    "com.epicdeathscreen.client.DeathCinematicScreen": true,
+    "xerca.xercapaint.client.GuiPalette": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreenV2": true,

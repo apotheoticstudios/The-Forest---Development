@@ -121,8 +121,9 @@
             "tasks": [
               {
                 "completed": false,
-                "count": 1,
+                "count": 2,
                 "progress": [
+                  0,
                   0
                 ]
               }
